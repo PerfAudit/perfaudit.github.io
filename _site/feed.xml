@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PerfAudit | Performance Audit of Websites and Web Applications by Professionals</title>
-    <description>.
-</description>
+    <title>PerfAudit | Performance Audit of Websites by Professionals</title>
+    <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Feb 2015 03:41:27 +0530</pubDate>
-    <lastBuildDate>Thu, 26 Feb 2015 03:41:27 +0530</lastBuildDate>
+    <pubDate>Fri, 27 Feb 2015 01:26:23 +0530</pubDate>
+    <lastBuildDate>Fri, 27 Feb 2015 01:26:23 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
