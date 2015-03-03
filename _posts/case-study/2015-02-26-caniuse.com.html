@@ -6,35 +6,48 @@ categories: case-study
 body-class: no-sidebar
 ---
 
-<a href="#" class="image featured">
-  <img src="/images/pic01.jpg" alt="" />
-</a>
-<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
-<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-amet risus elit.</p>
-<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
-eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
-tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper
-odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-posuere cubilia.</p>
-<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-amet risus elit.</p>
+<p>Hello folks! This is Perfaudit’s first case study for which we chose <a href="http://caniuse.com/">caniuse.com</a>. Lets dive in.</p>
+
+<h2 id="network-profiling">Network profiling</h2>
+<p><img src="/images/2015/03/caniuse-pagespeed.png" alt="Google pagespeed issues" /></p>
+
+<p>As we see, caniuse.com has a google pagespeed score of 84 which is pretty descent. There are few issues pointed out by pagespeed which are mainly due to 3rd party files not leveraging browser caching or coming unminified and uncompressed. These are mostly harmless but still can be fixed by caching these external files on the website itself so as to get full control over them.</p>
+
+<h2 id="after-load-profiling">After load profiling</h2>
+
+<h3 id="issue-janky-scrolling">Issue: Janky scrolling</h3>
+
+<p>On caniuse.com homepage, if you scroll down the page hovering over the list of links, you will experience occasional jerks. That is what we call a “Jank”. Lets try debugging the issue using Google Chrome’s devtool timeline. Running a quick timeline recording, we get the
+following graph:</p>
+
+<p><img src="/images/2015/03/caniuse-paint-janks.png" alt="Paint janks" /></p>
+
+<p>This shows that we are shooting our limit due to some paint events. Paint events happen when something needs to be drawn on the page. This means when we are scrolling while hovering over the list, something is being drawn. Yes, its those links changing their color when hovered on. If you were to inspect one of those links and enable the <code>:hover</code> pseudo class on them, you’ll see the culprit style:</p>
+
+<p><img src="/images/2015/03/caniuse-jank-causing-css.png" alt="Jank causing CSS" /></p>
+
+<p>If you disable the <code>color</code> property on <code>:hover</code> and rerun a timeline recording, you’ll notice that there are no more paint events crossing the 60fps bar. Better performance.</p>
+
+<p>To solve this, there is a <a href="http://www.thecssninja.com/css/pointer-events-60fps">neat trick</a> by Ryan Seddon to listen for scroll event and disable pointer events on an element, say <code>&lt;body&gt;</code>, so that mouse dependent paints do not happen:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// JS</span>
+<span class="kd">var</span> <span class="nx">timeout</span><span class="p">,</span> <span class="nx">pointerEventsDisabled</span><span class="p">;</span>
+<span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;scroll&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">clearTimeout</span><span class="p">(</span><span class="nx">timeout</span><span class="p">);</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">pointerEventsDisabled</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;no-pointer&#39;</span><span class="p">);</span>
+    <span class="nx">pointerEventsDisabled</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nx">timeout</span> <span class="o">=</span> <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="s1">&#39;no-pointer-events&#39;</span><span class="p">);</span>
+    <span class="nx">pointerEventsDisabled</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+  <span class="p">},</span> <span class="mi">500</span><span class="p">);</span>
+<span class="p">})</span></code></pre></div>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">//</span> <span class="nt">CSS</span>
+<span class="nc">.no-pointer-events</span> <span class="p">{</span>
+<span class="o">.</span><span class="n">no</span><span class="o">-</span><span class="k">pointer</span><span class="o">-</span><span class="n">events</span> <span class="o">*</span> <span class="err">{</span>
+  <span class="k">pointer</span><span class="o">-</span><span class="n">events</span><span class="o">:</span> <span class="k">none</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.</p>
