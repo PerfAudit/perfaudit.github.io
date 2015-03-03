@@ -50,7 +50,7 @@ window.addEventListener('scroll', function () {
 {% highlight css %}
 
 // CSS
-.no-pointer-events {
+.no-pointer-events,
 .no-pointer-events * {
 	pointer-events: none !important;
 }
