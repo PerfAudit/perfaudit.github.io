@@ -87,25 +87,33 @@ following graph:</p>
 
 <p>To solve this, there is a <a href="http://www.thecssninja.com/css/pointer-events-60fps">neat trick</a> by Ryan Seddon to listen for scroll event and disable pointer events on an element, say <code>&lt;body&gt;</code>, so that mouse dependent paints do not happen:</p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// JS</span>
-<span class="kd">var</span> <span class="nx">timeout</span><span class="p">,</span> <span class="nx">pointerEventsDisabled</span><span class="p">;</span>
-<span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;scroll&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-  <span class="nx">clearTimeout</span><span class="p">(</span><span class="nx">timeout</span><span class="p">);</span>
-  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">pointerEventsDisabled</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s1">&#39;no-pointer&#39;</span><span class="p">);</span>
-    <span class="nx">pointerEventsDisabled</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="nx">timeout</span> <span class="o">=</span> <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="s1">&#39;no-pointer-events&#39;</span><span class="p">);</span>
-    <span class="nx">pointerEventsDisabled</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-  <span class="p">},</span> <span class="mi">500</span><span class="p">);</span>
-<span class="p">})</span></code></pre></div>
+<pre class="prettyprint">
+  <code>
+  // JS
+  var timeout, pointerEventsDisabled;
+  window.addEventListener('scroll', function () {
+    clearTimeout(timeout);
+    if (!pointerEventsDisabled) {
+      document.body.classList.add('no-pointer');
+      pointerEventsDisabled = true;
+    }
+    timeout = setTimeout(function () {
+      document.body.classList.remove('no-pointer-events');
+      pointerEventsDisabled = false;
+    }, 500);
+  })
+  </code>
+</pre>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">//</span> <span class="nt">CSS</span>
-<span class="nc">.no-pointer-events</span> <span class="p">{</span>
-<span class="o">.</span><span class="n">no</span><span class="o">-</span><span class="k">pointer</span><span class="o">-</span><span class="n">events</span> <span class="o">*</span> <span class="err">{</span>
-  <span class="k">pointer</span><span class="o">-</span><span class="n">events</span><span class="o">:</span> <span class="k">none</span> <span class="cp">!important</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
+<pre class="prettyprint">
+  <code>
+  // CSS
+  .no-pointer-events {
+  .no-pointer-events * {
+    pointer-events: none !important;
+  }
+  </code>
+</pre>
 
 <p>This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.</p>
         </article>
@@ -241,5 +249,7 @@ following graph:</p>
   <link rel="stylesheet" href="/css/style-desktop.css" />
 </noscript>
 <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+<script async src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
   </body>
 </html>
