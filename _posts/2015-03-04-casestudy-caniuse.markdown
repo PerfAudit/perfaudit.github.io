@@ -5,7 +5,9 @@ date:   2015-03-04
 categories: casestudy
 ---
 
-Hello folks! This is Perfaudit's first case study for which we chose [caniuse.com](http://caniuse.com/). Lets dive in.
+Hello folks! This is Perfaudit's first case study for which we chose [caniuse.com](http://caniuse.com/). If you want to see us live auditing the website, checkout our video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=VyHKIMORH_k" frameborder="0" allowfullscreen></iframe>
 
 ## Network profiling
 ![Google pagespeed issues](/images/2015/03/caniuse-pagespeed.png)
@@ -35,7 +37,7 @@ var timeout, pointerEventsDisabled;
 window.addEventListener('scroll', function () {
 	clearTimeout(timeout);
 	if (!pointerEventsDisabled) {
-		document.body.classList.add('no-pointer');
+		document.body.classList.add('no-pointer-events');
 		pointerEventsDisabled = true;
 	}
 	timeout = setTimeout(function () {
@@ -55,3 +57,16 @@ window.addEventListener('scroll', function () {
 {% endhighlight %}
 
 This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.
+
+There is a similar issue on their results page too. If you search something, say `transform`, and scroll the shown [results page](http://caniuse.com/#search=transform) you will notice frequent janks. Lets run a recording in devtools timeline for this page. This is what we got:
+
+![Result page timeline](/images/2015/03/caniuse-result-page-timeline.png)
+
+Notice those green coloured outburst at regular intervals. Those are heavy paint events causing the visible Jank! Again, if you were to use the above mentioned technique you would get a much smoother experience during the scroll.
+
+That is it for this audit. If you want us to audit any specific website, do let us know in the comments or on [twitter](https://twitter.com/perfaudit). We'll definitely try to take it up as our next case study.
+
+Do not forget to follow us for more such perfy performace audits.
+
+
+
