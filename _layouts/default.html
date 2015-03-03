@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html>
   {% include head.html %}
-  <body class="homepage">
+  <body class="{{ page.body-class }}">
     {% include header.html %}
-    {% include introduction.html %}
     {{ content }}
     {% include case-studies.html %}
     {% include footer.html %}
