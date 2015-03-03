@@ -109,10 +109,10 @@ following graph:</p>
 
 <pre class="prettyprint">
 	// CSS
-	.no-pointer-events {
-	.no-pointer-events * {
-		pointer-events: none !important;
-	}
+	.no-pointer-events,
+    .no-pointer-events * {
+    	pointer-events: none !important;
+    }
 </pre>
 
 <p>This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.</p>

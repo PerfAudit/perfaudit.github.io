@@ -53,10 +53,10 @@ To solve this, there is a [neat trick](http://www.thecssninja.com/css/pointer-ev
 
 <pre class="prettyprint">
 	// CSS
-	.no-pointer-events {
-	.no-pointer-events * {
-		pointer-events: none !important;
-	}
+	.no-pointer-events,
+    .no-pointer-events * {
+    	pointer-events: none !important;
+    }
 </pre>
 
 This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.
