@@ -10,9 +10,6 @@ Hello folks! This is Perfaudit's first case study for which we chose [caniuse.co
 <iframe width="560" height="315" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
 ## Network profiling
-{: .center .heading }
-
-<br>
 
 ![Google pagespeed issues](/images/2015/03/caniuse-pagespeed.png)
 
@@ -36,32 +33,30 @@ If you disable the `color` property on `:hover` and rerun a timeline recording, 
 To solve this, there is a [neat trick](http://www.thecssninja.com/css/pointer-events-60fps) by Ryan Seddon to listen for scroll event and disable pointer events on an element, say `<body>`, so that mouse dependent paints do not happen:
 
 <pre class="prettyprint">
-	// JS
-	var timeout, pointerEventsDisabled;
-	window.addEventListener('scroll', function () {
-		clearTimeout(timeout);
-		if (!pointerEventsDisabled) {
-			document.body.classList.add('no-pointer-events');
-			pointerEventsDisabled = true;
-		}
-		timeout = setTimeout(function () {
-			document.body.classList.remove('no-pointer-events');
-			pointerEventsDisabled = false;
-		}, 500);
-	})
+// JS
+var timeout, pointerEventsDisabled;
+window.addEventListener('scroll', function () {
+	clearTimeout(timeout);
+	if (!pointerEventsDisabled) {
+		document.body.classList.add('no-pointer-events');
+		pointerEventsDisabled = true;
+	}
+	timeout = setTimeout(function () {
+		document.body.classList.remove('no-pointer-events');
+		pointerEventsDisabled = false;
+	}, 500);
+})
 </pre>
 
-<br>
 
 <pre class="prettyprint">
-	// CSS
-	.no-pointer-events,
-  .no-pointer-events * {
-  	pointer-events: none !important;
-  }
+// CSS
+.no-pointer-events,
+.no-pointer-events * {
+	pointer-events: none !important;
+}
 </pre>
 
-<br>
 
 This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.
 
