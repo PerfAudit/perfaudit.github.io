@@ -225,9 +225,26 @@
 	letter-spacing: 0.075em;
 	line-height: 1.5em;
 }
+.post-container {
+	max-width: 800px;
+}
+article {
+	color: #666;
+}
+article code,
+article a {
+	color: #e97770;
+}
+article img {
+	max-width: 100%;
+}
+article h1, article h2, article h3 {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
 </style>
 <section class="">
-	<div class="container">
+	<div class="container post-container">
 		<article>
 			<div class="section-title">Case Study</div>
 
@@ -236,9 +253,7 @@
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
-<h2 class="center heading" id="network-profiling">Network profiling</h2>
-
-<p><br /></p>
+<h2 id="network-profiling">Network profiling</h2>
 
 <p><img src="/images/2015/03/caniuse-pagespeed.png" alt="Google pagespeed issues" /></p>
 
@@ -262,32 +277,28 @@ following graph:</p>
 <p>To solve this, there is a <a href="http://www.thecssninja.com/css/pointer-events-60fps">neat trick</a> by Ryan Seddon to listen for scroll event and disable pointer events on an element, say <code>&lt;body&gt;</code>, so that mouse dependent paints do not happen:</p>
 
 <pre class="prettyprint">
-	// JS
-	var timeout, pointerEventsDisabled;
-	window.addEventListener('scroll', function () {
-		clearTimeout(timeout);
-		if (!pointerEventsDisabled) {
-			document.body.classList.add('no-pointer-events');
-			pointerEventsDisabled = true;
-		}
-		timeout = setTimeout(function () {
-			document.body.classList.remove('no-pointer-events');
-			pointerEventsDisabled = false;
-		}, 500);
-	})
+// JS
+var timeout, pointerEventsDisabled;
+window.addEventListener('scroll', function () {
+	clearTimeout(timeout);
+	if (!pointerEventsDisabled) {
+		document.body.classList.add('no-pointer-events');
+		pointerEventsDisabled = true;
+	}
+	timeout = setTimeout(function () {
+		document.body.classList.remove('no-pointer-events');
+		pointerEventsDisabled = false;
+	}, 500);
+})
 </pre>
-
-<p><br /></p>
 
 <pre class="prettyprint">
-	// CSS
-	.no-pointer-events,
-  .no-pointer-events * {
-  	pointer-events: none !important;
-  }
+// CSS
+.no-pointer-events,
+.no-pointer-events * {
+	pointer-events: none !important;
+}
 </pre>
-
-<p><br /></p>
 
 <p>This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.</p>
 
@@ -319,6 +330,8 @@ following graph:</p>
 		</p>
 		<p class="footer-links-wrap">
 			<a href="mailto:info@perfaudit.com">Mail Us</a>
+			<a href="/blog/we-are-on">Blog</a>
+			<a href="https://twitter.com/perfaudit">Twitter</a>
 			<a href="https://plus.google.com/+PerfAudits">Google+</a>
 			<a href="https://youtube.com/c/perfaudits">Youtube</a>
 		</p>

@@ -5,8 +5,8 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Mar 2015 04:16:09 +0530</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2015 04:16:09 +0530</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2015 04:30:28 +0530</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2015 04:30:28 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,57 +35,12 @@
       </item>
     
       <item>
-        <title>Introduction</title>
-        <description>&lt;a href=&quot;#&quot; class=&quot;image featured&quot;&gt;
-  &lt;img src=&quot;/images/pic01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/a&gt;
-&lt;p&gt;Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-tempus euismod. Vestibulum ante ipsum primis in faucibus.&lt;/p&gt;
-&lt;p&gt;Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-amet risus elit.&lt;/p&gt;
-&lt;p&gt;Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
-eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
-tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper
-odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-posuere cubilia.&lt;/p&gt;
-&lt;p&gt;Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-amet risus elit.&lt;/p&gt;</description>
-        <pubDate>Thu, 26 Feb 2015 07:25:40 +0530</pubDate>
-        <link>http://perfaudit.com/blog/introduction</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/introduction</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
         <title>CanIUse.com</title>
         <description>&lt;p&gt;Hello folks! This is Perfaudit’s first case study for which we chose &lt;a href=&quot;http://caniuse.com/&quot;&gt;caniuse.com&lt;/a&gt;. If you want to see us live auditing the website, checkout our video:&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/VyHKIMORH_k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h2 class=&quot;center heading&quot; id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2015/03/caniuse-pagespeed.png&quot; alt=&quot;Google pagespeed issues&quot; /&gt;&lt;/p&gt;
 
@@ -109,32 +64,28 @@ following graph:&lt;/p&gt;
 &lt;p&gt;To solve this, there is a &lt;a href=&quot;http://www.thecssninja.com/css/pointer-events-60fps&quot;&gt;neat trick&lt;/a&gt; by Ryan Seddon to listen for scroll event and disable pointer events on an element, say &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;, so that mouse dependent paints do not happen:&lt;/p&gt;
 
 &lt;pre class=&quot;prettyprint&quot;&gt;
-	// JS
-	var timeout, pointerEventsDisabled;
-	window.addEventListener(&#39;scroll&#39;, function () {
-		clearTimeout(timeout);
-		if (!pointerEventsDisabled) {
-			document.body.classList.add(&#39;no-pointer-events&#39;);
-			pointerEventsDisabled = true;
-		}
-		timeout = setTimeout(function () {
-			document.body.classList.remove(&#39;no-pointer-events&#39;);
-			pointerEventsDisabled = false;
-		}, 500);
-	})
+// JS
+var timeout, pointerEventsDisabled;
+window.addEventListener(&#39;scroll&#39;, function () {
+	clearTimeout(timeout);
+	if (!pointerEventsDisabled) {
+		document.body.classList.add(&#39;no-pointer-events&#39;);
+		pointerEventsDisabled = true;
+	}
+	timeout = setTimeout(function () {
+		document.body.classList.remove(&#39;no-pointer-events&#39;);
+		pointerEventsDisabled = false;
+	}, 500);
+})
 &lt;/pre&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;pre class=&quot;prettyprint&quot;&gt;
-	// CSS
-	.no-pointer-events,
-  .no-pointer-events * {
-  	pointer-events: none !important;
-  }
+// CSS
+.no-pointer-events,
+.no-pointer-events * {
+	pointer-events: none !important;
+}
 &lt;/pre&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.&lt;/p&gt;
 

@@ -1,20 +1,40 @@
 ---
 layout: default
+body-class: post
+type: post
 ---
-<!-- Main -->
-<div class="wrapper style2">
-  <div class="title">Case Study</div>
-  <div id="main" class="container">
 
-    <!-- Content -->
-      <div id="content">
-        <article class="box post">
-          <header class="style1">
-            <h2>PerfAudit: {{ page.title }}</h2>
-          </header>
-          {{ content }}
-        </article>
-      </div>
+<style>
+.post-title {
+	font-size: 2em;
+	letter-spacing: 0.075em;
+	line-height: 1.5em;
+}
+.post-container {
+	max-width: 800px;
+}
+article {
+	color: #666;
+}
+article code,
+article a {
+	color: #e97770;
+}
+article img {
+	max-width: 100%;
+}
+article h1, article h2, article h3 {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+</style>
+<section class="">
+	<div class="container post-container">
+		<article>
+			<div class="section-title">Case Study</div>
 
-  </div>
-</div>
+			<h2 class="post-title">PerfAudit: {{ page.title }}</h2>
+			{{ content }}
+		</article>
+	</div>
+</section>
