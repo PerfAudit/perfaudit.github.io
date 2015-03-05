@@ -1,0 +1,15 @@
+---
+layout: blog
+title:  "We are ON"
+date:   2015-03-04
+categories: blog
+body-class: no-sidebar
+---
+
+Hello from Perfaudit!
+
+Perfaudit is all about Performance. We have started this project on a mission to performance audit the awesome websites that we all use now and then.
+
+In the coming days, we'll audit these website for network performace, page rendering performance and whatever that makes a website's user experience great.
+
+Stay tuned for some really enlightening audit from us.
