@@ -1,14 +1,13 @@
 ---
-layout: case-study
+layout: post
 title:  "CanIUse.com"
 date:   2015-02-26 01:55:40
 categories: case-study
-body-class: no-sidebar
 ---
 
 Hello folks! This is Perfaudit's first case study for which we chose [caniuse.com](http://caniuse.com/). If you want to see us live auditing the website, checkout our video:
 
-<iframe class="audit-video" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen></iframe><br>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
 ## Network profiling
 {: .center .heading }

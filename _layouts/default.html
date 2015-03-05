@@ -6,7 +6,11 @@
     <div class="content">
       {{ content }}
     </div>
-    {% include case-studies.html %}
+
+	{% if page.type != 'post' %}
+		{% include case-studies.html %}
+    {% endif %}
+
     {% include footer.html %}
   </body>
 </html>
