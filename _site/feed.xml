@@ -5,9 +5,28 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Mar 2015 00:55:04 +0530</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2015 00:55:04 +0530</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2015 04:06:25 +0530</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2015 04:06:25 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>We are ON</title>
+        <description>&lt;p&gt;Hello from Perfaudit!&lt;/p&gt;
+
+&lt;p&gt;Perfaudit is all about Performance. We have started this project on a mission to performance audit the awesome websites that we all use now and then.&lt;/p&gt;
+
+&lt;p&gt;In the coming days, we’ll audit these website for network performace, page rendering performance and whatever that makes a website’s user experience great.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for some really enlightening audit from us.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/blog/we-are-on</link>
+        <guid isPermaLink="true">http://perfaudit.com/blog/we-are-on</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Introduction</title>
@@ -56,8 +75,7 @@ amet risus elit.&lt;/p&gt;</description>
         <title>CanIUse.com</title>
         <description>&lt;p&gt;Hello folks! This is Perfaudit’s first case study for which we chose &lt;a href=&quot;http://caniuse.com/&quot;&gt;caniuse.com&lt;/a&gt;. If you want to see us live auditing the website, checkout our video:&lt;/p&gt;
 
-&lt;iframe class=&quot;audit-video&quot; src=&quot;http://www.youtube.com/embed/VyHKIMORH_k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/VyHKIMORH_k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h2 class=&quot;center heading&quot; id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
 

@@ -1,197 +1,281 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>PerfAudit | Performance Audit of Websites by Professionals</title>
-  <meta name="keywords" content="performance, audit, rendering, profiling, website, consultant" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>PerfAudit | Performance Audit of Websites by Professionals</title>
+	<meta name="keywords" content="performance, audit, rendering, profiling, website, consultant" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.">
 
   <link rel="publisher" href="https://google.com/+Perfaudits"/>
   <meta property="og:title" content="PerfAudit | Performance Audit of Websites by Professionals">
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website">
-  <meta property="og:description" content="PerfAudit">
+  <meta property="og:description" content="Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.">
   <meta property="og:site_name" content="PerfAudit">
-  <meta property="og:url" content="http://perfaudit.com">
+  <meta property="og:url" content="http://perfaudit.com/">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="PerfAudit | Performance Audit of Websites by Professionals">
-  <meta name="twitter:description" content="PerfAudit">
-  <meta name="msapplication-TileColor" content="#008c99">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="PerfAudit | Performance Audit of Websites by Professionals">
+	<meta name="twitter:description" content="PerfAudit">
+	<meta name="msapplication-TileColor" content="#008c99">
 
-  <link rel="canonical" href="http://perfaudit.com/">
-  <link rel="alternate" type="application/rss+xml" title="PerfAudit | Performance Audit of Websites by Professionals" href="http://perfaudit.com/feed.xml" />
+	<link rel="canonical" href="http://perfaudit.com/">
+	<link rel="alternate" type="application/rss+xml" title="PerfAudit | Performance Audit of Websites by Professionals" href="http://perfaudit.com/feed.xml" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900' rel='stylesheet' type='text/css'>
+	<style>
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	body, input, select, textarea {
+		font-size: 13pt;
+		line-height: 1.75em;
+		letter-spacing: 0.025em;
+	}
+	body, input, textarea, select {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+		color: white;
+	}
+	body {
+		margin: 0;
+		background: #222834;
+	}
+	a
+	{
+		text-decoration: underline;
+		color: #717479;
+		transition: color .25s ease-in-out;
+	}
+	a:hover
+	{
+		text-decoration: none;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 700;
+		color: #484d55;
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
+	.btn {
+		display: inline-block;
+		background: #444;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		border-radius: 0.35em;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		padding: 0 2.25em 0 2.25em;
+		font-size: 0.9em;
+		min-width: 12em;
+		 height: 4em;
+		line-height: 4em;
+		-o-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+	}
+	.btn-red {
+		background: #e97770 url('images/overlay.png');
+		color: #fff;
+	}
+
+	section {
+		background: #f3f3f3 url('./images/overlay.png');
+		color: #919499;
+		padding: 6em 0 9em 0;
+		position: relative;
+	}
+	.center { text-align: center; }
+	.container {
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.section-title {
+		position: absolute;
+		left: 50%;
+		width: 25em;
+		bottom: 100%;
+		padding: 1em 0;
+		margin-left: -12.5em;
+		background: #f3f3f3;
+		color: #484d55;
+
+		text-align: center;
+		font-weight: 700;
+		letter-spacing: 0.25em;
+		font-size: 0.9em;
+		text-transform: uppercase;
+	}
+	.section-red {
+		background-color: #e97770;
+		color: rgba(255,255,255,0.75);
+	}
+	.section-red .section-title {
+		background-color: #e97770;
+		color: white;
+	}
+	.section-black {
+		background-color: #282b34;
+		color: rgba(255,255,255,0.5);
+	}
+	.section-black .section-title {
+		background-color: #282b34;
+		color: white;
+	}
+	header {
+		background: url('./images/banner.jpg') center center;
+		background-size: cover;
+	}
+	.header-name {
+		text-align: center;
+		padding: 15em 0;
+	}
+	/* On post page */
+	body.post .header-name {
+		padding: 8em 0;
+	}
+	.header-name h1 {
+		color: white;
+		letter-spacing: 3px;
+		font-size: 2em;
+	}
+	.header-name .sub-heading {
+		color: rgba(255,255,255,0.5);
+	}
+	.sub-heading {
+		margin: 1.25em 0 0 0;
+		display: block;
+		letter-spacing: 0.2em;
+		font-size: 0.9em;
+		text-transform: uppercase;
+	}
+	.section-intro .style1 {
+		font-size: 1.5em;
+		letter-spacing: 0.075em;
+	}
+	.section-intro .style2 {
+		font-size: 2.75em;
+		letter-spacing: 0.075em;
+		line-height: 1.35em;
+		padding: 1em 0 1em 0;
+		margin-bottom: 1em;
+	}
+	.section-intro .style2 {
+		font-weight: 700;
+		color: #fff;
+		border-radius: 0.35em;
+		box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
+	}
+	.section-intro .style3 {
+		max-width: 70%;
+		margin: 0 auto;
+		display: block;
+	}
+	.section-intro strong {
+		color: white;
+	}
+	.tile {
+		text-align: center;
+		padding: 20px;
+	}
+	.tile-image-wrap {
+		border: solid 10px #fff;
+		display: inline-block;
+		margin: 0 0 2em 0;
+	}
+	.tile-heading {
+		margin: 0 0 0.75em 0;
+		font-size: 1.15em;
+		letter-spacing: 0.05em;
+		color: #e97770;
+	}
+	.grid { overflow: hidden; }
+	.grid-item { float: left; }
+	.one-half {
+		width: 50%;
+	}
+	.footer-links-wrap > a {
+		display: inline-block;
+		margin: 20px;
+	}
+	</style>
 </head>
   <body class="homepage">
     <!-- Header -->
-<div id="header-wrapper" class="wrapper">
-  <div id="header">
-
-    <!-- Logo -->
-      <div id="logo">
-        <h1><a href="/">#perfaudit</a></h1>
-        <p>Performance audit of Web Applications by Professionals</p>
-      </div>
-
-    <!-- Nav -->
-      <nav id="nav">
-        <ul>
-          <li class="current"><a href="/">Home</a></li>
-          <li><a href="#">Resources</a></li>
-          <li><a href="#">Talks</a></li>
-          <li><a href="#">Case Studies</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
-
-  </div>
-</div>
+<header>
+	<div class="header-name">
+		<h1><a href="/">#perfaudit</a></h1>
+		<div class="sub-heading">Performance Audit Of Web Applications By Professionals</div>
+	</div>
+</header>
     <div class="content">
-      <!-- Intro -->
-<div id="intro-wrapper" class="wrapper style1">
-  <div class="title">The Introduction</div>
-  <section id="intro" class="container">
-    <p class="style1">So in case you were wondering what this is all about ...</p>
-    <p class="style2">
-      Loading websites under 1 second <br class="mobile-hide" /> and <br class="mobile-hide" />
-      running them at 60fps(Jank-Free)
-    </p>
-    <p class="style3">We <strong>audit</strong> the <strong>page load</strong> and <strong>rendering</strong> performance of your website. Hating <strong>slow</strong> and <strong>janky</strong> websites, we are on a mission to help <strong>load websites in milliseconds</strong> and perform <strong>jank-free</strong>.</p>
-    <ul class="actions">
-      <li><a href="#" class="button style3 big">Proceed</a></li>
-    </ul>
-  </section>
-</div>
+      
+<section class="section-red center  section-intro">
+	<div class="container">
+		<div class="section-title">The introduction</div>
+		<p class="style1">So in case you were wondering what this is all about ...</p>
+		<p class="style2">
+			Loading websites under 1 second <br class="mobile-hide" /> and <br class="mobile-hide" />
+			running them at 60fps(Jank-Free)
+		</p>
+
+		<p class="style3">We <strong>audit</strong> the <strong>page load</strong> and <strong>rendering</strong> performance of your website. Hating <strong>slow</strong> and <strong>janky</strong> websites, we are on a mission to help <strong>load websites in milliseconds</strong> and perform <strong>jank-free</strong>.</p>
+	</div>
+</section>
     </div>
-    <!-- Highlights -->
-<div class="wrapper style3">
-  <div class="title">Case Studies</div>
-  <div id="highlights" class="container">
-    <div class="row 150%">
-      <div class="4u">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/thumbnails/caniuse.com.jpeg" alt="CanIUse.com PerfAudit" /></a>
-          <h3><a href="/case-study/caniuse.com">CanIUse.com PerfAudit</a></h3>
-          <p>Janky performance along with other Rendering Issues on <a href="http://caniuse.com">CanIUse.com</a>.</p>
-          <ul class="actions">
-            <li><a href="/case-study/caniuse.com" class="button style1">Learn More</a></li>
-          </ul>
-        </section>
-      </div>
-      <div class="4u">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/thumbnails/www.hindustantimes.com.jpeg" alt="" /></a>
-          <h3><a href="#">HindustanTimes.com PerfAudit</a></h3>
-          <p>Performance Audit for <a href="http://hindustantimes.com">HindustanTimes.com</a> will be published soon.</p>
-          <ul class="actions">
-            <li><a href="#" class="button style1">Learn More</a></li>
-          </ul>
-        </section>
-      </div>
-      <div class="4u">
-        <section class="highlight">
-          <a href="#" class="image featured"><img src="/images/pic04.jpg" alt="" /></a>
-          <h3><a href="#">Your Website</a></h3>
-          <p>Submit your Audit request, and we'll help you make perfomant website.</p>
-          <ul class="actions">
-            <li><a href="mailto:info@perfaudit.com" class="button style1">Submit Audit Request</a></li>
-          </ul>
-        </section>
-      </div>
-    </div>
-  </div>
-</div>
+
+	
+		<section class="section-re">
+	<div class="section-title">Case Studies</div>
+
+	<div class="container" style="max-width: 900px;">
+		<div class="grid">
+			<div class="grid-item  one-half">
+				<div class="tile">
+					<a href="#" class="tile-image-wrap"><img src="./images/thumbnails/caniuse.com.jpeg" alt="CanIUse.com PerfAudit" /></a>
+					<h3 class="tile-heading"><a href="/case-studies/caniuse.com">CanIUse.com PerfAudit</a></h3>
+					<p>Janky performance along with other Rendering Issues on <a href="http://caniuse.com">CanIUse.com</a>.</p>
+					<a href="/case-study/caniuse.com/" class="btn  btn-red">Learn More</a>
+				</div>
+			</div>
+			<div class="grid-item  one-half">
+				<div class="tile">
+					<a href="#" class="tile-image-wrap"><img src="./images/pic04.jpg" alt="your website" /></a>
+					<h3 class="tile-heading"><a href="/case-studies/caniuse.com">Your website</a></h3>
+					<p>Submit your Audit request, and we'll help you make perfomant website.</p>
+					<a href="mailto:info@perfaudit.com" class="btn  btn-red">Submit Audit Request</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    
+
     <!-- Footer -->
-<div id="footer-wrapper" class="wrapper">
-  <div class="title">Audit Requests</div>
-  <div id="footer" class="container">
-    <header class="style1">
-      <h2>Want us to audit your Website?</h2>
-      <p>
-        We'll audit the page load and rendering performance of your web application.<br />
-        Share your contact and we'll get back to you very soon.
-      </p>
-    </header>
-    <hr />
-    <div class="row 150%">
-      <div class="6u">
-
-        <!-- Contact Form -->
-          <section>
-            <form method="post" action="#">
-              <div class="row 50%">
-                <div class="6u">
-                  <input type="text" name="name" id="contact-name" placeholder="Name" />
-                </div>
-                <div class="6u">
-                  <input type="text" name="email" id="contact-email" placeholder="Email" />
-                </div>
-              </div>
-              <div class="row 50%">
-                <div class="12u">
-                  <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="12u">
-                  <ul class="actions">
-                    <li><input type="submit" class="style1" value="Send" /></li>
-                    <li><input type="reset" class="style2" value="Reset" /></li>
-                  </ul>
-                </div>
-              </div>
-            </form>
-          </section>
-
-      </div>
-      <div class="6u">
-
-        <!-- Contact -->
-          <section class="feature-list small">
-            <div class="row">
-              <div class="6u">
-                <section>
-                  <h3 class="icon fa-envelope">Email</h3>
-                  <p>
-                    <a href="#">info@perfaudit.com</a>
-                  </p>
-                </section>
-              </div>
-              <div class="6u">
-                <section>
-                  <h3 class="icon fa-comment">Social</h3>
-                  <p>
-                    <a href="https://plus.google.com/+PerfAudits">Google+</a><br />
-                    <a href="https://youtube.com/c/perfaudits">Youtube</a><br />
-                  </p>
-                </section>
-              </div>
-            </div>
-          </section>
-      </div>
-    </div>
-    <hr />
-  </div>
-  <div id="copyright">
-    <ul>
-      <li>#perfaudit</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    </ul>
-  </div>
-</div>
-<!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.dropotron.min.js"></script>
-<script src="/js/skel.min.js"></script>
-<script src="/js/skel-layers.min.js"></script>
-<script src="/js/init.js"></script>
-<noscript>
-  <link rel="stylesheet" href="/css/skel.css" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/style-desktop.css" />
-</noscript>
-<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-<script async src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-
+<section class="section-black">
+	<div class="container  center">
+		<div class="section-title">Audit Requests</div>
+		<h2 style="color: white">Want us to audit your Website?</h2>
+		<p>
+			We'll audit the page load and rendering performance of your web application.<br />
+			Share your contact and we'll get back to you very soon.
+		</p>
+		<p class="footer-links-wrap">
+			<a href="mailto:info@perfaudit.com">Mail Us</a>
+			<a href="https://plus.google.com/+PerfAudits">Google+</a>
+			<a href="https://youtube.com/c/perfaudits">Youtube</a>
+		</p>
+	</div>
+</section>
   </body>
 </html>
