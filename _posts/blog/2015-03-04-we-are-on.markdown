@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title:  "We are ON"
 date:   2015-03-04
 categories: blog
