@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: http://perfaudit.com/sitemap.xml
