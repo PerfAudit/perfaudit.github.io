@@ -8,3 +8,6 @@ permalink: ":categories/:title"
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
