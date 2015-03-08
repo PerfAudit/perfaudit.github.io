@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+PerfAudit is a project to help make web applications faster. With every Performance Audit, we not only intend to help make a web application perform fast, but also add our findings to the pool of performance improvements that developers must add into their deployment routine to make evergreen performant applications.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The audits are brought to you by [Apoorv Saxena](https://in.linkedin.com/in/saxenaapoorv) and [Kushagra Gour](https://twitter.com/chinchang457).
