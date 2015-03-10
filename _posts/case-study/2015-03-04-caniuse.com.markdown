@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title:  "CanIUse.com"
+title:  "Case Study | CanIUse.com | PerfAudit"
 date:   2015-02-26 01:55:40
 categories: case-study
 ---

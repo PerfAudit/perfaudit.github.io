@@ -5,8 +5,8 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Mar 2015 01:36:32 +0530</pubDate>
-    <lastBuildDate>Mon, 09 Mar 2015 01:36:32 +0530</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2015 17:04:47 +0530</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2015 17:04:47 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,7 +35,62 @@
       </item>
     
       <item>
-        <title>CanIUse.com</title>
+        <title>Case Study | HindustanTimes.com | PerfAudit</title>
+        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.hindustantimes.com/&quot;&gt;HindustanTimes.com&lt;/a&gt; . HindustanTimes.com represents the web version of HT Media, which is one of India’s largest media companies across states and media platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/www.hindustantimes.com/alexa-ranking.png&quot; alt=&quot;Hindustan Times Alexa Rank&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-fast-does-hindustantimescom-load-on-average&quot;&gt;How fast does hindustantimes.com load on average?&lt;/h2&gt;
+
+&lt;h4 id=&quot;very-slow-4578-seconds-95-of-sites-are-faster-as-per-data-from-alexa&quot;&gt;Very Slow (4.578 Seconds), 95% of sites are faster (as per data from Alexa).&lt;/h4&gt;
+
+&lt;p&gt;If you want to see us live auditing the website, checkout our video:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/VyHKIMORH_k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Audit write up along with profiling stats:&lt;/p&gt;
+
+&lt;h2 id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/www.hindustantimes.com/pagespeed-score-desktop.png&quot; alt=&quot;HindustanTimes.com desktop issues&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Desktop pagespeed score for HindustanTimes is just 59, which specifies a lot of scope for improvement. As Hindustan Times is a media organization, I expect a lot of images to be a part of their content, thus maximum compression and caching of image resources should be their primary concern. Also, they are not using Webp image format, which can effectively perform in reducing their images’ size.&lt;/p&gt;
+
+&lt;p&gt;Minification and Compression are the redundant tasks that one must integrate in their deployment process, as they significantly contribute in increasing the page performance while decreasing the asset size and page load time of a webpage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/www.hindustantimes.com/pagespeed-score-mobile.png&quot; alt=&quot;HindustanTimes.com mobile issues&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first critical issue describes the reason for the increased first pixel render time, rendering is quite slow and it takes about 5.5 second to get the first glimpse of readable content, though the first pixel render time is about 3 seconds. Here’s the filmstrip view for HindustanTimes.com’s pageload:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/www.hindustantimes.com/filmstrip-view.png&quot; alt=&quot;Filmstrip view Hindustan Times page performance&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To resolve the above mentioned issue, as described in the pagespeed insights, one must avoid to have render blocking JS and CSS inside &amp;lt;head&amp;gt; tag. As mentioned above in desktop optimizations, caching, compression and minification must be handled at all times, and must be made a part of the deployment process.&lt;/p&gt;
+
+&lt;p&gt;Other necessary optimizations possible for HindustanTimes.com:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make fewer HTTP requests, use concatentation of static resources&lt;/li&gt;
+  &lt;li&gt;Use mulitple domain names for parallel resource fetching&lt;/li&gt;
+  &lt;li&gt;Compress components with gzip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;profiling-rendering-performance&quot;&gt;Profiling Rendering Performance&lt;/h2&gt;
+
+&lt;p&gt;That is it for this audit. If you want us to audit any specific website, do let us know in the comments or on &lt;a href=&quot;https://twitter.com/perfaudit&quot;&gt;twitter&lt;/a&gt;. We’ll definitely try to take it up as our next case study.&lt;/p&gt;
+
+&lt;p&gt;Do not forget to follow us for more such perfy performace audits.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Feb 2015 07:25:40 +0530</pubDate>
+        <link>http://perfaudit.com/case-study/www.hindustantimes.com</link>
+        <guid isPermaLink="true">http://perfaudit.com/case-study/www.hindustantimes.com</guid>
+        
+        
+        <category>case-study</category>
+        
+      </item>
+    
+      <item>
+        <title>Case Study | CanIUse.com | PerfAudit</title>
         <description>&lt;p&gt;Hello folks! This is Perfaudit’s first case study for which we chose &lt;a href=&quot;http://caniuse.com/&quot;&gt;caniuse.com&lt;/a&gt;. If you want to see us live auditing the website, checkout our video:&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/VyHKIMORH_k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
