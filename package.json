@@ -1,0 +1,9 @@
+{
+  "name": "perfaudit-web-app",
+  "version": "0.0.1",
+  "author": "PerfAudit",
+  "private": true,
+  "devDependencies": {
+    "grunt-contrib-imagemin": "^0.9.3"
+  }
+}
