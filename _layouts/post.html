@@ -36,5 +36,11 @@ article h1, article h2, article h3 {
       <h2 class="post-title">{{ page.title }}</h2>
       {{ content }}
     </article>
+
+    <div class="comment-box">
+        <h3>Comments</h3>
+        <hr/>
+      {% include comments.html %}
+    </div>
   </div>
 </section>

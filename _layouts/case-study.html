@@ -27,6 +27,7 @@ article h1, article h2, article h3 {
 	margin-top: 2em;
 	margin-bottom: 0.5em;
 }
+.comment-box { margin-top: 64px; }
 </style>
 <section class="">
 	<div class="container post-container">
@@ -36,5 +37,11 @@ article h1, article h2, article h3 {
 			<h2 class="post-title">PerfAudit: {{ page.title }}</h2>
 			{{ content }}
 		</article>
+
+		<div class="comment-box">
+	    	<h3>Comments</h3>
+	    	<hr/>
+	    	{% include comments.html %}
+	    </div>
 	</div>
 </section>
