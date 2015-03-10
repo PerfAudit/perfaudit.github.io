@@ -115,6 +115,15 @@
 		font-size: 0.9em;
 		text-transform: uppercase;
 	}
+	@media screen and (max-width: 30em) {
+		.section-title {
+			left: 0;
+			right: 0;
+			width: auto;
+			margin-left: 0;
+		}
+	}
+
 	.section-red {
 		background-color: #e97770;
 		color: rgba(255,255,255,0.75);
@@ -230,6 +239,9 @@
 		display: inline-block;
 		margin: 0 0 2em 0;
 	}
+	.tile-image-wrap > img {
+		max-width: 100%;
+	}
 	.tile-heading {
 		margin: 0 0 0.75em 0;
 		font-size: 1.15em;
@@ -244,6 +256,19 @@
 	.footer-links-wrap > a {
 		display: inline-block;
 		margin: 20px;
+	}
+	@media screen and (max-width: 800px) {
+		.case-study-grid .grid-item {
+			width: 100%;
+		}
+		.section-intro .style2 {
+			font-size: 2em;
+		}
+	}
+	@media screen and (max-width: 640px) {
+		body {
+			font-size: 11pt;
+		}
 	}
 	</style>
 </head>
@@ -276,7 +301,7 @@
 	<div class="section-title">Case Studies</div>
 
 	<div class="container" style="max-width: 900px;">
-		<div class="grid">
+		<div class="grid  case-study-grid">
 			<div class="grid-item  one-half">
 				<div class="tile">
 					<a href="/case-study/caniuse.com" class="tile-image-wrap"><img src="./images/thumbnails/caniuse.com.jpeg" alt="CanIUse.com PerfAudit" /></a>
