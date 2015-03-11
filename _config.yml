@@ -11,3 +11,12 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - LICENSE.txt
+  - package.json
+  - README.txt
