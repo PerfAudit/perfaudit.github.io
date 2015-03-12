@@ -5,20 +5,18 @@ date:   2015-03-12 01:55:40
 categories: case-study
 ---
 
-Hey folks! Today we have come up with the case study for [HindustanTimes.com](http://www.hindustantimes.com/) . HindustanTimes.com represents the web version of HT Media, which is one of India's largest media companies across states and media platforms.
+Hey folks! Today we have come up with the case study for [HindustanTimes.com](http://www.hindustantimes.com/). HindustanTimes.com represents the web version of HT Media, which is one of India's largest media companies across states and media platforms.
 
 ![Hindustan Times Alexa Rank](/images/case-study/hindustantimes.com/alexa-ranking.png)
+
+## Live auditing
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=eyg5ePH8opM" frameborder="0" allowfullscreen=""></iframe>
+
 
 ##How fast does hindustantimes.com load on average?
 
 #### Very Slow (4.578 Seconds), 95% of sites are faster (as per data from Alexa).
-
-
-If you want to see us live auditing the website, checkout our video:
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
-
-Audit write up along with profiling stats:
 
 ## Network profiling
 
@@ -69,6 +67,9 @@ Solution (hack) here is to just give those fixed positioned elements their own c
 }
 </pre>
 
+Rerun the timeline recording:
+
+![repaints-removed](/images/case-study/hindustantimes.com/repaints-removed.png)
 And voila! No more repaint spikes in the timeline.
 
 Now over to the second reason of overshooting our frame limit: scripts. Inspecting of an seemingly heavy script execution event shows that it is happening on `scroll` event - as expected. Digging deep, we find that its actually jQuery that is causing the issue.
