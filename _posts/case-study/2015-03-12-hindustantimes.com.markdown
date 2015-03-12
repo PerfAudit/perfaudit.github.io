@@ -1,6 +1,7 @@
 ---
 layout: case-study
 title:  "Case Study | HindustanTimes.com | PerfAudit"
+organization: "HindustanTimes.com"
 date:   2015-03-12 01:55:40
 categories: case-study
 ---
