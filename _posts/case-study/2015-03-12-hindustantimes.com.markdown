@@ -11,7 +11,7 @@ Hey folks! Today we have come up with the case study for <a href="http://www.hin
 
 ## Live auditing
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=eyg5ePH8opM" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/eyg5ePH8opM" frameborder="0" allowfullscreen=""></iframe>
 
 
 ##How fast does hindustantimes.com load on average?

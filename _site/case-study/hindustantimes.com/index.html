@@ -339,13 +339,13 @@ article h1, article h2, article h3 {
 
 <p><a href="http://www.alexa.com/siteinfo/hindustantimes.com" target="_blank" title="Hindustan Times Alexa Rank"><img src="/images/case-study/hindustantimes.com/alexa-ranking.png" /></a></p>
 
+<h2 id="live-auditing">Live auditing</h2>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/eyg5ePH8opM" frameborder="0" allowfullscreen=""></iframe>
+
 <h2 id="how-fast-does-hindustantimescom-load-on-average">How fast does hindustantimes.com load on average?</h2>
 
 <h4 id="very-slow-around-137-seconds-when-we-loaded4578-seconds-on-average-95-of-sites-are-faster-as-per-data-from-alexa">Very Slow around 13.7 seconds when we loaded(4.578 Seconds on average), 95% of sites are faster (as per data from Alexa).</h4>
-
-<p>If you want to see us live auditing the website, checkout our video:</p>
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
 <h2 id="network-profiling">Network profiling</h2>
 
@@ -398,7 +398,10 @@ article h1, article h2, article h3 {
 }
 </pre>
 
-<p>And voila! No more repaint spikes in the timeline.</p>
+<p>Rerun the timeline recording:</p>
+
+<p><img src="/images/case-study/hindustantimes.com/repaints-removed.png" alt="repaints-removed" />
+And voila! No more repaint spikes in the timeline.</p>
 
 <p>Now over to the second reason of overshooting our frame limit: scripts. Inspecting of an seemingly heavy script execution event shows that it is happening on <code>scroll</code> event - as expected. Digging deep, we find that its actually jQuery that is causing the issue.</p>
 
