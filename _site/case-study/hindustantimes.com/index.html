@@ -13,7 +13,7 @@
   <meta property="og:type" content="website">
   <meta property="og:description" content="Hey folks! Today we have come up with the case study for HindustanTimes.com . HindustanTimes.com represents the web version of HT Media, which is one of Indi...">
   <meta property="og:site_name" content="PerfAudit">
-  <meta property="og:url" content="http://perfaudit.com/case-study/www.hindustantimes.com">
+  <meta property="og:url" content="http://perfaudit.com/case-study/hindustantimes.com">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Case Study | HindustanTimes.com | PerfAudit">
@@ -44,7 +44,7 @@
 	<meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#e97770">
 
-	<link rel="canonical" href="http://perfaudit.com/case-study/www.hindustantimes.com">
+	<link rel="canonical" href="http://perfaudit.com/case-study/hindustantimes.com">
 	<link rel="alternate" type="application/rss+xml" title="PerfAudit | Performance Audit of Websites by Professionals" href="http://perfaudit.com/feed.xml" />
 	<style>
 	*, *:before, *:after {
@@ -274,9 +274,8 @@
 	}
 	.grid { overflow: hidden; }
 	.grid-item { float: left; }
-	.one-half {
-		width: 50%;
-	}
+	.one-half {	width: 50%; }
+	.one-third { width: 33.333%; }
 	.footer-links-wrap > a {
 		display: inline-block;
 		margin: 20px;
@@ -338,7 +337,7 @@ article h1, article h2, article h3 {
 			<h2 class="post-title">PerfAudit: </h2>
 			<p>Hey folks! Today we have come up with the case study for <a href="http://www.hindustantimes.com/">HindustanTimes.com</a> . HindustanTimes.com represents the web version of HT Media, which is one of India’s largest media companies across states and media platforms.</p>
 
-<p><img src="/images/case-study/www.hindustantimes.com/alexa-ranking.png" alt="Hindustan Times Alexa Rank" /></p>
+<p><img src="/images/case-study/hindustantimes.com/alexa-ranking.png" alt="Hindustan Times Alexa Rank" /></p>
 
 <h2 id="how-fast-does-hindustantimescom-load-on-average">How fast does hindustantimes.com load on average?</h2>
 
@@ -346,27 +345,23 @@ article h1, article h2, article h3 {
 
 <p>If you want to see us live auditing the website, checkout our video:</p>
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/eyg5ePH8opM" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
 <p>Audit write up along with profiling stats:</p>
 
 <h2 id="network-profiling">Network profiling</h2>
 
-<p><img src="/images/case-study/www.hindustantimes.com/pagespeed-score-desktop.png" alt="HindustanTimes.com desktop issues" /></p>
+<p><img src="/images/case-study/hindustantimes.com/pagespeed-score-desktop.png" alt="HindustanTimes.com desktop issues" /></p>
 
-<p>Desktop pagespeed score for HindustanTimes is just 59, which specifies a lot of scope for improvement. As Hindustan Times is a media organization, one can expect a lot of images to be a part of their content, thus maximum compression and caching of image resources should be their primary concern. They must also use progressive images to reduce the image render time.</p>
-
-<h3 id="image-related-stats">Image related stats:</h3>
-
-<h4 id="kb-total-in-images-target-size--7401-kb---potential-savings--6725-kb">1,412.6 KB total in images, target size = 740.1 KB - potential savings = 672.5 KB</h4>
+<p>Desktop pagespeed score for HindustanTimes is just 59, which specifies a lot of scope for improvement. As Hindustan Times is a media organization, I expect a lot of images to be a part of their content, thus maximum compression and caching of image resources should be their primary concern. Also, they are not using Webp image format, which can effectively perform in reducing their images’ size.</p>
 
 <p>Minification and Compression are the redundant tasks that one must integrate in their deployment process, as they significantly contribute in increasing the page performance while decreasing the asset size and page load time of a webpage.</p>
 
-<p><img src="/images/case-study/www.hindustantimes.com/pagespeed-score-mobile.png" alt="HindustanTimes.com mobile issues" /></p>
+<p><img src="/images/case-study/hindustantimes.com/pagespeed-score-mobile.png" alt="HindustanTimes.com mobile issues" /></p>
 
 <p>The first critical issue describes the reason for the increased first pixel render time, rendering is quite slow and it takes about 5.5 second to get the first glimpse of readable content, though the first pixel render time is about 3 seconds. Here’s the filmstrip view for HindustanTimes.com’s pageload:</p>
 
-<p><img src="/images/case-study/www.hindustantimes.com/filmstrip-view.png" alt="Filmstrip view Hindustan Times page performance" /></p>
+<p><img src="/images/case-study/hindustantimes.com/filmstrip-view.png" alt="Filmstrip view Hindustan Times page performance" /></p>
 
 <p>To resolve the above mentioned issue, as described in the pagespeed insights, one must avoid to have render blocking JS and CSS inside &lt;head&gt; tag. As mentioned above in desktop optimizations, caching, compression and minification must be handled at all times, and must be made a part of the deployment process.</p>
 
@@ -379,6 +374,43 @@ article h1, article h2, article h3 {
 </ul>
 
 <h2 id="profiling-rendering-performance">Profiling Rendering Performance</h2>
+
+<p>When scrolling down the page down over sections that we have not viewed before, we experienced frequent jerks.</p>
+
+<p>A quick profiling in the Chrome devtool timeline showed us this:</p>
+
+<p><img src="/images/case-study/hindustantimes.com/timeline-graph.png" alt="timeline graph" /></p>
+
+<p>From the above graph we get to know that 2 things are responsible for the visible jank: script and paint, the latter having more effect. Let us tackle paint first.</p>
+
+<p>Looking at the paint events in the timeline it is evident that the complete page is getting painted for some reason.</p>
+
+<p><img src="/images/case-study/hindustantimes.com/fixed-position-repaints.png" alt="complete page paint" /></p>
+
+<p>Notice the sections highlighted in the above image. Those are the elements which are fixed positioned in the website. So we get our paint issue:
+1. Fixed positioned elements are repainted continously as they are constantly visible.
+2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, <a href="http://benfrain.com/improving-css-performance-fixed-position-elements/">causing a full page repaint</a>.</p>
+
+<p>Solution (hack) here is to just give those fixed positioned elements their own composite layer which actually prevents fixed positioned elements from repainting. One way to do that is by following CSS:</p>
+
+<pre class="prettyprint">
+.some-fixed-element {
+	position: fixed;
+	transform: translateZ(0);
+}
+</pre>
+
+<p>And voila! No more repaint spikes in the timeline.</p>
+
+<p>Now over to the second reason of overshooting our frame limit: scripts. Inspecting of an seemingly heavy script execution event shows that it is happening on <code>scroll</code> event - as expected. Digging deep, we find that its actually jQuery that is causing the issue.</p>
+
+<p><img src="/images/case-study/hindustantimes.com/script-inspection.png" alt="long-script" /></p>
+
+<p>Devtools timeline tells us the exact line in the script which caused the execution time. Putting a breakpoint on that line reveals that their is actually a jQuery plugin being used to pin elements on the website and it performs some checks during the <code>scroll</code> event to do so.</p>
+
+<p><img src="/images/case-study/hindustantimes.com/script-issue-plugin.png" alt="long-script" /></p>
+
+<p>In this case, their isn’t a straightforward solution. The plugin’s implementation will have to be tweaked to make it more performant.</p>
 
 <p>That is it for this audit. If you want us to audit any specific website, do let us know in the comments or on <a href="https://twitter.com/perfaudit">twitter</a>. We’ll definitely try to take it up as our next case study.</p>
 
