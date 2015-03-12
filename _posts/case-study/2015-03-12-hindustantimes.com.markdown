@@ -5,9 +5,9 @@ date:   2015-03-12 01:55:40
 categories: case-study
 ---
 
-Hey folks! Today we have come up with the case study for [HindustanTimes.com](http://www.hindustantimes.com/). HindustanTimes.com represents the web version of HT Media, which is one of India's largest media companies across states and media platforms.
+Hey folks! Today we have come up with the case study for <a href="http://www.hindustantimes.com/" target="_blank">HindustanTimes.com</a> which represents the web version of [HT Media](http://en.wikipedia.org/wiki/Hindustan_Times), one of India's biggest media companies across states and media platforms.
 
-![Hindustan Times Alexa Rank](/images/case-study/hindustantimes.com/alexa-ranking.png)
+<a href="http://www.alexa.com/siteinfo/hindustantimes.com" target="_blank" title="Hindustan Times Alexa Rank"><img src="/images/case-study/hindustantimes.com/alexa-ranking.png"></a>
 
 ## Live auditing
 
@@ -16,29 +16,29 @@ Hey folks! Today we have come up with the case study for [HindustanTimes.com](ht
 
 ##How fast does hindustantimes.com load on average?
 
-#### Very Slow (4.578 Seconds), 95% of sites are faster (as per data from Alexa).
+#### Very Slow around 13.7 seconds when we loaded(4.578 Seconds on average), 95% of sites are faster (as per data from Alexa).
 
 ## Network profiling
 
-![HindustanTimes.com desktop issues](/images/case-study/hindustantimes.com/pagespeed-score-desktop.png)
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=www.hindustantimes.com&tab=mobile" target="_blank" title="Hindustan Times desktop improvements"><img src="/images/case-study/hindustantimes.com/pagespeed-score-desktop.png"></a>
 
-Desktop pagespeed score for HindustanTimes is just 59, which specifies a lot of scope for improvement. As Hindustan Times is a media organization, I expect a lot of images to be a part of their content, thus maximum compression and caching of image resources should be their primary concern. Also, they are not using Webp image format, which can effectively perform in reducing their images' size.
+Desktop pagespeed score for HindustanTimes is just 59, which specifies a lot of scope for improvement. As Hindustan Times is a media organization, I expect a lot of images to be a part of their content, thus maximum compression and caching of image resources should be their primary concern. Also, they are not using Webp image format, which can effectively help in reducing their images' size.
 
-Minification and Compression are the redundant tasks that one must integrate in their deployment process, as they significantly contribute in increasing the page performance while decreasing the asset size and page load time of a webpage.
+Minification and Compression are the redundant tasks that one must integrate in their deployment process, as they significantly contribute in decreasing the asset size and page load time of a webpage.
 
-![HindustanTimes.com mobile issues](/images/case-study/hindustantimes.com/pagespeed-score-mobile.png)
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=www.hindustantimes.com&tab=mobile" target="_blank" title="Hindustan Times mobile improvements"><img src="/images/case-study/hindustantimes.com/pagespeed-score-mobile.png"></a>
 
 The first critical issue describes the reason for the increased first pixel render time, rendering is quite slow and it takes about 5.5 second to get the first glimpse of readable content, though the first pixel render time is about 3 seconds. Here's the filmstrip view for HindustanTimes.com's pageload:
 
-![Filmstrip view Hindustan Times page performance](/images/case-study/hindustantimes.com/filmstrip-view.png)
+<a href="http://www.webpagetest.org/video/compare.php?tests=150310_6M_P7P-r:1-c:0" target="_blank" title="Filmstrip view Hindustan Times page performance"><img src="/images/case-study/hindustantimes.com/filmstrip-view.png"></a>
 
 To resolve the above mentioned issue, as described in the pagespeed insights, one must avoid to have render blocking JS and CSS inside <head> tag. As mentioned above in desktop optimizations, caching, compression and minification must be handled at all times, and must be made a part of the deployment process.
 
 Other necessary optimizations possible for HindustanTimes.com:
 
 * Make fewer HTTP requests, use concatentation of static resources
-* Use mulitple domain names for parallel resource fetching
-* Compress components with gzip
+* Use mulitple domain names for parallel resource requests.
+* Compress static resources. Must read [post](https://engineering.linkedin.com/shared-dictionary-compression-http-linkedin) by Linkedin Engineering.
 
 ## Profiling Rendering Performance
 
