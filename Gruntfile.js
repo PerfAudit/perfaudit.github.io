@@ -11,9 +11,23 @@ module.exports = function(grunt) {
           dest: 'images/'
         }]
       }
+    },
+    imageoptim: {
+      dynamic: {
+        src: ['images']
+      }
+    },
+    smushit: {
+      dynamic: {
+        src: ['images']
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.registerTask('default', ['imagemin']);
+  grunt.loadNpmTasks('grunt-imageoptim');
+  grunt.loadNpmTasks('grunt-smushit');
+
+  grunt.registerTask('default', ['imagemin', 'imageoptim', 'smushit']);
+
 };
