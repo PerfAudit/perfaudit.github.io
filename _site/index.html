@@ -123,6 +123,19 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.section-testimonials {
+		padding: 5em 0 9em 0;
+	}
+	.section-testimonials img {
+		border-radius: 57px;
+		margin-bottom: 30px;
+	}
+	.section-testimonials .tile {
+		font-weight: bolder;
+	}
+	.section-testimonials .grid-item {
+		float: none;
+	}
 	.section-title {
 		position: absolute;
 		left: 50%;
@@ -214,6 +227,9 @@
 		display: none;
 	}
 
+	.section-testimonials, .section-testimonials .section-title{
+		background: #fff;
+	}
 	.header-wrap h1 {
 		color: white;
 		letter-spacing: 3px;
@@ -293,6 +309,18 @@
 			font-size: 11pt;
 		}
 	}
+	blockquote:before {
+		content: "\201C";
+	}
+	blockquote:after {
+		content: "\201D";
+	}
+	blockquote:before, blockquote:after {
+    font-size: 40px;
+    color: #7a7a7a;
+    display: inline;
+    vertical-align: middle;
+	}
 	</style>
 </head>
   <body class="homepage">
@@ -320,6 +348,23 @@
     </div>
 
     
+      <section class="section-testimonials">
+  <div class="section-title">Testimonials</div>
+
+  <div class="container" style="max-width: 900px;">
+    <div class="grid  case-study-grid">
+      <div class="grid-item">
+        <div class="tile">
+          <a href="http://stevesouders.com/about.php" target="_blank"><img src="/images/testimonials/steve-souders.jpg" alt="CanIUse.com PerfAudit" /></a>
+          <h3 class="tile-heading"><a href="http://stevesouders.com/about.php" target="_blank">Steve Souders, Fastly Chief Performance Officer</a></h3>
+          <blockquote cite="https://twitter.com/Souders/status/576067718518030336">
+            .@PerfAudit is a GREAT idea! Read/view perf analysis of popular sites.
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <section class="section-case-studies">
 	<div class="section-title">Case Studies</div>
 
