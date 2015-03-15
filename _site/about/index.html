@@ -126,6 +126,12 @@
 	.section-testimonials {
 		padding: 5em 0 9em 0;
 	}
+	.section-testimonials, .section-testimonials .section-title, .section-press, .section-press .section-title{
+		background: #fff;
+	}
+	.section-press a {
+		text-decoration: none;
+	}
 	.section-testimonials img {
 		border-radius: 57px;
 		margin-bottom: 30px;
@@ -136,6 +142,9 @@
 	.section-testimonials .grid-item {
 		float: none;
 	}
+	.press-image {
+		width: 120px;
+	}
 	.section-title {
 		position: absolute;
 		left: 50%;
@@ -143,7 +152,7 @@
 		bottom: 100%;
 		padding: 1em 0;
 		margin-left: -12.5em;
-		background: #f3f3f3;
+		background: #f3f3f3 url('/images/overlay.png');
 		color: #484d55;
 
 		text-align: center;
@@ -225,10 +234,6 @@
 	body.post .section-case-studies,
 	body.page .section-case-studies {
 		display: none;
-	}
-
-	.section-testimonials, .section-testimonials .section-title{
-		background: #fff;
 	}
 	.header-wrap h1 {
 		color: white;
@@ -372,13 +377,12 @@ article h1, article h2, article h3 {
     
       <section class="section-testimonials">
   <div class="section-title">Testimonials</div>
-
   <div class="container" style="max-width: 900px;">
     <div class="grid  case-study-grid">
       <div class="grid-item">
         <div class="tile">
-          <a href="http://stevesouders.com/about.php" target="_blank"><img src="/images/testimonials/steve-souders.jpg" alt="CanIUse.com PerfAudit" /></a>
-          <h3 class="tile-heading"><a href="http://stevesouders.com/about.php" target="_blank">Steve Souders, Fastly Chief Performance Officer</a></h3>
+          <a href="http://stevesouders.com/about.php" target="_blank" title="Steve Souders appreciates PerfAudit"><img src="/images/testimonials/steve-souders.jpg" alt="Steve Souders PerfAudit" /></a>
+          <h3 class="tile-heading"><a href="http://stevesouders.com/about.php" title="Steve Souders appreciates PerfAudit" target="_blank">Steve Souders, Fastly Chief Performance Officer</a></h3>
           <blockquote cite="https://twitter.com/Souders/status/576067718518030336">
             .@PerfAudit is a GREAT idea! Read/view perf analysis of popular sites.
           </blockquote>
@@ -418,6 +422,37 @@ article h1, article h2, article h3 {
 			</div>
 		</div>
 	</div>
+</section>
+      <section class="section-press">
+  <div class="section-title">Press Coverage</div>
+  <div class="container" style="max-width: 900px;">
+    <div class="grid  case-study-grid">
+      <div class="grid-item one-third">
+        <div class="tile">
+          <a href="http://www.webdesignerdepot.com/2015/03/whats-new-for-designers-march-2015/#perfaudit" title="PerfAudit recommended by WebDesigner Depot" target="_blank">
+            <img src="/images/press/webdesigner-depot.jpg" alt="WebDesigner Depot PerfAudit" class="press-image" />
+            <h2>WebDesigner Depot</h2>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item one-third">
+        <div class="tile">
+          <a href="https://news.ycombinator.com/item?id=9170571" target="_blank" title="PerfAudit trends on HackerNews">
+            <img src="/images/press/hacker-news.jpg" alt="Hacker News PerfAudit" class="press-image" />
+            <h2>Hacker News</h2>
+          </a>
+        </div>
+      </div>
+      <div class="grid-item one-third">
+        <div class="tile">
+          <a href="http://webopsweekly.com/issues/5" target="_blank" title="PerfAudit featured on Web Operations Weekly">
+            <img src="/images/press/webops.jpg" alt="Web Operations Weekly PerfAudit" />
+            <h2>WebOps Weekly</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
     
 

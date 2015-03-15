@@ -124,6 +124,12 @@
 	.section-testimonials {
 		padding: 5em 0 9em 0;
 	}
+	.section-testimonials, .section-testimonials .section-title, .section-press, .section-press .section-title{
+		background: #fff;
+	}
+	.section-press a {
+		text-decoration: none;
+	}
 	.section-testimonials img {
 		border-radius: 57px;
 		margin-bottom: 30px;
@@ -134,6 +140,9 @@
 	.section-testimonials .grid-item {
 		float: none;
 	}
+	.press-image {
+		width: 120px;
+	}
 	.section-title {
 		position: absolute;
 		left: 50%;
@@ -141,7 +150,7 @@
 		bottom: 100%;
 		padding: 1em 0;
 		margin-left: -12.5em;
-		background: #f3f3f3;
+		background: #f3f3f3 url('/images/overlay.png');
 		color: #484d55;
 
 		text-align: center;
@@ -223,10 +232,6 @@
 	body.post .section-case-studies,
 	body.page .section-case-studies {
 		display: none;
-	}
-
-	.section-testimonials, .section-testimonials .section-title{
-		background: #fff;
 	}
 	.header-wrap h1 {
 		color: white;
