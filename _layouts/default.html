@@ -6,8 +6,7 @@
     <div class="content">
       {{ content }}
     </div>
-
-    {% if page.type != 'post' %}
+    {% if page['body-class'] == 'homepage' %}
       {% include testimonials.html %}
       {% include case-studies.html %}
       {% include press.html %}

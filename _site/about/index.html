@@ -85,6 +85,9 @@
 		color: inherit;
 		text-decoration: none;
 	}
+	iframe {
+		max-width: 100%;
+	}
 	.btn {
 		display: inline-block;
 		background: #444;
@@ -235,6 +238,9 @@
 	body.page .section-case-studies {
 		display: none;
 	}
+	.post-container {
+	  word-wrap: break-word;
+	}
 	.header-wrap h1 {
 		color: white;
 		letter-spacing: 3px;
@@ -308,6 +314,12 @@
 		.section-intro .style2 {
 			font-size: 2em;
 		}
+		.post-container {
+			margin: 15px;
+		}
+		.content section {
+			padding-top: 0.5em;
+		}
 	}
 	@media screen and (max-width: 640px) {
 		body {
@@ -373,87 +385,6 @@ article h1, article h2, article h3 {
   </div>
 </section>
     </div>
-
-    
-      <section class="section-testimonials">
-  <div class="section-title">Testimonials</div>
-  <div class="container" style="max-width: 900px;">
-    <div class="grid  case-study-grid">
-      <div class="grid-item">
-        <div class="tile">
-          <a href="http://stevesouders.com/about.php" target="_blank" title="Steve Souders appreciates PerfAudit"><img src="/images/testimonials/steve-souders.jpg" alt="Steve Souders PerfAudit" /></a>
-          <h3 class="tile-heading"><a href="http://stevesouders.com/about.php" title="Steve Souders appreciates PerfAudit" target="_blank">Steve Souders, Fastly Chief Performance Officer</a></h3>
-          <blockquote cite="https://twitter.com/Souders/status/576067718518030336">
-            .@PerfAudit is a GREAT idea! Read/view perf analysis of popular sites.
-          </blockquote>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-      <section class="section-case-studies">
-	<div class="section-title">Case Studies</div>
-
-	<div class="container" style="max-width: 900px;">
-		<div class="grid  case-study-grid">
-			<div class="grid-item  one-third">
-				<div class="tile">
-					<a href="/case-study/caniuse.com" class="tile-image-wrap"><img src="./images/thumbnails/caniuse.com.jpeg" alt="CanIUse.com PerfAudit" /></a>
-					<h3 class="tile-heading"><a href="/case-study/caniuse.com">CanIUse.com PerfAudit</a></h3>
-					<p>Janky performance along with other Rendering Issues on <a href="http://caniuse.com" target="_new">CanIUse.com</a>.</p>
-					<a href="/case-study/caniuse.com" class="btn  btn-red">Learn More</a>
-				</div>
-			</div>
-			<div class="grid-item  one-third">
-				<div class="tile">
-					<a href="/case-study/hindustantimes.com" class="tile-image-wrap"><img src="./images/thumbnails/hindustantimes.com.jpeg" alt="HindustanTimes.com PerfAudit" /></a>
-					<h3 class="tile-heading"><a href="/case-study/hindustantimes.com">HindustanTimes.com PerfAudit</a></h3>
-					<p>Network profiling and Jank ssues on <a href="http://hindustantimes.com" target="_new">hindustantimes.com</a>.</p>
-					<a href="/case-study/hindustantimes.com" class="btn  btn-red">Learn More</a>
-				</div>
-			</div>
-			<div class="grid-item  one-third">
-				<div class="tile">
-					<a href="mailto:info@perfaudit.com" class="tile-image-wrap"><img src="./images/pic04.jpg" alt="your website" /></a>
-					<h3 class="tile-heading"><a href="mailto:info@perfaudit.com">Your website</a></h3>
-					<p>Submit your Audit request, and we'll help you make perfomant website.</p>
-					<a href="mailto:info@perfaudit.com" class="btn  btn-red">Request Audit</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-      <section class="section-press">
-  <div class="section-title">Press Coverage</div>
-  <div class="container" style="max-width: 900px;">
-    <div class="grid  case-study-grid">
-      <div class="grid-item one-third">
-        <div class="tile">
-          <a href="http://www.webdesignerdepot.com/2015/03/whats-new-for-designers-march-2015/#perfaudit" title="PerfAudit recommended by WebDesigner Depot" target="_blank">
-            <img src="/images/press/webdesigner-depot.jpg" alt="WebDesigner Depot PerfAudit" class="press-image" />
-            <h2>WebDesigner Depot</h2>
-          </a>
-        </div>
-      </div>
-      <div class="grid-item one-third">
-        <div class="tile">
-          <a href="https://news.ycombinator.com/item?id=9170571" target="_blank" title="PerfAudit trends on HackerNews">
-            <img src="/images/press/hacker-news.jpg" alt="Hacker News PerfAudit" class="press-image" />
-            <h2>Hacker News</h2>
-          </a>
-        </div>
-      </div>
-      <div class="grid-item one-third">
-        <div class="tile">
-          <a href="http://webopsweekly.com/issues/5" target="_blank" title="PerfAudit featured on Web Operations Weekly">
-            <img src="/images/press/webops.jpg" alt="Web Operations Weekly PerfAudit" />
-            <h2>WebOps Weekly</h2>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
     
 
     <!-- Footer -->
