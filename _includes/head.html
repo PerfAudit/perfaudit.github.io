@@ -301,6 +301,7 @@
 	.grid-item { float: left; }
 	.one-half {	width: 50%; }
 	.one-third { width: 33.333%; }
+	.one-fourth { width: 25%; }
 	.footer-links-wrap > a {
 		display: inline-block;
 		margin: 20px;
@@ -335,6 +336,19 @@
     color: #7a7a7a;
     display: inline;
     vertical-align: middle;
+	}
+	.img-container {
+	  min-height: 129px;
+	}
+	.img-container:before {
+	  content: ' ';
+	  display: inline-block;
+	  height: 100%;
+	}
+	.img-container img {
+	  display: inline-block;
+	  vertical-align: middle;
+	  width: 100%;
 	}
 	</style>
 </head>
