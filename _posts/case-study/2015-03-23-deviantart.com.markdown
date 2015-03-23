@@ -33,7 +33,7 @@ Desktop pagespeed score for DeviantArt is just 24, which specifies a tremendous 
 
 Thus maximum compression, suitable resizing and caching of image resources should be their primary action, which is verified by PageSpeed's recommendation which says:
 
-### Optimize the following images to reduce their size by 2.7MiB (48% reduction).
+### Optimize the following images to reduce their size by 2.7MB (48% reduction).
 
 2.7MB of size reduction just through compression and resizing of static images must be tackled on priority.
 
