@@ -27,7 +27,7 @@ It is among the top 100 of all trafficked websites on the Internet. They have ov
 
 <a href="https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&tab=mobile" target="_blank" title="DeviantArt desktop improvements"><img src="/images/case-study/deviantart.com/pagespeed-score-desktop.png"></a>
 
-Desktop pagespeed score for DeviantArt is just 24, which specifies a tremendous scope for improvement. DeviantArt displays paintings, sculpture to digital art, pixel art, films, and anime i.e. it is a image heavy website. 
+Desktop pagespeed score for DeviantArt is just 24, which specifies a tremendous scope for improvement. DeviantArt displays paintings, sculpture to digital art, pixel art, films, and anime i.e. it is a image heavy website.
 
 <img src="/images/case-study/deviantart.com/content-breakdown.png">
 
@@ -73,3 +73,26 @@ Other necessary optimizations possible for DeviantArt.com:
 
 ## Profiling Rendering Performance
 
+### Sticky header
+
+The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our [previous](http://perfaudit.com/case-study/caniuse.com/) [case studies](http://perfaudit.com/case-study/hindustantimes.com/). Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. Come on...this got to be the most popular rendering issue on the web!
+
+![Bad paints](/images/case-study/deviantart.com/bad-paints.png)
+
+As in previous case studies, this can be simply fixed using the `transform: translateZ(0)` hack.
+
+### Animated GIFs
+
+To verify that no more unnecessary paints were happening, we switched on the **Show paint rectangles** option in the **Rendering** tab. Here is something strange on their page:
+
+![Animated gifs](/images/case-study/deviantart.com/animated-gifs.png)
+
+The green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? Looking closely revealed small animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame, sure. But why such a big paint rectangle? This is again a result of [*union of damaged regions*](http://benfrain.com/improving-css-performance-fixed-position-elements/). If you notice, they are 4 GIFs in the 4 corners of the green rectangle. Yes, the paint rectangles of the four images got unioned and hence, a big paint rectangle.
+
+Now we could promote every GIF to its own layer to avoid union of paint rectangles and that actually helps in lowering down the paint area as seen below:
+
+![Better paints](/images/case-study/deviantart.com/better-paints.png)
+
+But we still saw few paint spikes here and there which were mainly due to **Composite Layers** event. There are around 20 such GIFs on this page and taking every GIF to its own layer is probably causing too much texture transfer from CPU to GPU as GIF need to painted with different texture every frame. We are not very clear on how this can be resolved further. But we guess its a tradeoff one needs to consider according to the scenario at hand. We would like to hear suggestions on what can be done to improve this further.
+
+That is it for deviant.com from our side. Till next perf study!
