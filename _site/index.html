@@ -190,8 +190,7 @@
 		color: white;
 	}
 	header {
-		background: url('/images/banner.jpg') center center;
-		background-size: cover;
+		background-image: radial-gradient(circle at 50% 134px, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.14) 25%, rgba(255,255,255,0) 90%);
 	}
 	.header-wrap {
 		text-align: center;
@@ -199,35 +198,31 @@
 	}
 	.header-wrap h1 {
 		-webkit-animation: header-anim 0.5s ease both;
+		animation: header-anim 0.5s ease both;
 	}
 	@-webkit-keyframes header-anim {
-		0% {
-			opacity: 0;
-			transform: scale(0.3);
-		}
-		80% {
-			transform: scale(1.3);
-		}
-		90% {
-			transform: scale(1.2);
-		}
-		100% {
-			opacity: 1
-			transform: scale(1);
-		}
+		0% { opacity: 0; transform: scale(0.3); }
+		80% { transform: scale(1.3); }
+		90% { transform: scale(1.2); }
+		100% { opacity: 1; transform: scale(1); }
+	}
+	@keyframes header-anim {
+		0% { opacity: 0; transform: scale(0.3); }
+		80% { transform: scale(1.3); }
+		90% { transform: scale(1.2); }
+		100% { opacity: 1; transform: scale(1); }
 	}
 	.header-wrap .sub-heading {
 		-webkit-animation: header-sub-heading-anim 0.5s ease both 0.7s;
+		animation: header-sub-heading-anim 0.5s ease both 0.7s;
 	}
 	@-webkit-keyframes header-sub-heading-anim {
-		from {
-			opacity: 0;
-			transform: translateY(20px);
-		}
-		to {
-			opacity: 1;
-			transform: translateY(0);
-		}
+		from { opacity: 0; transform: translateY(20px); }
+		to { opacity: 1; transform: translateY(0); }
+	}
+	@keyframes header-sub-heading-anim {
+		from { opacity: 0; transform: translateY(20px); }
+		to { opacity: 1; transform: translateY(0); }
 	}
 	/* On post page */
 	body.page .header-wrap,
@@ -398,7 +393,15 @@
 
 	<div class="container" style="max-width: 900px;">
 		<div class="grid  case-study-grid">
-			<div class="grid-item  one-third">
+			<div class="grid-item  one-half">
+				<div class="tile">
+					<a href="/case-study/deviantart.com" class="tile-image-wrap"><img src="/images/thumbnails/deviantart.com.jpg" alt="Deviantart.com PerfAudit" /></a>
+					<h3 class="tile-heading"><a href="/case-study/deviantart.com">Deviantart.com PerfAudit</a></h3>
+					<p>Network profiling and Jank issues on <a href="http://deviantart.com" target="_new">deviantart.com</a>.</p>
+					<a href="/case-study/deviantart.com" class="btn  btn-red">Learn More</a>
+				</div>
+			</div>
+			<div class="grid-item  one-half">
 				<div class="tile">
 					<a href="/case-study/caniuse.com" class="tile-image-wrap"><img src="./images/thumbnails/caniuse.com.jpeg" alt="CanIUse.com PerfAudit" /></a>
 					<h3 class="tile-heading"><a href="/case-study/caniuse.com">CanIUse.com PerfAudit</a></h3>
@@ -406,15 +409,16 @@
 					<a href="/case-study/caniuse.com" class="btn  btn-red">Learn More</a>
 				</div>
 			</div>
-			<div class="grid-item  one-third">
+			<div class="grid-item  one-half">
 				<div class="tile">
 					<a href="/case-study/hindustantimes.com" class="tile-image-wrap"><img src="./images/thumbnails/hindustantimes.com.jpeg" alt="HindustanTimes.com PerfAudit" /></a>
 					<h3 class="tile-heading"><a href="/case-study/hindustantimes.com">HindustanTimes.com PerfAudit</a></h3>
-					<p>Network profiling and Jank ssues on <a href="http://hindustantimes.com" target="_new">hindustantimes.com</a>.</p>
+					<p>Network profiling and Jank issues on <a href="http://hindustantimes.com" target="_new">hindustantimes.com</a>.</p>
 					<a href="/case-study/hindustantimes.com" class="btn  btn-red">Learn More</a>
 				</div>
 			</div>
-			<div class="grid-item  one-third">
+
+			<div class="grid-item  one-half">
 				<div class="tile">
 					<a href="mailto:info@perfaudit.com" class="tile-image-wrap"><img src="./images/pic04.jpg" alt="your website" /></a>
 					<h3 class="tile-heading"><a href="mailto:info@perfaudit.com">Your website</a></h3>

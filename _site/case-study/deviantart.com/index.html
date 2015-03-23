@@ -190,8 +190,7 @@
 		color: white;
 	}
 	header {
-		background: url('/images/banner.jpg') center center;
-		background-size: cover;
+		background-image: radial-gradient(circle at 50% 134px, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.14) 25%, rgba(255,255,255,0) 90%);
 	}
 	.header-wrap {
 		text-align: center;
@@ -199,35 +198,31 @@
 	}
 	.header-wrap h1 {
 		-webkit-animation: header-anim 0.5s ease both;
+		animation: header-anim 0.5s ease both;
 	}
 	@-webkit-keyframes header-anim {
-		0% {
-			opacity: 0;
-			transform: scale(0.3);
-		}
-		80% {
-			transform: scale(1.3);
-		}
-		90% {
-			transform: scale(1.2);
-		}
-		100% {
-			opacity: 1
-			transform: scale(1);
-		}
+		0% { opacity: 0; transform: scale(0.3); }
+		80% { transform: scale(1.3); }
+		90% { transform: scale(1.2); }
+		100% { opacity: 1; transform: scale(1); }
+	}
+	@keyframes header-anim {
+		0% { opacity: 0; transform: scale(0.3); }
+		80% { transform: scale(1.3); }
+		90% { transform: scale(1.2); }
+		100% { opacity: 1; transform: scale(1); }
 	}
 	.header-wrap .sub-heading {
 		-webkit-animation: header-sub-heading-anim 0.5s ease both 0.7s;
+		animation: header-sub-heading-anim 0.5s ease both 0.7s;
 	}
 	@-webkit-keyframes header-sub-heading-anim {
-		from {
-			opacity: 0;
-			transform: translateY(20px);
-		}
-		to {
-			opacity: 1;
-			transform: translateY(0);
-		}
+		from { opacity: 0; transform: translateY(20px); }
+		to { opacity: 1; transform: translateY(0); }
+	}
+	@keyframes header-sub-heading-anim {
+		from { opacity: 0; transform: translateY(20px); }
+		to { opacity: 1; transform: translateY(0); }
 	}
 	/* On post page */
 	body.page .header-wrap,
@@ -464,6 +459,29 @@ article h1, article h2, article h3 {
 
 <h2 id="profiling-rendering-performance">Profiling Rendering Performance</h2>
 
+<h3 id="sticky-header">Sticky header</h3>
+
+<p>The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our <a href="http://perfaudit.com/case-study/caniuse.com/">previous</a> <a href="http://perfaudit.com/case-study/hindustantimes.com/">case studies</a>. Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. Come on…this got to be the most popular rendering issue on the web!</p>
+
+<p><img src="/images/case-study/deviantart.com/bad-paints.png" alt="Bad paints" /></p>
+
+<p>As in previous case studies, this can be simply fixed using the <code>transform: translateZ(0)</code> hack.</p>
+
+<h3 id="animated-gifs">Animated GIFs</h3>
+
+<p>To verify that no more unnecessary paints were happening, we switched on the <strong>Show paint rectangles</strong> option in the <strong>Rendering</strong> tab. Here is something strange on their page:</p>
+
+<p><img src="/images/case-study/deviantart.com/animated-gifs.png" alt="Animated gifs" /></p>
+
+<p>The green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? Looking closely revealed small animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame, sure. But why such a big paint rectangle? This is again a result of <a href="http://benfrain.com/improving-css-performance-fixed-position-elements/"><em>union of damaged regions</em></a>. If you notice, they are 4 GIFs in the 4 corners of the green rectangle. Yes, the paint rectangles of the four images got unioned and hence, a big paint rectangle.</p>
+
+<p>Now we could promote every GIF to its own layer to avoid union of paint rectangles and that actually helps in lowering down the paint area as seen below:</p>
+
+<p><img src="/images/case-study/deviantart.com/better-paints.png" alt="Better paints" /></p>
+
+<p>But we still saw few paint spikes here and there which were mainly due to <strong>Composite Layers</strong> event. There are around 20 such GIFs on this page and taking every GIF to its own layer is probably causing too much texture transfer from CPU to GPU as GIF need to painted with different texture every frame. We are not very clear on how this can be resolved further. But we guess its a tradeoff one needs to consider according to the scenario at hand. We would like to hear suggestions on what can be done to improve this further.</p>
+
+<p>That is it for deviant.com from our side. Till next perf study!</p>
 
 		</article>
 

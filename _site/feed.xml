@@ -5,9 +5,114 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Mar 2015 03:03:06 +0530</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2015 03:03:06 +0530</lastBuildDate>
+    <pubDate>Tue, 24 Mar 2015 02:40:26 +0530</pubDate>
+    <lastBuildDate>Tue, 24 Mar 2015 02:40:26 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Case Study | DeviantArt.com | PerfAudit</title>
+        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.deviantart.com/&quot; target=&quot;_blank&quot;&gt;DeviantArt.com&lt;/a&gt;, the largest online social network for artists and art enthusiasts, and a platform for emerging and established artists to exhibit, promote, and share their works with an enthusiastic, art-centric community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/homepage.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is among the top 100 of all trafficked websites on the Internet. They have over 32 million registered members and attract over 65 million unique visitors per month. Their members upload over 160,000 original art works every day, everything from painting and sculpture to digital art, pixel art, films, and anime.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.alexa.com/siteinfo/deviantart.com&quot; target=&quot;_blank&quot; title=&quot;DeviantArt Alexa Rank&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/alexa-ranking.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;live-auditing&quot;&gt;Live auditing&lt;/h2&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/ukNmA2LhIi4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;how-fast-does-deviantartcom-load-on-average&quot;&gt;How fast does deviantart.com load on average?&lt;/h2&gt;
+
+&lt;h4 id=&quot;very-very-slow-around-46382-seconds-when-we-loaded18-seconds-on-average-66-of-sites-are-faster-as-per-data-from-alexa&quot;&gt;Very Very Slow around 46.382 seconds when we loaded(1.8 seconds on average), 66% of sites are faster (as per data from Alexa).&lt;/h4&gt;
+
+&lt;h2 id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;DeviantArt desktop improvements&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-desktop.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Desktop pagespeed score for DeviantArt is just 24, which specifies a tremendous scope for improvement. DeviantArt displays paintings, sculpture to digital art, pixel art, films, and anime i.e. it is a image heavy website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/content-breakdown.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thus maximum compression, suitable resizing and caching of image resources should be their primary action, which is verified by PageSpeed’s recommendation which says:&lt;/p&gt;
+
+&lt;h3 id=&quot;optimize-the-following-images-to-reduce-their-size-by-27mib-48-reduction&quot;&gt;Optimize the following images to reduce their size by 2.7MiB (48% reduction).&lt;/h3&gt;
+
+&lt;p&gt;2.7MB of size reduction just through compression and resizing of static images must be tackled on priority.&lt;/p&gt;
+
+&lt;p&gt;Resizing and Compression of images are among the redundant tasks that must be performed either in batch, or as soon as an image is uploaded by the user on DeviantArt.&lt;/p&gt;
+
+&lt;p&gt;Follow this &lt;a href=&quot;http://addyosmani.com/blog/image-optimization-tools/&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; by Addy Osmani, describing the available Image Optimization Tools.&lt;/p&gt;
+
+&lt;h3 id=&quot;reduce-server-response-time&quot;&gt;Reduce server response time&lt;/h3&gt;
+
+&lt;p&gt;PageSpeed insights also suggests to reduce the server response time, which is currently more than 1.5 seconds.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/deviantart-server-response-time.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Understanding the processing time of 1.5+ seconds taken by the server can be attributed to a heavy processing getting triggered on every request to Homepage. It can also be scaling issue, amounted by the traffic at dispense, thus a solution for reducing the server side response time can only be suggested appropriately after understanding the architecture of DeviantArt. Though the generic solutions used by businesses to resolve this issue are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Caching the entire HTML generated for specific requests(especially for homepages) for X minutes, so as to completely eliminate any server side processing in that duration of time.&lt;/li&gt;
+  &lt;li&gt;Adding Cache layers at multiple points where processing / retreival of data is involved via external services / dependencies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reduce-first-pixel-render-time&quot;&gt;Reduce First Pixel Render Time&lt;/h3&gt;
+
+&lt;p&gt;First pixel render time as recorded by us is around 6.29 seconds, which is huge. Eliminating render-blocking JavaScript and CSS in the above fold content which currently includes 9 CSS files, will surely help to reduce the first pixel render time drastically. Furthermore, the critical CSS can then be calculated and added in the HEAD section, which is not present currently.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.webpagetest.org/video/compare.php?tests=150315_36_FKK-r:1-c:0&quot; target=&quot;_blank&quot; title=&quot;Filmstrip view DeviantArt page performance&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/filmstrip-view.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The first critical issue describes the reason for the increased first pixel render time, rendering is quite slow and it takes about 5.5 second to get the first glimpse of readable content, though the first pixel render time is about 3 seconds.&lt;/p&gt;
+
+&lt;h3 id=&quot;mobile-specific-issues&quot;&gt;Mobile Specific Issues&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;DeviantArt mobile improvements&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-mobile.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.&lt;/p&gt;
+
+&lt;p&gt;Other necessary optimizations possible for DeviantArt.com:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make fewer HTTP requests, use concatentation of static resources&lt;/li&gt;
+  &lt;li&gt;Leverage browser caching of static resources with appropriate response headers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;profiling-rendering-performance&quot;&gt;Profiling Rendering Performance&lt;/h2&gt;
+
+&lt;h3 id=&quot;sticky-header&quot;&gt;Sticky header&lt;/h3&gt;
+
+&lt;p&gt;The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our &lt;a href=&quot;http://perfaudit.com/case-study/caniuse.com/&quot;&gt;previous&lt;/a&gt; &lt;a href=&quot;http://perfaudit.com/case-study/hindustantimes.com/&quot;&gt;case studies&lt;/a&gt;. Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. Come on…this got to be the most popular rendering issue on the web!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/bad-paints.png&quot; alt=&quot;Bad paints&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As in previous case studies, this can be simply fixed using the &lt;code&gt;transform: translateZ(0)&lt;/code&gt; hack.&lt;/p&gt;
+
+&lt;h3 id=&quot;animated-gifs&quot;&gt;Animated GIFs&lt;/h3&gt;
+
+&lt;p&gt;To verify that no more unnecessary paints were happening, we switched on the &lt;strong&gt;Show paint rectangles&lt;/strong&gt; option in the &lt;strong&gt;Rendering&lt;/strong&gt; tab. Here is something strange on their page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/animated-gifs.png&quot; alt=&quot;Animated gifs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? Looking closely revealed small animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame, sure. But why such a big paint rectangle? This is again a result of &lt;a href=&quot;http://benfrain.com/improving-css-performance-fixed-position-elements/&quot;&gt;&lt;em&gt;union of damaged regions&lt;/em&gt;&lt;/a&gt;. If you notice, they are 4 GIFs in the 4 corners of the green rectangle. Yes, the paint rectangles of the four images got unioned and hence, a big paint rectangle.&lt;/p&gt;
+
+&lt;p&gt;Now we could promote every GIF to its own layer to avoid union of paint rectangles and that actually helps in lowering down the paint area as seen below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/better-paints.png&quot; alt=&quot;Better paints&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But we still saw few paint spikes here and there which were mainly due to &lt;strong&gt;Composite Layers&lt;/strong&gt; event. There are around 20 such GIFs on this page and taking every GIF to its own layer is probably causing too much texture transfer from CPU to GPU as GIF need to painted with different texture every frame. We are not very clear on how this can be resolved further. But we guess its a tradeoff one needs to consider according to the scenario at hand. We would like to hear suggestions on what can be done to improve this further.&lt;/p&gt;
+
+&lt;p&gt;That is it for deviant.com from our side. Till next perf study!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2015 07:25:40 +0530</pubDate>
+        <link>http://perfaudit.com/case-study/deviantart.com</link>
+        <guid isPermaLink="true">http://perfaudit.com/case-study/deviantart.com</guid>
+        
+        
+        <category>case-study</category>
+        
+      </item>
     
       <item>
         <title>Case Study | HindustanTimes.com | PerfAudit</title>
@@ -96,88 +201,6 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
         <pubDate>Thu, 12 Mar 2015 07:25:40 +0530</pubDate>
         <link>http://perfaudit.com/case-study/hindustantimes.com</link>
         <guid isPermaLink="true">http://perfaudit.com/case-study/hindustantimes.com</guid>
-        
-        
-        <category>case-study</category>
-        
-      </item>
-    
-      <item>
-        <title>Case Study | DeviantArt.com | PerfAudit</title>
-        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.deviantart.com/&quot; target=&quot;_blank&quot;&gt;DeviantArt.com&lt;/a&gt;, the largest online social network for artists and art enthusiasts, and a platform for emerging and established artists to exhibit, promote, and share their works with an enthusiastic, art-centric community.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/homepage.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It is among the top 100 of all trafficked websites on the Internet. They have over 32 million registered members and attract over 65 million unique visitors per month. Their members upload over 160,000 original art works every day, everything from painting and sculpture to digital art, pixel art, films, and anime.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.alexa.com/siteinfo/deviantart.com&quot; target=&quot;_blank&quot; title=&quot;DeviantArt Alexa Rank&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/alexa-ranking.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;live-auditing&quot;&gt;Live auditing&lt;/h2&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/ukNmA2LhIi4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;how-fast-does-deviantartcom-load-on-average&quot;&gt;How fast does deviantart.com load on average?&lt;/h2&gt;
-
-&lt;h4 id=&quot;very-very-slow-around-46382-seconds-when-we-loaded18-seconds-on-average-66-of-sites-are-faster-as-per-data-from-alexa&quot;&gt;Very Very Slow around 46.382 seconds when we loaded(1.8 seconds on average), 66% of sites are faster (as per data from Alexa).&lt;/h4&gt;
-
-&lt;h2 id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;DeviantArt desktop improvements&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-desktop.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Desktop pagespeed score for DeviantArt is just 24, which specifies a tremendous scope for improvement. DeviantArt displays paintings, sculpture to digital art, pixel art, films, and anime i.e. it is a image heavy website.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/content-breakdown.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thus maximum compression, suitable resizing and caching of image resources should be their primary action, which is verified by PageSpeed’s recommendation which says:&lt;/p&gt;
-
-&lt;h3 id=&quot;optimize-the-following-images-to-reduce-their-size-by-27mib-48-reduction&quot;&gt;Optimize the following images to reduce their size by 2.7MiB (48% reduction).&lt;/h3&gt;
-
-&lt;p&gt;2.7MB of size reduction just through compression and resizing of static images must be tackled on priority.&lt;/p&gt;
-
-&lt;p&gt;Resizing and Compression of images are among the redundant tasks that must be performed either in batch, or as soon as an image is uploaded by the user on DeviantArt.&lt;/p&gt;
-
-&lt;p&gt;Follow this &lt;a href=&quot;http://addyosmani.com/blog/image-optimization-tools/&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; by Addy Osmani, describing the available Image Optimization Tools.&lt;/p&gt;
-
-&lt;h3 id=&quot;reduce-server-response-time&quot;&gt;Reduce server response time&lt;/h3&gt;
-
-&lt;p&gt;PageSpeed insights also suggests to reduce the server response time, which is currently more than 1.5 seconds.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/deviantart-server-response-time.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Understanding the processing time of 1.5+ seconds taken by the server can be attributed to a heavy processing getting triggered on every request to Homepage. It can also be scaling issue, amounted by the traffic at dispense, thus a solution for reducing the server side response time can only be suggested appropriately after understanding the architecture of DeviantArt. Though the generic solutions used by businesses to resolve this issue are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Caching the entire HTML generated for specific requests(especially for homepages) for X minutes, so as to completely eliminate any server side processing in that duration of time.&lt;/li&gt;
-  &lt;li&gt;Adding Cache layers at multiple points where processing / retreival of data is involved via external services / dependencies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;reduce-first-pixel-render-time&quot;&gt;Reduce First Pixel Render Time&lt;/h3&gt;
-
-&lt;p&gt;First pixel render time as recorded by us is around 6.29 seconds, which is huge. Eliminating render-blocking JavaScript and CSS in the above fold content which currently includes 9 CSS files, will surely help to reduce the first pixel render time drastically. Furthermore, the critical CSS can then be calculated and added in the HEAD section, which is not present currently.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.webpagetest.org/video/compare.php?tests=150315_36_FKK-r:1-c:0&quot; target=&quot;_blank&quot; title=&quot;Filmstrip view DeviantArt page performance&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/filmstrip-view.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The first critical issue describes the reason for the increased first pixel render time, rendering is quite slow and it takes about 5.5 second to get the first glimpse of readable content, though the first pixel render time is about 3 seconds.&lt;/p&gt;
-
-&lt;h3 id=&quot;mobile-specific-issues&quot;&gt;Mobile Specific Issues&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;DeviantArt mobile improvements&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-mobile.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.&lt;/p&gt;
-
-&lt;p&gt;Other necessary optimizations possible for DeviantArt.com:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Make fewer HTTP requests, use concatentation of static resources&lt;/li&gt;
-  &lt;li&gt;Leverage browser caching of static resources with appropriate response headers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;profiling-rendering-performance&quot;&gt;Profiling Rendering Performance&lt;/h2&gt;
-
-</description>
-        <pubDate>Thu, 12 Mar 2015 07:25:40 +0530</pubDate>
-        <link>http://perfaudit.com/case-study/deviantart.com</link>
-        <guid isPermaLink="true">http://perfaudit.com/case-study/deviantart.com</guid>
         
         
         <category>case-study</category>
