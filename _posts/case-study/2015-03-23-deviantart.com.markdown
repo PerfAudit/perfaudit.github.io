@@ -2,7 +2,7 @@
 layout: case-study
 title:  "Case Study | DeviantArt.com | PerfAudit"
 organization: "DeviantArt.com"
-date:   2015-03-12 01:55:40
+date:   2015-03-23 01:55:40
 categories: case-study
 ---
 
