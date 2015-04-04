@@ -17,7 +17,11 @@
 		</p>
 	</div>
 </section>
+<script type="text/javascript" src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js" async></script>
 <script type="text/javascript">
+	window.onload = function() {
+		new Blazy();
+	};
 	var CSSloader = {
 	   add: function(attr) {
 	      var linkNode = document.createElement("link");
