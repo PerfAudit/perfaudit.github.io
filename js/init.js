@@ -5,7 +5,6 @@
 */
 
 (function($) {
-
 	skel.init({
 		reset: 'full',
 		breakpoints: {
