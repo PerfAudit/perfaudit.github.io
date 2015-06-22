@@ -5,9 +5,87 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 May 2015 00:59:50 +0530</pubDate>
-    <lastBuildDate>Mon, 25 May 2015 00:59:50 +0530</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2015 09:45:01 +0530</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2015 09:45:01 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>jQuery India 2015 Conference</title>
+        <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://jqueryconf.in/&quot;&gt;jQuery India 2015 Conference&lt;/a&gt;, Bangalore, India. We will present there on “&lt;a href=&quot;http://confengine.com/jquery-conf-2015/proposal/1173/performance-beyond-page-load&quot;&gt;Performance beyond Page Load&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for updates about jQuery Conf India 2015 here.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Jul 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/blog/jquery-india-2015-conference</link>
+        <guid isPermaLink="true">http://perfaudit.com/blog/jquery-india-2015-conference</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Workshop | Performance Audit Workshop Bangalore 2015</title>
+        <description>&lt;p&gt;Workshop: &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop-bangalore-2015&quot;&gt;Performance Audit Workshop&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We will be in Bangalore from 16th July to 26th July, and are speaking at JS Channel 2015 Conference(17th - 18th July) and jQuery India 2015 Conference(22nd - 25th July). We saw this as a great opportunity, and thus are organizing Performance Audit workshop in Bangalore on 19th July. More details are listed below.&lt;/p&gt;
+
+&lt;h4 id=&quot;overview&quot;&gt;Overview:&lt;/h4&gt;
+
+&lt;p&gt;Performance is a Feature, the slower your website loads and displays, the less people will use it directly impacting the growth and revenue of your business.&lt;/p&gt;
+
+&lt;p&gt;Yet many people are not able to understand the performance gotchas completely, and don’t make it a part of their deployment process to consider the page load and rendering performance.&lt;/p&gt;
+
+&lt;h4 id=&quot;agenda&quot;&gt;Agenda:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Discussion of the process to decrease the start render time to under 500ms and total load time of less than 1 second.&lt;/li&gt;
+  &lt;li&gt;Comprehensive analysis and discussion of the process to achieve a pagespeed score of 100, with explanation of each point.&lt;/li&gt;
+  &lt;li&gt;Profiling with Developers Tools to explore the rendering issues and their respective remedies.&lt;/li&gt;
+  &lt;li&gt;Live Audit of Web Applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/workshops/performance-audit-workshop-bangalore.png&quot; alt=&quot;Workshop pics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;feedback-from-previously-conducted-workshops&quot;&gt;Feedback from previously conducted workshops:&lt;/h3&gt;
+
+&lt;h4 id=&quot;sahil-bajaj-founder-phonecurry&quot;&gt;Sahil Bajaj (Founder, PhoneCurry):&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  Very well conducted workshop. The level of discussion was just right given the audience. Best of luck!
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;saurabh-software-engineer&quot;&gt;Saurabh (Software Engineer):&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  Great workshop! Would definitely take care of performance from now on.
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jul 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/workshops/bangalore-2015</link>
+        <guid isPermaLink="true">http://perfaudit.com/workshops/bangalore-2015</guid>
+        
+        
+        <category>workshops</category>
+        
+      </item>
+    
+      <item>
+        <title>JSChannel 2015 Conference</title>
+        <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://2015.jschannel.com&quot;&gt;JS Channel 2015 Conference&lt;/a&gt;. We will present there on “JS Performance Deep Dive”.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for our updates about JS Channel Conference here.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/blog/js-channel-2015-conference</link>
+        <guid isPermaLink="true">http://perfaudit.com/blog/js-channel-2015-conference</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Workshop | 91springboard</title>
@@ -50,6 +128,25 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
         
         
         <category>workshops</category>
+        
+      </item>
+    
+      <item>
+        <title>MetaRefresh 2015 Conference</title>
+        <description>&lt;p&gt;We presented at &lt;a href=&quot;https://metarefresh.in/2015/&quot;&gt;Meta Refresh 2015&lt;/a&gt; on &lt;a href=&quot;https://metarefresh.in/2015/conference#1277-running-mobile-games-at-60fps&quot;&gt;“Running mobile web games at 60fps”&lt;/a&gt;. Our talk was well received and many appreciated our efforts for adding our contributions in the form of Performance Audits for the benefit of community at large.&lt;/p&gt;
+
+&lt;p&gt;Slides:&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/eYCQwjG0uxtvHx&quot; height=&quot;555&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Images captured at Meta Refresh: &lt;a href=&quot;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&quot;&gt;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/blog/metarefresh-2015-conference</link>
+        <guid isPermaLink="true">http://perfaudit.com/blog/metarefresh-2015-conference</guid>
+        
+        
+        <category>blog</category>
         
       </item>
     

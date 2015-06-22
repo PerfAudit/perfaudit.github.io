@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Workshop | Performance Audit Workshop Bangalore 2015"
+date:   2015-07-19
+categories: workshops
+body-class: no-sidebar
+---
+
+Workshop: [Performance Audit Workshop](https://in.explara.com/e/performance-audit-workshop-bangalore-2015)<br>
+
+We will be in Bangalore from 16th July to 26th July, and are speaking at JS Channel 2015 Conference(17th - 18th July) and jQuery India 2015 Conference(22nd - 25th July). We saw this as a great opportunity, and thus are organizing Performance Audit workshop in Bangalore on 19th July. More details are listed below.
+
+#### Overview:
+
+Performance is a Feature, the slower your website loads and displays, the less people will use it directly impacting the growth and revenue of your business.
+
+Yet many people are not able to understand the performance gotchas completely, and don’t make it a part of their deployment process to consider the page load and rendering performance.
+
+#### Agenda:
+
+- Discussion of the process to decrease the start render time to under 500ms and total load time of less than 1 second.
+- Comprehensive analysis and discussion of the process to achieve a pagespeed score of 100, with explanation of each point.
+- Profiling with Developers Tools to explore the rendering issues and their respective remedies.
+- Live Audit of Web Applications
+
+
+![Workshop pics](/images/workshops/performance-audit-workshop-bangalore.png)
+
+### Feedback from previously conducted workshops:
+
+#### Sahil Bajaj (Founder, PhoneCurry):
+
+<blockquote>
+  Very well conducted workshop. The level of discussion was just right given the audience. Best of luck!
+</blockquote>
+
+#### Saurabh (Software Engineer):
+
+<blockquote>
+  Great workshop! Would definitely take care of performance from now on.
+</blockquote>
+
+<br><br>
