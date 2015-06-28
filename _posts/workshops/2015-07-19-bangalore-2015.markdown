@@ -24,7 +24,7 @@ Yet many people are not able to understand the performance gotchas completely, a
 - Live Audit of Web Applications
 
 
-![Workshop pics](/images/workshops/performance-audit-workshop-bangalore.png)
+![Workshop pics](/images/workshops/bangalore-2015/performance-audit-workshop-bangalore.png)
 
 ### Feedback from previously conducted workshops:
 
@@ -41,3 +41,60 @@ Yet many people are not able to understand the performance gotchas completely, a
 </blockquote>
 
 <br><br>
+
+<h3 class="center">Media Partners</h3>
+<br>
+<div class="grid  case-study-grid center">
+  <div class="grid-item one-third">
+    <div class="tile">
+      <a href="https://in.explara.com/e/performance-audit-workshop-bangalore-2015" title="Performance Audit Workshop registrations on Explara" target="_blank">
+        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/workshops/bangalore-2015/explara.png" alt="Performance Audit Workshop Explara" />
+        <h2>Explara</h2>
+      </a>
+    </div>
+  </div>
+  <div class="grid-item one-third">
+    <div class="tile">
+      <a href="http://www.meraevents.com/event/performance-audit-workshop-bangalore-2015" target="_blank" title="Performance Audit Workshop promotion on MeraEvents">
+        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/workshops/bangalore-2015/meraevents.png" alt="Performance Audit Workshop MeraEvents" />
+        <h2>MeraEvents</h2>
+      </a>
+    </div>
+  </div>
+  <div class="grid-item one-third">
+    <div class="tile">
+      <a href="http://perfaudit-bangalore-2015.doattend.com" title="Performance Audit Workshop registrations on DoAttend" target="_blank">
+        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/workshops/bangalore-2015/doattend.png" alt="Performance Audit Workshop DoAttend" />
+        <h2>DoAttend</h2>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="grid  case-study-grid">
+  <div class="grid-item one-third">
+    <div class="tile">
+      <a href="http://eventful.com/bangalore/events/performance-audit-workshop-/E0-001-085314043-3" target="_blank" title="Performance Audit Workshop promotion on Eventful">
+        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/workshops/bangalore-2015/eventful.jpg" alt="Performance Audit Workshop Eventful" />
+        <h2>Eventful</h2>
+      </a>
+    </div>
+  </div>
+  <div class="grid-item one-third">
+    <div class="tile">
+      <a href="#" target="_blank" title="Performance Audit Workshop promotion on Evvnt">
+        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/workshops/bangalore-2015/evvnt.png" alt="Performance Audit Workshop Evvnt" />
+        <h2>Evvnt</h2>
+      </a>
+    </div>
+  </div>
+  <div class="grid-item one-third">
+    <div class="tile">
+      <a href="#" target="_blank" title="Performance Audit Workshop promotion on Hook2Events">
+        <div class="img-container">
+          <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/workshops/bangalore-2015/hook2events.jpg" alt="Performance Audit Workshop Hook2Events" />
+        </div>
+        <h2>Hook2Events</h2>
+      </a>
+    </div>
+  </div>
+</div>

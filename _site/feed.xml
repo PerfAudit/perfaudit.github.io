@@ -5,8 +5,8 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2015 09:45:01 +0530</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2015 09:45:01 +0530</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2015 23:22:37 +0530</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2015 23:22:37 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,7 +45,7 @@
   &lt;li&gt;Live Audit of Web Applications&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/workshops/performance-audit-workshop-bangalore.png&quot; alt=&quot;Workshop pics&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/workshops/bangalore-2015/performance-audit-workshop-bangalore.png&quot; alt=&quot;Workshop pics&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;feedback-from-previously-conducted-workshops&quot;&gt;Feedback from previously conducted workshops:&lt;/h3&gt;
 
@@ -62,6 +62,63 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;center&quot;&gt;Media Partners&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;grid  case-study-grid center&quot;&gt;
+  &lt;div class=&quot;grid-item one-third&quot;&gt;
+    &lt;div class=&quot;tile&quot;&gt;
+      &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop-bangalore-2015&quot; title=&quot;Performance Audit Workshop registrations on Explara&quot; target=&quot;_blank&quot;&gt;
+        &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/explara.png&quot; alt=&quot;Performance Audit Workshop Explara&quot; /&gt;
+        &lt;h2&gt;Explara&lt;/h2&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid-item one-third&quot;&gt;
+    &lt;div class=&quot;tile&quot;&gt;
+      &lt;a href=&quot;http://www.meraevents.com/event/performance-audit-workshop-bangalore-2015&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on MeraEvents&quot;&gt;
+        &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/meraevents.png&quot; alt=&quot;Performance Audit Workshop MeraEvents&quot; /&gt;
+        &lt;h2&gt;MeraEvents&lt;/h2&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid-item one-third&quot;&gt;
+    &lt;div class=&quot;tile&quot;&gt;
+      &lt;a href=&quot;http://perfaudit-bangalore-2015.doattend.com&quot; title=&quot;Performance Audit Workshop registrations on DoAttend&quot; target=&quot;_blank&quot;&gt;
+        &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/doattend.png&quot; alt=&quot;Performance Audit Workshop DoAttend&quot; /&gt;
+        &lt;h2&gt;DoAttend&lt;/h2&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid  case-study-grid&quot;&gt;
+  &lt;div class=&quot;grid-item one-third&quot;&gt;
+    &lt;div class=&quot;tile&quot;&gt;
+      &lt;a href=&quot;http://eventful.com/bangalore/events/performance-audit-workshop-/E0-001-085314043-3&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on Eventful&quot;&gt;
+        &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/eventful.jpg&quot; alt=&quot;Performance Audit Workshop Eventful&quot; /&gt;
+        &lt;h2&gt;Eventful&lt;/h2&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid-item one-third&quot;&gt;
+    &lt;div class=&quot;tile&quot;&gt;
+      &lt;a href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on Evvnt&quot;&gt;
+        &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/evvnt.png&quot; alt=&quot;Performance Audit Workshop Evvnt&quot; /&gt;
+        &lt;h2&gt;Evvnt&lt;/h2&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid-item one-third&quot;&gt;
+    &lt;div class=&quot;tile&quot;&gt;
+      &lt;a href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on Hook2Events&quot;&gt;
+        &lt;div class=&quot;img-container&quot;&gt;
+          &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/hook2events.jpg&quot; alt=&quot;Performance Audit Workshop Hook2Events&quot; /&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;Hook2Events&lt;/h2&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Sun, 19 Jul 2015 00:00:00 +0530</pubDate>
         <link>http://perfaudit.com/workshops/bangalore-2015</link>
