@@ -5,8 +5,8 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Jun 2015 23:22:37 +0530</pubDate>
-    <lastBuildDate>Sun, 28 Jun 2015 23:22:37 +0530</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2015 23:50:01 +0530</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2015 23:50:01 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,6 +14,16 @@
         <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://jqueryconf.in/&quot;&gt;jQuery India 2015 Conference&lt;/a&gt;, Bangalore, India. We will present there on “&lt;a href=&quot;http://confengine.com/jquery-conf-2015/proposal/1173/performance-beyond-page-load&quot;&gt;Performance beyond Page Load&lt;/a&gt;”.&lt;/p&gt;
 
 &lt;p&gt;Stay tuned for updates about jQuery Conf India 2015 here.&lt;/p&gt;
+
+&lt;h4 id=&quot;post-conference-update&quot;&gt;Post Conference update:&lt;/h4&gt;
+
+&lt;p&gt;After JSChannel conference, it was time to speak at jQuery Conference 2015. Naresh Jain, organiser of jQuery Conference, has past experience of organising several tech &amp;amp; management conferences before, which was reflected in the perfect execution of jQuery conference as well.&lt;/p&gt;
+
+&lt;p&gt;It felt great to share the same stage with jQuery board of Directors.&lt;/p&gt;
+
+&lt;p&gt;Our slides for the talk &lt;strong&gt;“Performance beyond Page load”&lt;/strong&gt; presented at jQuery Conference 2015:&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/N2qn6wWKVO1WG&quot; height=&quot;555&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 </description>
         <pubDate>Fri, 24 Jul 2015 00:00:00 +0530</pubDate>
         <link>http://perfaudit.com/blog/jquery-india-2015-conference</link>
@@ -134,6 +144,16 @@
         <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://2015.jschannel.com&quot;&gt;JS Channel 2015 Conference&lt;/a&gt;. We will present there on “JS Performance Deep Dive”.&lt;/p&gt;
 
 &lt;p&gt;Stay tuned for our updates about JS Channel Conference here.&lt;/p&gt;
+
+&lt;h4 id=&quot;post-conference-update&quot;&gt;Post Conference update:&lt;/h4&gt;
+
+&lt;p&gt;We had a great time while interacting with the vivacious JavaScript community at JSChannel Conf. We highly applaud the efforts and initiatives of Amit, Consultant at McKinsey(Organiser of JSChannel Conference) and the entire team of JSChannel to bring forth the JSChannel Conference for the community and organise it with huge success.&lt;/p&gt;
+
+&lt;p&gt;We feel honored to have shared the same stage with Douglas Crockford, the creator of JavaScript, and Yehuda Katz, Ruby on Rails founder and creator of Ember.js&lt;/p&gt;
+
+&lt;p&gt;Our slides for the talk “Deep dive into Performance” presented at JSChannel 2015:&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/kNrhnAshYOn4O8&quot; height=&quot;555&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 </description>
         <pubDate>Fri, 17 Jul 2015 00:00:00 +0530</pubDate>
         <link>http://perfaudit.com/blog/js-channel-2015-conference</link>
