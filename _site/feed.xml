@@ -5,9 +5,28 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Jul 2015 23:50:01 +0530</pubDate>
-    <lastBuildDate>Tue, 28 Jul 2015 23:50:01 +0530</lastBuildDate>
+    <pubDate>Thu, 30 Jul 2015 23:22:08 +0530</pubDate>
+    <lastBuildDate>Thu, 30 Jul 2015 23:22:08 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>WebPageTest</title>
+        <description>&lt;p&gt;PageSpeed Insights analyzes the content of a web page, then generates suggestions to make that page faster. It scores your webpage on a total of 100, and deductes point for neglection of any of the best practices.&lt;/p&gt;
+
+&lt;p&gt;Website: &lt;a href=&quot;www.webpagetest.org&quot;&gt;www.webpagetest.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Demo: &lt;a href=&quot;http://www.showslow.com/details/41901729/http://perfaudit.com/&quot;&gt;http://www.showslow.com/details/41901729/http://perfaudit.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/docs/insights/about&quot;&gt;Learn more&lt;/a&gt; about WebPageTest.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jul 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/tools/pagespeed-insights</link>
+        <guid isPermaLink="true">http://perfaudit.com/tools/pagespeed-insights</guid>
+        
+        
+        <category>tools</category>
+        
+      </item>
     
       <item>
         <title>jQuery India 2015 Conference</title>
@@ -442,8 +461,8 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
 &lt;p&gt;Before ending this post, just to give you food for thought, web has spread leaps and bounds beyond desktop, and web technologies are used for far more tasks than just representing a business.&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/blog/we-are-on</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/we-are-on</guid>
+        <link>http://perfaudit.com/blog/web-page-test</link>
+        <guid isPermaLink="true">http://perfaudit.com/blog/web-page-test</guid>
         
         
         <category>blog</category>
@@ -451,76 +470,27 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Case Study | CanIUse.com | PerfAudit</title>
-        <description>&lt;p&gt;Hello folks! This is Perfaudit’s first case study for which we chose &lt;a href=&quot;http://caniuse.com/&quot;&gt;caniuse.com&lt;/a&gt;. If you want to see us live auditing the website, checkout our video:&lt;/p&gt;
+        <title>We are ON</title>
+        <description>&lt;p&gt;Hello from Perfaudit!&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/VyHKIMORH_k&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/evolution-web.jpg&quot; alt=&quot;Evolution of the Web&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
+&lt;p&gt;You might have seen this picture of Browser evoution, but must have experienced their evolution along with the evolution of Web. They both are becoming stronger with each passing day, and are increasing the capabilities of the web based applications to perform better and deliver much more than what they were capable of before.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/2015/03/caniuse-pagespeed.png&quot; alt=&quot;Google pagespeed issues&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;With increased deliverables, comes increased complexities and the issues related to them. While browser vendors are doing their best to deliver the best performance from their side, it is also upon the developers to embrace the challenge of delivering the best customer experience, which can only be achieved with performant applications.&lt;/p&gt;
 
-&lt;p&gt;As we see, caniuse.com has a google pagespeed score of 84 which is pretty descent. There are few issues pointed out by pagespeed which are mainly due to 3rd party files not leveraging browser caching or coming unminified and uncompressed. These are mostly harmless but still can be fixed by caching these external files on the website itself so as to get full control over them.&lt;/p&gt;
+&lt;p&gt;PerfAudit is a step towards achieving this goal, by involving the experts and the business owners to find the keyholes hindering the performance of web applications. With every Performance Audit, we not only intend to help make a web application perform fast, but also add our findings to the pool of performance improvements that developers must add into their deployment routine to make evergreen performant applications.&lt;/p&gt;
 
-&lt;h2 id=&quot;after-load-profiling&quot;&gt;After load profiling&lt;/h2&gt;
+&lt;p&gt;We believe in bringing stuff to the table than just plain words. Stay tuned with our social channels to learn, share and evolve.&lt;/p&gt;
 
-&lt;h3 id=&quot;issue-janky-scrolling&quot;&gt;Issue: Janky scrolling&lt;/h3&gt;
-
-&lt;p&gt;On caniuse.com homepage, if you scroll down the page hovering over the list of links, you will experience occasional jerks. That is what we call a “Jank”. Lets try debugging the issue using Google Chrome’s devtool timeline. Running a quick timeline recording, we get the
-following graph:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/03/caniuse-paint-janks.png&quot; alt=&quot;Paint janks&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This shows that we are shooting our limit due to some paint events. Paint events happen when something needs to be drawn on the page. This means when we are scrolling while hovering over the list, something is being drawn. Yes, its those links changing their color when hovered on. If you were to inspect one of those links and enable the &lt;code&gt;:hover&lt;/code&gt; pseudo class on them, you’ll see the culprit style:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/03/caniuse-jank-causing-css.png&quot; alt=&quot;Jank causing CSS&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you disable the &lt;code&gt;color&lt;/code&gt; property on &lt;code&gt;:hover&lt;/code&gt; and rerun a timeline recording, you’ll notice that there are no more paint events crossing the 60fps bar. Better performance.&lt;/p&gt;
-
-&lt;p&gt;To solve this, there is a &lt;a href=&quot;http://www.thecssninja.com/css/pointer-events-60fps&quot;&gt;neat trick&lt;/a&gt; by Ryan Seddon to listen for scroll event and disable pointer events on an element, say &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;, so that mouse dependent paints do not happen:&lt;/p&gt;
-
-&lt;pre class=&quot;prettyprint&quot;&gt;
-// JS
-var timeout, pointerEventsDisabled;
-window.addEventListener(&#39;scroll&#39;, function () {
-	clearTimeout(timeout);
-	if (!pointerEventsDisabled) {
-		document.body.classList.add(&#39;no-pointer-events&#39;);
-		pointerEventsDisabled = true;
-	}
-	timeout = setTimeout(function () {
-		document.body.classList.remove(&#39;no-pointer-events&#39;);
-		pointerEventsDisabled = false;
-	}, 500);
-})
-&lt;/pre&gt;
-
-&lt;pre class=&quot;prettyprint&quot;&gt;
-// CSS
-.no-pointer-events,
-.no-pointer-events * {
-	pointer-events: none !important;
-}
-&lt;/pre&gt;
-
-&lt;p&gt;This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.&lt;/p&gt;
-
-&lt;p&gt;There is a similar issue on their results page too. If you search something, say &lt;code&gt;transform&lt;/code&gt;, and scroll the shown &lt;a href=&quot;http://caniuse.com/#search=transform&quot;&gt;results page&lt;/a&gt; you will notice frequent janks. Lets run a recording in devtools timeline for this page. This is what we got:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2015/03/caniuse-result-page-timeline.png&quot; alt=&quot;Result page timeline&quot; class=&quot;full-width&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Notice those green coloured outburst at regular intervals. Those are heavy paint events causing the visible Jank! Again, if you were to use the above mentioned technique you would get a much smoother experience during the scroll.&lt;/p&gt;
-
-&lt;p&gt;That is it for this audit. If you want us to audit any specific website, do let us know in the comments or on &lt;a href=&quot;https://twitter.com/perfaudit&quot;&gt;twitter&lt;/a&gt;. We’ll definitely try to take it up as our next case study.&lt;/p&gt;
-
-&lt;p&gt;Do not forget to follow us for more such perfy performace audits.&lt;/p&gt;
+&lt;p&gt;Before ending this post, just to give you food for thought, web has spread leaps and bounds beyond desktop, and web technologies are used for far more tasks than just representing a business.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 26 Feb 2015 07:25:40 +0530</pubDate>
-        <link>http://perfaudit.com/case-study/caniuse.com</link>
-        <guid isPermaLink="true">http://perfaudit.com/case-study/caniuse.com</guid>
+        <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/blog/we-are-on</link>
+        <guid isPermaLink="true">http://perfaudit.com/blog/we-are-on</guid>
         
         
-        <category>case-study</category>
+        <category>blog</category>
         
       </item>
     
