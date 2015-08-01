@@ -8,7 +8,7 @@ categories: case-study
 
 Hello folks! This is Perfaudit's first case study for which we chose [caniuse.com](http://caniuse.com/). If you want to see us live auditing the website, checkout our video:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
 ## Network profiling
 
