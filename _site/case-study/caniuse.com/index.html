@@ -477,7 +477,7 @@ window.addEventListener('scroll', function () {
 
 <p>That is it for this audit. If you want us to audit any specific website, do let us know in the comments or on <a href="https://twitter.com/perfaudit">twitter</a>. We’ll definitely try to take it up as our next case study.</p>
 
-<p>Do not forget to follow us for more such perfy performace audits.</p>
+<p>Do not forget to follow us for more such perfy performance audits.</p>
 
 		</article>
 
@@ -551,6 +551,13 @@ window.addEventListener('scroll', function () {
 </section>
 <script type="text/javascript" src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js" async></script>
 <script type="text/javascript">
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+			console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		}).catch(function(err) {
+			console.log('ServiceWorker registration failed: ', err);
+		});
+	}
 	window.onload = function() {
 		new Blazy();
 	};

@@ -69,4 +69,4 @@ Notice those green coloured outburst at regular intervals. Those are heavy paint
 
 That is it for this audit. If you want us to audit any specific website, do let us know in the comments or on [twitter](https://twitter.com/perfaudit). We'll definitely try to take it up as our next case study.
 
-Do not forget to follow us for more such perfy performace audits.
+Do not forget to follow us for more such perfy performance audits.

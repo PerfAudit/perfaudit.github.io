@@ -20,3 +20,6 @@ exclude:
   - LICENSE.txt
   - package.json
   - README.txt
+
+keep_files:
+  - node_modules/serviceworker-cache-polyfill/index.js
