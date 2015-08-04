@@ -1,0 +1,6 @@
+{
+  "name": "perfaudit",
+  "dependencies": {
+    "rrssb": "~1.8.5"
+  }
+}

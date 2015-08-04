@@ -37,11 +37,10 @@ article h1, article h2, article h3 {
 			<h2 class="post-title">PerfAudit: {{ page.organization }}</h2>
 			{{ content }}
 		</article>
-
+		{% include share-buttons.html %}
 		<div class="comment-box">
 	    	<h3>Comments</h3>
 	    	<hr/>
-	    	{% include share-buttons.html %}
 	    	{% include comments.html %}
 	    </div>
 	</div>

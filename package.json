@@ -9,5 +9,8 @@
     "grunt-responsive-images": "^0.1.6",
     "grunt-smushit": "^1.3.0",
     "grunt-webp": "0.0.4"
+  },
+  "dependencies": {
+    "serviceworker-cache-polyfill": "^3.0.0"
   }
 }

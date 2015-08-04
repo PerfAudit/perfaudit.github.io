@@ -13,6 +13,8 @@ gems:
   - jekyll-sitemap
 
 exclude:
+  - bower.json
+  - bower_components
   - node_modules
   - Gemfile
   - Gemfile.lock

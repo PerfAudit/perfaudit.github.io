@@ -30,7 +30,7 @@
 
 importScripts('node_modules/serviceworker-cache-polyfill/index.js');
 
-var CACHE_VERSION = 1;
+var CACHE_VERSION = 2;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-cache-v' + CACHE_VERSION
 };
@@ -45,8 +45,8 @@ self.addEventListener('install', function(event) {
     "/blog/",
     "/workshops/",
     
-    "/tools/pagespeed-insights",
-    "/tools/pagespeed-insights/",
+    "/blog/service-worker-offline",
+    "/blog/service-worker-offline/",
     
     "/blog/jquery-india-2015-conference",
     "/blog/jquery-india-2015-conference/",
@@ -68,9 +68,6 @@ self.addEventListener('install', function(event) {
     
     "/case-study/hindustantimes.com",
     "/case-study/hindustantimes.com/",
-    
-    "/blog/web-page-test",
-    "/blog/web-page-test/",
     
     "/blog/we-are-on",
     "/blog/we-are-on/",
