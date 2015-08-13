@@ -6,8 +6,8 @@ categories: workshops
 body-class: no-sidebar
 ---
 
-Workshop: [Performance Audit Workshop](https://in.explara.com/e/performance-audit-workshop)<br>
-Host: [91springboard](http://91springboard.com), New Delhi<br>
+Workshop: [Performance Audit Workshop](https://in.explara.com/e/performance-audit-workshop){:rel="nofollow"}{:target="_blank"}<br>
+Host: [91springboard](http://91springboard.com){:rel="nofollow"}{:target="_blank"}, New Delhi<br>
 
 Performance is a Feature, the slower your website loads and displays, the less people will use it directly impacting the growth and revenue of your business.
 

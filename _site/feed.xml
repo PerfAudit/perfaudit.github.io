@@ -5,8 +5,8 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Aug 2015 03:05:00 +0530</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2015 03:05:00 +0530</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2015 23:17:44 +0530</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2015 23:17:44 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -15,9 +15,9 @@
 
 &lt;p&gt;Building offline experiences has always been on our radar since AppCache rolled out a few years ago, though working with AppCache was a huge pain because of its sheer complexity. Service workers have greatly reduced/simplified the complexity involved to deliver offline experience to your web application users.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://caniuse.com/#search=service%20workers&quot;&gt;Browser support for Service Workers&lt;/a&gt; is currently limited to just Chrome and Opera, though it has evolved beyond the stages of experimentation.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://caniuse.com/#search=service%20workers&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Browser support for Service Workers&lt;/a&gt; is currently limited to just Chrome and Opera, though it has evolved beyond the stages of experimentation.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/pazguille/offline-first&quot;&gt;Offline first&lt;/a&gt; github repository consists of every article that highlights the approaches / best practices to implement the offline experience, we found it incredibly useful while implementing the offline experience for PerfAudit and thus recommend it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/pazguille/offline-first&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Offline first&lt;/a&gt; github repository consists of every article that highlights the approaches / best practices to implement the offline experience, we found it incredibly useful while implementing the offline experience for PerfAudit and thus recommend it.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Service workers run only on pages served via HTTPS, thus HTTPS is a requirement for implementing an offline experience via Service Workers.&lt;/p&gt;
 </description>
@@ -32,7 +32,7 @@
     
       <item>
         <title>jQuery India 2015 Conference</title>
-        <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://jqueryconf.in/&quot;&gt;jQuery India 2015 Conference&lt;/a&gt;, Bangalore, India. We will present there on “&lt;a href=&quot;http://confengine.com/jquery-conf-2015/proposal/1173/performance-beyond-page-load&quot;&gt;Performance beyond Page Load&lt;/a&gt;”.&lt;/p&gt;
+        <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://jqueryconf.in/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;jQuery India 2015 Conference&lt;/a&gt;, Bangalore, India. We will present there on “&lt;a href=&quot;http://confengine.com/jquery-conf-2015/proposal/1173/performance-beyond-page-load&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Performance beyond Page Load&lt;/a&gt;”.&lt;/p&gt;
 
 &lt;p&gt;Stay tuned for updates about jQuery Conf India 2015 here.&lt;/p&gt;
 
@@ -57,7 +57,7 @@
     
       <item>
         <title>Workshop | Performance Audit Workshop Bangalore 2015</title>
-        <description>&lt;p&gt;Workshop: &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop-bangalore-2015&quot;&gt;Performance Audit Workshop&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Workshop: &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop-bangalore-2015&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Performance Audit Workshop&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;We will be in Bangalore from 16th July to 26th July, and are speaking at JS Channel 2015 Conference(17th - 18th July) and jQuery India 2015 Conference(22nd - 25th July). We saw this as a great opportunity, and thus are organizing Performance Audit workshop in Bangalore on 19th July. More details are listed below.&lt;/p&gt;
 
@@ -99,7 +99,7 @@
 &lt;div class=&quot;grid  case-study-grid center&quot;&gt;
   &lt;div class=&quot;grid-item one-third&quot;&gt;
     &lt;div class=&quot;tile&quot;&gt;
-      &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop-bangalore-2015&quot; title=&quot;Performance Audit Workshop registrations on Explara&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop-bangalore-2015&quot; title=&quot;Performance Audit Workshop registrations on Explara&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;
         &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/explara.png&quot; alt=&quot;Performance Audit Workshop Explara&quot; /&gt;
         &lt;h2&gt;Explara&lt;/h2&gt;
       &lt;/a&gt;
@@ -107,7 +107,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;grid-item one-third&quot;&gt;
     &lt;div class=&quot;tile&quot;&gt;
-      &lt;a href=&quot;http://www.meraevents.com/event/performance-audit-workshop-bangalore-2015&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on MeraEvents&quot;&gt;
+      &lt;a href=&quot;http://www.meraevents.com/event/performance-audit-workshop-bangalore-2015&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; title=&quot;Performance Audit Workshop promotion on MeraEvents&quot;&gt;
         &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/meraevents.png&quot; alt=&quot;Performance Audit Workshop MeraEvents&quot; /&gt;
         &lt;h2&gt;MeraEvents&lt;/h2&gt;
       &lt;/a&gt;
@@ -115,7 +115,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;grid-item one-third&quot;&gt;
     &lt;div class=&quot;tile&quot;&gt;
-      &lt;a href=&quot;http://perfaudit-bangalore-2015.doattend.com&quot; title=&quot;Performance Audit Workshop registrations on DoAttend&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;http://perfaudit-bangalore-2015.doattend.com&quot; title=&quot;Performance Audit Workshop registrations on DoAttend&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;
         &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/doattend.png&quot; alt=&quot;Performance Audit Workshop DoAttend&quot; /&gt;
         &lt;h2&gt;DoAttend&lt;/h2&gt;
       &lt;/a&gt;
@@ -125,7 +125,7 @@
 &lt;div class=&quot;grid  case-study-grid&quot;&gt;
   &lt;div class=&quot;grid-item one-third&quot;&gt;
     &lt;div class=&quot;tile&quot;&gt;
-      &lt;a href=&quot;http://eventful.com/bangalore/events/performance-audit-workshop-/E0-001-085314043-3&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on Eventful&quot;&gt;
+      &lt;a href=&quot;http://eventful.com/bangalore/events/performance-audit-workshop-/E0-001-085314043-3&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; title=&quot;Performance Audit Workshop promotion on Eventful&quot;&gt;
         &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/eventful.jpg&quot; alt=&quot;Performance Audit Workshop Eventful&quot; /&gt;
         &lt;h2&gt;Eventful&lt;/h2&gt;
       &lt;/a&gt;
@@ -133,7 +133,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;grid-item one-third&quot;&gt;
     &lt;div class=&quot;tile&quot;&gt;
-      &lt;a href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on Evvnt&quot;&gt;
+      &lt;a href=&quot;#&quot; rel=&quot;nofollow&quot; title=&quot;Performance Audit Workshop promotion on Evvnt&quot;&gt;
         &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/evvnt.png&quot; alt=&quot;Performance Audit Workshop Evvnt&quot; /&gt;
         &lt;h2&gt;Evvnt&lt;/h2&gt;
       &lt;/a&gt;
@@ -141,7 +141,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;grid-item one-third&quot;&gt;
     &lt;div class=&quot;tile&quot;&gt;
-      &lt;a href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Performance Audit Workshop promotion on Hook2Events&quot;&gt;
+      &lt;a href=&quot;#&quot; rel=&quot;nofollow&quot; title=&quot;Performance Audit Workshop promotion on Hook2Events&quot;&gt;
         &lt;div class=&quot;img-container&quot;&gt;
           &lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/images/workshops/bangalore-2015/hook2events.jpg&quot; alt=&quot;Performance Audit Workshop Hook2Events&quot; /&gt;
         &lt;/div&gt;
@@ -162,7 +162,7 @@
     
       <item>
         <title>JSChannel 2015 Conference</title>
-        <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://2015.jschannel.com&quot;&gt;JS Channel 2015 Conference&lt;/a&gt;. We will present there on “JS Performance Deep Dive”.&lt;/p&gt;
+        <description>&lt;p&gt;Meet us at &lt;a href=&quot;http://2015.jschannel.com&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;JS Channel 2015 Conference&lt;/a&gt;. We will present there on “JS Performance Deep Dive”.&lt;/p&gt;
 
 &lt;p&gt;Stay tuned for our updates about JS Channel Conference here.&lt;/p&gt;
 
@@ -187,8 +187,8 @@
     
       <item>
         <title>Workshop | 91springboard</title>
-        <description>&lt;p&gt;Workshop: &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop&quot;&gt;Performance Audit Workshop&lt;/a&gt;&lt;br /&gt;
-Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;, New Delhi&lt;br /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Workshop: &lt;a href=&quot;https://in.explara.com/e/performance-audit-workshop&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Performance Audit Workshop&lt;/a&gt;&lt;br /&gt;
+Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;91springboard&lt;/a&gt;, New Delhi&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Performance is a Feature, the slower your website loads and displays, the less people will use it directly impacting the growth and revenue of your business.&lt;/p&gt;
 
@@ -231,13 +231,13 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
     
       <item>
         <title>MetaRefresh 2015 Conference</title>
-        <description>&lt;p&gt;We presented at &lt;a href=&quot;https://metarefresh.in/2015/&quot;&gt;Meta Refresh 2015&lt;/a&gt; on &lt;a href=&quot;https://metarefresh.in/2015/conference#1277-running-mobile-games-at-60fps&quot;&gt;“Running mobile web games at 60fps”&lt;/a&gt;. Our talk was well received and many appreciated our efforts for adding our contributions in the form of Performance Audits for the benefit of community at large.&lt;/p&gt;
+        <description>&lt;p&gt;We presented at &lt;a href=&quot;https://metarefresh.in/2015/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Meta Refresh 2015&lt;/a&gt; on &lt;a href=&quot;https://metarefresh.in/2015/conference#1277-running-mobile-games-at-60fps&quot;&gt;“Running mobile web games at 60fps”&lt;/a&gt;. Our talk was well received and many appreciated our efforts for adding our contributions in the form of Performance Audits for the benefit of community at large.&lt;/p&gt;
 
 &lt;p&gt;Slides:&lt;/p&gt;
 
 &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/eYCQwjG0uxtvHx&quot; height=&quot;555&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 
-&lt;p&gt;Images captured at Meta Refresh: &lt;a href=&quot;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&quot;&gt;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Images captured at Meta Refresh: &lt;a href=&quot;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Apr 2015 00:00:00 +0530</pubDate>
         <link>http://perfaudit.com/blog/metarefresh-2015-conference</link>
@@ -250,13 +250,13 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
     
       <item>
         <title>Case Study | DeviantArt.com | PerfAudit</title>
-        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.deviantart.com/&quot; target=&quot;_blank&quot;&gt;DeviantArt.com&lt;/a&gt;, the largest online social network for artists and art enthusiasts, and a platform for emerging and established artists to exhibit, promote, and share their works with an enthusiastic, art-centric community.&lt;/p&gt;
+        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.deviantart.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DeviantArt.com&lt;/a&gt;, the largest online social network for artists and art enthusiasts, and a platform for emerging and established artists to exhibit, promote, and share their works with an enthusiastic, art-centric community.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/homepage.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It is among the top 100 of all trafficked websites on the Internet. They have over 32 million registered members and attract over 65 million unique visitors per month. Their members upload over 160,000 original art works every day, everything from painting and sculpture to digital art, pixel art, films, and anime.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.alexa.com/siteinfo/deviantart.com&quot; target=&quot;_blank&quot; title=&quot;DeviantArt Alexa Rank&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/alexa-ranking.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.alexa.com/siteinfo/deviantart.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; title=&quot;DeviantArt Alexa Rank&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/alexa-ranking.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;live-auditing&quot;&gt;Live auditing&lt;/h2&gt;
 
@@ -268,7 +268,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
 
 &lt;h2 id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;DeviantArt desktop improvements&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-desktop.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; title=&quot;DeviantArt desktop improvements&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-desktop.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Desktop pagespeed score for DeviantArt is just 24, which specifies a tremendous scope for improvement. DeviantArt displays paintings, sculpture to digital art, pixel art, films, and anime i.e. it is a image heavy website.&lt;/p&gt;
 
@@ -282,7 +282,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
 
 &lt;p&gt;Resizing and Compression of images are among the redundant tasks that must be performed either in batch, or as soon as an image is uploaded by the user on DeviantArt.&lt;/p&gt;
 
-&lt;p&gt;Follow this &lt;a href=&quot;http://addyosmani.com/blog/image-optimization-tools/&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; by Addy Osmani, describing the available Image Optimization Tools.&lt;/p&gt;
+&lt;p&gt;Follow this &lt;a href=&quot;http://addyosmani.com/blog/image-optimization-tools/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;blog post&lt;/a&gt; by Addy Osmani, describing the available Image Optimization Tools.&lt;/p&gt;
 
 &lt;h3 id=&quot;reduce-server-response-time&quot;&gt;Reduce server response time&lt;/h3&gt;
 
@@ -301,13 +301,13 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
 
 &lt;p&gt;First pixel render time as recorded by us is around 6.29 seconds, which is huge. Eliminating render-blocking JavaScript and CSS in the above fold content which currently includes 9 CSS files, will surely help to reduce the first pixel render time drastically. Furthermore, the critical CSS can then be calculated and added in the HEAD section, which is not present currently.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.webpagetest.org/video/compare.php?tests=150315_36_FKK-r:1-c:0&quot; target=&quot;_blank&quot; title=&quot;Filmstrip view DeviantArt page performance&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/filmstrip-view.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.webpagetest.org/video/compare.php?tests=150315_36_FKK-r:1-c:0&quot; target=&quot;_blank&quot; title=&quot;Filmstrip view DeviantArt page performance&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/filmstrip-view.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The first critical issue describes the reason for the increased first pixel render time, rendering is quite slow and it takes about 5.5 second to get the first glimpse of readable content, though the first pixel render time is about 3 seconds.&lt;/p&gt;
 
 &lt;h3 id=&quot;mobile-specific-issues&quot;&gt;Mobile Specific Issues&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;DeviantArt mobile improvements&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-mobile.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;DeviantArt mobile improvements&quot; rel=&quot;nofollow&quot;&gt;&lt;img src=&quot;/images/case-study/deviantart.com/pagespeed-score-mobile.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.&lt;/p&gt;
 
@@ -322,7 +322,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
 
 &lt;h3 id=&quot;sticky-header&quot;&gt;Sticky header&lt;/h3&gt;
 
-&lt;p&gt;The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our &lt;a href=&quot;http://perfaudit.com/case-study/caniuse.com/&quot;&gt;previous&lt;/a&gt; &lt;a href=&quot;http://perfaudit.com/case-study/hindustantimes.com/&quot;&gt;case studies&lt;/a&gt;. Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. Come on…this got to be the most popular rendering issue on the web!&lt;/p&gt;
+&lt;p&gt;The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our &lt;a href=&quot;/case-study/caniuse.com/&quot;&gt;previous&lt;/a&gt; &lt;a href=&quot;/case-study/hindustantimes.com/&quot;&gt;case studies&lt;/a&gt;. Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. Come on…this got to be the most popular rendering issue on the web!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/bad-paints.png&quot; alt=&quot;Bad paints&quot; /&gt;&lt;/p&gt;
 
@@ -334,7 +334,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/animated-gifs.png&quot; alt=&quot;Animated gifs&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? Looking closely revealed small animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame, sure. But why such a big paint rectangle? This is again a result of &lt;a href=&quot;http://benfrain.com/improving-css-performance-fixed-position-elements/&quot;&gt;&lt;em&gt;union of damaged regions&lt;/em&gt;&lt;/a&gt;. If you notice, they are 4 GIFs in the 4 corners of the green rectangle. Yes, the paint rectangles of the four images got unioned and hence, a big paint rectangle.&lt;/p&gt;
+&lt;p&gt;The green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? Looking closely revealed small animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame, sure. But why such a big paint rectangle? This is again a result of &lt;a href=&quot;http://benfrain.com/improving-css-performance-fixed-position-elements/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;union of damaged regions&lt;/em&gt;&lt;/a&gt;. If you notice, they are 4 GIFs in the 4 corners of the green rectangle. Yes, the paint rectangles of the four images got unioned and hence, a big paint rectangle.&lt;/p&gt;
 
 &lt;p&gt;Now we could promote every GIF to its own layer to avoid union of paint rectangles and that actually helps in lowering down the paint area as seen below:&lt;/p&gt;
 
@@ -355,7 +355,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
     
       <item>
         <title>Case Study | HindustanTimes.com | PerfAudit</title>
-        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.hindustantimes.com/&quot; target=&quot;_blank&quot;&gt;HindustanTimes.com&lt;/a&gt; which represents the web version of &lt;a href=&quot;http://en.wikipedia.org/wiki/Hindustan_Times&quot;&gt;HT Media&lt;/a&gt;, one of India’s biggest media companies across states and media platforms.&lt;/p&gt;
+        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.hindustantimes.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;HindustanTimes.com&lt;/a&gt; which represents the web version of &lt;a href=&quot;http://en.wikipedia.org/wiki/Hindustan_Times&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;HT Media&lt;/a&gt;, one of India’s biggest media companies across states and media platforms.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.alexa.com/siteinfo/hindustantimes.com&quot; target=&quot;_blank&quot; title=&quot;Hindustan Times Alexa Rank&quot;&gt;&lt;img src=&quot;/images/case-study/hindustantimes.com/alexa-ranking.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -388,7 +388,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
 &lt;ul&gt;
   &lt;li&gt;Make fewer HTTP requests, use concatentation of static resources&lt;/li&gt;
   &lt;li&gt;Use mulitple domain names for parallel resource requests.&lt;/li&gt;
-  &lt;li&gt;Compress static resources. Must read &lt;a href=&quot;https://engineering.linkedin.com/shared-dictionary-compression-http-linkedin&quot;&gt;post&lt;/a&gt; by Linkedin Engineering.&lt;/li&gt;
+  &lt;li&gt;Compress static resources. Must read &lt;a href=&quot;https://engineering.linkedin.com/shared-dictionary-compression-http-linkedin&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;post&lt;/a&gt; by Linkedin Engineering.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;profiling-rendering-performance&quot;&gt;Profiling Rendering Performance&lt;/h2&gt;
@@ -407,7 +407,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot;&gt;91springboard&lt;/a&gt;
 
 &lt;p&gt;Notice the sections highlighted in the above image. Those are the elements which are fixed positioned in the website. So we get our paint issue:
 1. Fixed positioned elements are repainted continously as they are constantly visible.
-2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, &lt;a href=&quot;http://benfrain.com/improving-css-performance-fixed-position-elements/&quot;&gt;causing a full page repaint&lt;/a&gt;.&lt;/p&gt;
+2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, &lt;a href=&quot;http://benfrain.com/improving-css-performance-fixed-position-elements/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;causing a full page repaint&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Solution (hack) here is to just give those fixed positioned elements their own composite layer which actually prevents fixed positioned elements from repainting. One way to do that is by following CSS:&lt;/p&gt;
 
@@ -447,123 +447,38 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
       </item>
     
       <item>
-        <title>We are ON</title>
-        <description>&lt;p&gt;Hello from Perfaudit!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/blog/evolution-web.jpg&quot; alt=&quot;Evolution of the Web&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You might have seen this picture of Browser evoution, but must have experienced their evolution along with the evolution of Web. They both are becoming stronger with each passing day, and are increasing the capabilities of the web based applications to perform better and deliver much more than what they were capable of before.&lt;/p&gt;
-
-&lt;p&gt;With increased deliverables, comes increased complexities and the issues related to them. While browser vendors are doing their best to deliver the best performance from their side, it is also upon the developers to embrace the challenge of delivering the best customer experience, which can only be achieved with performant applications.&lt;/p&gt;
-
-&lt;p&gt;PerfAudit is a step towards achieving this goal, by involving the experts and the business owners to find the keyholes hindering the performance of web applications. With every Performance Audit, we not only intend to help make a web application perform fast, but also add our findings to the pool of performance improvements that developers must add into their deployment routine to make evergreen performant applications.&lt;/p&gt;
-
-&lt;p&gt;We believe in bringing stuff to the table than just plain words. Stay tuned with our social channels to learn, share and evolve.&lt;/p&gt;
-
-&lt;p&gt;Before ending this post, just to give you food for thought, web has spread leaps and bounds beyond desktop, and web technologies are used for far more tasks than just representing a business.&lt;/p&gt;
+        <title>Webgl rendering | Approaches | Rendering Performance</title>
+        <description>
 </description>
         <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/blog/we-are-on</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/we-are-on</guid>
+        <link>http://perfaudit.com/rendering-performance/approaches/webgl-rendering</link>
+        <guid isPermaLink="true">http://perfaudit.com/rendering-performance/approaches/webgl-rendering</guid>
         
         
-        <category>blog</category>
+        <category>rendering-performance</category>
+        
+        <category>approaches</category>
         
       </item>
     
       <item>
-        <title>Case Study | MaterialUp.com | PerfAudit</title>
-        <description>&lt;p&gt;Hey folks! Today we have come up with the case study for &lt;a href=&quot;http://www.materialup.com/&quot; target=&quot;_blank&quot;&gt;materialup.com&lt;/a&gt;, a website that daily showcases the very best Material designs apps, websites and concepts.&lt;/p&gt;
+        <title>Web Performance Optimization | Courses | Networking Performance</title>
+        <description>&lt;p&gt;From Ilya Grigorik, Author, &lt;a href=&quot;http://chimera.labs.oreilly.com/books/1230000000545/index.html&quot;&gt;High Performance Browser Networking&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;img class=&quot;center&quot; src=&quot;/images/case-study/materialup.com/homepage.jpg&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;A great course to head start with Web Performance. Understand how mobile and desktop browsers render pages and how HTML, CSS and JavaSript affect page load. It provides a nice overview of Google PageSpeed Insights and Chrome Developer tools.&lt;/p&gt;
 
-&lt;p&gt;MaterialUp was originally just a listing page with only 1 showcase a day. No votes, no comments, not even a way to login. Fast forward 6 months later, they new have over 1 million visitors, 10,000+ users, 20,000+ newsletter subscribers, over 35,000 upvotes and 2,000+ showcased Material Design examples and tools. The MaterialUp community is from all over the world and from any size of companies: Adobe, Google, Facebook, Trello but also small agencies and much talented freelancers.&lt;/p&gt;
+&lt;p&gt;Signup for Web Performance Optimization course at Udacity: &lt;a href=&quot;https://www.udacity.com/course/website-performance-optimization--ud884&quot;&gt;https://www.udacity.com/course/website-performance-optimization–ud884&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;a href=&quot;http://www.alexa.com/siteinfo/materialup.com&quot; target=&quot;_blank&quot; title=&quot;MaterialUp Alexa Rank&quot;&gt;&lt;img src=&quot;/images/case-study/materialup.com/alexa-ranking.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;how-fast-does-materialupcom-load-on-average&quot;&gt;How fast does materialup.com load on average?&lt;/h2&gt;
-
-&lt;h4 id=&quot;very-very-slow-around-38729-seconds-when-we-loaded327-seconds-on-average-83-of-sites-are-faster-as-per-data-from-alexa&quot;&gt;Very Very Slow around 38.729 seconds when we loaded(3.27 seconds on average), 83% of sites are faster (as per data from Alexa).&lt;/h4&gt;
-
-&lt;h2 id=&quot;network-profiling&quot;&gt;Network profiling&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.webpagetest.org/result/150729_3F_110E/&quot;&gt;WebPageTest for MaterialUp&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.materialup.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;MaterialUp desktop improvements&quot;&gt;&lt;img src=&quot;/images/case-study/materialup.com/pagespeed-score-desktop.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Desktop pagespeed score for MaterialUp is just 27, which specifies a tremendous scope for improvement. MaterialUp is an image heavy website, and displays loads of animated gifs and pngs for the most popular material design submissions.&lt;/p&gt;
-
-&lt;p&gt;Maximum compression, suitable resizing and caching of image resources should be their primary action, which is verified by PageSpeed’s recommendation which says:&lt;/p&gt;
-
-&lt;h3 id=&quot;optimize-the-following-images-to-reduce-their-size-by-24mb-73-reduction&quot;&gt;Optimize the following images to reduce their size by 2.4MB (73% reduction).&lt;/h3&gt;
-
-&lt;p&gt;2.4MB of size reduction just through compression and resizing of static images must be tackled on priority.&lt;/p&gt;
-
-&lt;p&gt;Resizing and Compression of images are among the redundant tasks that must be performed either in batch, or as soon as an image is uploaded by the user on MaterialUp.&lt;/p&gt;
-
-&lt;h3 id=&quot;reduce-first-pixel-render-time&quot;&gt;Reduce First Pixel Render Time&lt;/h3&gt;
-
-&lt;p&gt;First pixel render time as recorded by us is around 1.3 seconds, which has the scope for improvement. Eliminating render-blocking JavaScript and CSS from the above fold content, will surely help to reduce the first pixel render time drastically. Furthermore, the critical CSS can then be calculated and added in the HEAD section, which is not present currently.&lt;/p&gt;
-
-&lt;h3 id=&quot;mobile-specific-issues&quot;&gt;Mobile Specific Issues&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=www.materialup.com&amp;amp;tab=mobile&quot; target=&quot;_blank&quot; title=&quot;MaterialUp mobile improvements&quot;&gt;&lt;img src=&quot;/images/case-study/materialup.com/pagespeed-score-mobile.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.&lt;/p&gt;
-
-&lt;p&gt;Other necessary optimizations possible for materialup.com:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Eliminate render-blocking JavaScript and CSS in above-the-fold content&lt;/li&gt;
-  &lt;li&gt;Leverage browser caching of static resources with appropriate response headers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;profiling-rendering-performance&quot;&gt;Profiling Rendering Performance&lt;/h2&gt;
-
-&lt;p&gt;Let’s start with the profiling and understand if there’s any issue with the rendering performance at all or is it just our perception to think that MaterialUp is being janky.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/case-study/materialup.com/devtools-timeline-paint-operations.jpg&quot; alt=&quot;Timeline browser dev tools exceed 60fps&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the timeline above, several frames are visible exceeding the 16ms frame window thereby reducing the frame rate to around 12-40fps(while scrolling).&lt;/p&gt;
-
-&lt;h3 id=&quot;sticky-header&quot;&gt;Sticky header&lt;/h3&gt;
-
-&lt;p&gt;The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our previous &lt;a href=&quot;http://perfaudit.com/case-study/hindustantimes.com/&quot;&gt;case studies&lt;/a&gt;. Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. It surely is the most popular rendering issue on the web!&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/case-study/materialup.com/bad-paints.jpg&quot; alt=&quot;Bad paints&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As in previous case studies, this can be simply fixed using the &lt;code&gt;transform: translateZ(0)&lt;/code&gt; or &lt;code&gt;will-change: transform&lt;/code&gt; hack.&lt;/p&gt;
-
-&lt;h3 id=&quot;hover-interactions&quot;&gt;Hover Interactions&lt;/h3&gt;
-
-&lt;p&gt;Mouse hover upon the posts triggers animations on the elements inside the post. These gestures give a great feedback to the user as per material design guidelines, though they are paint intensive operations and must be disabled when scrolling, as they have the ability to make us exceed the small 16ms frame window.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/case-study/materialup.com/hover-interaction.jpg&quot; alt=&quot;Hover interactions&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;animated-gifs&quot;&gt;Animated GIFs&lt;/h3&gt;
-
-&lt;p&gt;To verify that no more unnecessary paints were happening, we switched on the &lt;strong&gt;Show paint rectangles&lt;/strong&gt; option in the &lt;strong&gt;Rendering&lt;/strong&gt; tab. Here is something strange on their page:&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/case-study/materialup.com/animated-gifs.jpg&quot; alt=&quot;Animated gifs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The three green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? These are animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame.&lt;/p&gt;
-
-&lt;p&gt;A solution to this issue, is already in use by many other popular websites which render GIFs such as 9gag.com, where animated gifs are disabled by replacing their source with another non-animating image when they are not visible i.e. not present in the view port of the screen.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/case-study/materialup.com/paused-gifs.jpg&quot; alt=&quot;Paused gifs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;That is it for MaterialUp.com from our side. Till next perf study!&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v5us0j3QmW4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Thu, 26 Feb 2015 07:25:40 +0530</pubDate>
-        <link>http://perfaudit.com/case-study/materialup.com</link>
-        <guid isPermaLink="true">http://perfaudit.com/case-study/materialup.com</guid>
+        <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/networking-performance/courses/web-performance-optimization</link>
+        <guid isPermaLink="true">http://perfaudit.com/networking-performance/courses/web-performance-optimization</guid>
         
         
-        <category>case-study</category>
+        <category>networking-performance</category>
+        
+        <category>courses</category>
         
       </item>
     

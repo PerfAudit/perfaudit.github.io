@@ -12,7 +12,7 @@ Hey folks! Today we have come up with the case study for <a href="http://www.mat
 
 MaterialUp was originally just a listing page with only 1 showcase a day. No votes, no comments, not even a way to login. Fast forward 6 months later, they new have over 1 million visitors, 10,000+ users, 20,000+ newsletter subscribers, over 35,000 upvotes and 2,000+ showcased Material Design examples and tools. The MaterialUp community is from all over the world and from any size of companies: Adobe, Google, Facebook, Trello but also small agencies and much talented freelancers.
 
-<br><a href="http://www.alexa.com/siteinfo/materialup.com" target="_blank" title="MaterialUp Alexa Rank"><img src="/images/case-study/materialup.com/alexa-ranking.png"></a>
+<br><a href="http://www.alexa.com/siteinfo/materialup.com" target="_blank" rel="nofollow" title="MaterialUp Alexa Rank"><img src="/images/case-study/materialup.com/alexa-ranking.png"></a>
 
 ##How fast does materialup.com load on average?
 
@@ -20,9 +20,9 @@ MaterialUp was originally just a listing page with only 1 showcase a day. No vot
 
 ## Network profiling
 
-<a href="http://www.webpagetest.org/result/150729_3F_110E/">WebPageTest for MaterialUp</a>
+<a href="http://www.webpagetest.org/result/150729_3F_110E/" target="_blank" rel="nofollow">WebPageTest for MaterialUp</a>
 
-<a href="https://developers.google.com/speed/pagespeed/insights/?url=www.materialup.com&tab=mobile" target="_blank" title="MaterialUp desktop improvements"><img src="/images/case-study/materialup.com/pagespeed-score-desktop.png"></a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=www.materialup.com&tab=mobile" target="_blank"  rel="nofollow" title="MaterialUp desktop improvements"><img src="/images/case-study/materialup.com/pagespeed-score-desktop.png"></a>
 
 Desktop pagespeed score for MaterialUp is just 27, which specifies a tremendous scope for improvement. MaterialUp is an image heavy website, and displays loads of animated gifs and pngs for the most popular material design submissions.
 
@@ -40,7 +40,7 @@ First pixel render time as recorded by us is around 1.3 seconds, which has the s
 
 ### Mobile Specific Issues
 
-<a href="https://developers.google.com/speed/pagespeed/insights/?url=www.materialup.com&tab=mobile" target="_blank" title="MaterialUp mobile improvements"><img src="/images/case-study/materialup.com/pagespeed-score-mobile.png"></a>
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=www.materialup.com&tab=mobile" target="_blank" rel="nofollow" title="MaterialUp mobile improvements"><img src="/images/case-study/materialup.com/pagespeed-score-mobile.png"></a>
 
 Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.
 
@@ -59,7 +59,7 @@ In the timeline above, several frames are visible exceeding the 16ms frame windo
 
 ### Sticky header
 
-The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our previous [case studies](http://perfaudit.com/case-study/hindustantimes.com/). Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. It surely is the most popular rendering issue on the web!
+The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our previous [case studies](/case-study/hindustantimes.com/). Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. It surely is the most popular rendering issue on the web!
 
 <br>
 ![Bad paints](/images/case-study/materialup.com/bad-paints.jpg)

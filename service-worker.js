@@ -34,24 +34,16 @@ layout: null
 
 importScripts('node_modules/serviceworker-cache-polyfill/index.js');
 
-var CACHE_VERSION = 2;
+var CACHE_VERSION = 4;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-cache-v' + CACHE_VERSION
 };
 
 self.addEventListener('install', function(event) {
   var urlsToPrefetch = [
-    "/",
     "//cdn.jsdelivr.net/blazy/latest/blazy.min.js",
     "//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900",
-    "/assets/application-35cdcb71ad5e382687c838983b959d4f.js",
-    "/about",
-    "/blog/",
-    "/workshops/",
-    {% for post in site.posts %}
-    "{{ post.url }}",
-    "{{ post.url }}/",
-    {% endfor %}
+    "/assets/application-35cdcb71ad5e382687c838983b959d4f.js"
   ];
 
   // All of these logging statements should be visible via the "Inspect" interface
@@ -126,7 +118,7 @@ self.addEventListener('fetch', function(event) {
       // have to hardcode 'no-cors' like we do when fetch()ing in the install handler.
 
       return fetch(event.request).then(function(response) {
-        if((event.request.context === 'image') && (event.request.url.match(location.origin))) {
+        if(checkFilters(event)) {
           caches.open(CURRENT_CACHES['prefetch']).then(function(cache) {
             cache.put(event.request, response);
           });
@@ -144,3 +136,15 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
+
+function checkFilters(event) {
+  if(event.request.url.match(location.origin)) {
+    switch(true) {
+      case (event.request.context === 'image'):
+        return true;
+      case (event.request.context === 'internal'):
+        return true;
+    }
+  }
+  return false;
+}

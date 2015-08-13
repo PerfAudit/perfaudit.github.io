@@ -6,7 +6,7 @@ date:   2015-02-26 01:55:40
 categories: case-study
 ---
 
-Hello folks! This is Perfaudit's first case study for which we chose [caniuse.com](http://caniuse.com/). If you want to see us live auditing the website, checkout our video:
+Hello folks! This is Perfaudit's first case study for which we chose [caniuse.com](http://caniuse.com/){:rel="nofollow"}{:target="_blank"}. If you want to see us live auditing the website, checkout our video:
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
@@ -31,7 +31,7 @@ This shows that we are shooting our limit due to some paint events. Paint events
 
 If you disable the `color` property on `:hover` and rerun a timeline recording, you'll notice that there are no more paint events crossing the 60fps bar. Better performance.
 
-To solve this, there is a [neat trick](http://www.thecssninja.com/css/pointer-events-60fps) by Ryan Seddon to listen for scroll event and disable pointer events on an element, say `<body>`, so that mouse dependent paints do not happen:
+To solve this, there is a [neat trick](http://www.thecssninja.com/css/pointer-events-60fps){:rel="nofollow"}{:target="_blank"} by Ryan Seddon to listen for scroll event and disable pointer events on an element, say `<body>`, so that mouse dependent paints do not happen:
 
 <pre class="prettyprint">
 // JS
@@ -61,7 +61,7 @@ window.addEventListener('scroll', function () {
 
 This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.
 
-There is a similar issue on their results page too. If you search something, say `transform`, and scroll the shown [results page](http://caniuse.com/#search=transform) you will notice frequent janks. Lets run a recording in devtools timeline for this page. This is what we got:
+There is a similar issue on their results page too. If you search something, say `transform`, and scroll the shown [results page](http://caniuse.com/#search=transform){:rel="nofollow"}{:target="_blank"} you will notice frequent janks. Lets run a recording in devtools timeline for this page. This is what we got:
 
 ![Result page timeline](/images/2015/03/caniuse-result-page-timeline.png){: .full-width}
 

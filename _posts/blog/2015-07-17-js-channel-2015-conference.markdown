@@ -6,7 +6,7 @@ categories: Blog
 body-class: no-sidebar
 ---
 
-Meet us at [JS Channel 2015 Conference](http://2015.jschannel.com). We will present there on "JS Performance Deep Dive".
+Meet us at [JS Channel 2015 Conference](http://2015.jschannel.com){:rel="nofollow"}{:target="_blank"}. We will present there on "JS Performance Deep Dive".
 
 Stay tuned for our updates about JS Channel Conference here.
 

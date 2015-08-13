@@ -6,7 +6,7 @@ date:   2015-03-12 01:55:40
 categories: case-study
 ---
 
-Hey folks! Today we have come up with the case study for <a href="http://www.hindustantimes.com/" target="_blank">HindustanTimes.com</a> which represents the web version of [HT Media](http://en.wikipedia.org/wiki/Hindustan_Times), one of India's biggest media companies across states and media platforms.
+Hey folks! Today we have come up with the case study for <a href="http://www.hindustantimes.com/" target="_blank" rel="nofollow">HindustanTimes.com</a> which represents the web version of [HT Media](http://en.wikipedia.org/wiki/Hindustan_Times){:rel="nofollow"}{:target="_blank"}, one of India's biggest media companies across states and media platforms.
 
 <a href="http://www.alexa.com/siteinfo/hindustantimes.com" target="_blank" title="Hindustan Times Alexa Rank"><img src="/images/case-study/hindustantimes.com/alexa-ranking.png"></a>
 
@@ -39,7 +39,7 @@ Other necessary optimizations possible for HindustanTimes.com:
 
 * Make fewer HTTP requests, use concatentation of static resources
 * Use mulitple domain names for parallel resource requests.
-* Compress static resources. Must read [post](https://engineering.linkedin.com/shared-dictionary-compression-http-linkedin) by Linkedin Engineering.
+* Compress static resources. Must read [post](https://engineering.linkedin.com/shared-dictionary-compression-http-linkedin){:rel="nofollow"}{:target="_blank"} by Linkedin Engineering.
 
 ## Profiling Rendering Performance
 
@@ -57,7 +57,7 @@ Looking at the paint events in the timeline it is evident that the complete page
 
 Notice the sections highlighted in the above image. Those are the elements which are fixed positioned in the website. So we get our paint issue:
 1. Fixed positioned elements are repainted continously as they are constantly visible.
-2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, [causing a full page repaint](http://benfrain.com/improving-css-performance-fixed-position-elements/).
+2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, [causing a full page repaint](http://benfrain.com/improving-css-performance-fixed-position-elements/){:rel="nofollow"}{:target="_blank"}.
 
 Solution (hack) here is to just give those fixed positioned elements their own composite layer which actually prevents fixed positioned elements from repainting. One way to do that is by following CSS:
 

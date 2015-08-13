@@ -6,7 +6,7 @@ categories: Blog
 body-class: no-sidebar
 ---
 
-Meet us at [jQuery India 2015 Conference](http://jqueryconf.in/), Bangalore, India. We will present there on "[Performance beyond Page Load](http://confengine.com/jquery-conf-2015/proposal/1173/performance-beyond-page-load)".
+Meet us at [jQuery India 2015 Conference](http://jqueryconf.in/){:rel="nofollow"}{:target="_blank"}, Bangalore, India. We will present there on "[Performance beyond Page Load](http://confengine.com/jquery-conf-2015/proposal/1173/performance-beyond-page-load){:rel="nofollow"}{:target="_blank"}".
 
 Stay tuned for updates about jQuery Conf India 2015 here.
 

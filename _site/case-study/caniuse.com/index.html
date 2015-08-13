@@ -373,6 +373,9 @@
 		z-index: 10;
 		top: 30%;
 	}
+	.directory-structure ul {
+		list-style: none;
+	}
 	</style>
 </head>
   <body class="post">
@@ -416,7 +419,7 @@ article h1, article h2, article h3 {
 			<div class="section-title">Case Study</div>
 
 			<h2 class="post-title">PerfAudit: CanIUse.com</h2>
-			<p>Hello folks! This is Perfaudit’s first case study for which we chose <a href="http://caniuse.com/">caniuse.com</a>. If you want to see us live auditing the website, checkout our video:</p>
+			<p>Hello folks! This is Perfaudit’s first case study for which we chose <a href="http://caniuse.com/" rel="nofollow" target="_blank">caniuse.com</a>. If you want to see us live auditing the website, checkout our video:</p>
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/VyHKIMORH_k" frameborder="0" allowfullscreen=""></iframe>
 
@@ -441,7 +444,7 @@ following graph:</p>
 
 <p>If you disable the <code>color</code> property on <code>:hover</code> and rerun a timeline recording, you’ll notice that there are no more paint events crossing the 60fps bar. Better performance.</p>
 
-<p>To solve this, there is a <a href="http://www.thecssninja.com/css/pointer-events-60fps">neat trick</a> by Ryan Seddon to listen for scroll event and disable pointer events on an element, say <code>&lt;body&gt;</code>, so that mouse dependent paints do not happen:</p>
+<p>To solve this, there is a <a href="http://www.thecssninja.com/css/pointer-events-60fps" rel="nofollow" target="_blank">neat trick</a> by Ryan Seddon to listen for scroll event and disable pointer events on an element, say <code>&lt;body&gt;</code>, so that mouse dependent paints do not happen:</p>
 
 <pre class="prettyprint">
 // JS
@@ -469,7 +472,7 @@ window.addEventListener('scroll', function () {
 
 <p>This will essentially disable the pointer events as soon as the scroll starts and enable them half a second after the last scroll event fires.</p>
 
-<p>There is a similar issue on their results page too. If you search something, say <code>transform</code>, and scroll the shown <a href="http://caniuse.com/#search=transform">results page</a> you will notice frequent janks. Lets run a recording in devtools timeline for this page. This is what we got:</p>
+<p>There is a similar issue on their results page too. If you search something, say <code>transform</code>, and scroll the shown <a href="http://caniuse.com/#search=transform" rel="nofollow" target="_blank">results page</a> you will notice frequent janks. Lets run a recording in devtools timeline for this page. This is what we got:</p>
 
 <p><img src="/images/2015/03/caniuse-result-page-timeline.png" alt="Result page timeline" class="full-width" /></p>
 

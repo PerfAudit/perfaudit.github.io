@@ -373,6 +373,9 @@
 		z-index: 10;
 		top: 30%;
 	}
+	.directory-structure ul {
+		list-style: none;
+	}
 	</style>
 </head>
   <body class="post">
@@ -416,13 +419,13 @@ article h1, article h2, article h3 {
 			<div class="section-title">Case Study</div>
 
 			<h2 class="post-title">PerfAudit: DeviantArt.com</h2>
-			<p>Hey folks! Today we have come up with the case study for <a href="http://www.deviantart.com/" target="_blank">DeviantArt.com</a>, the largest online social network for artists and art enthusiasts, and a platform for emerging and established artists to exhibit, promote, and share their works with an enthusiastic, art-centric community.</p>
+			<p>Hey folks! Today we have come up with the case study for <a href="http://www.deviantart.com/" target="_blank" rel="nofollow">DeviantArt.com</a>, the largest online social network for artists and art enthusiasts, and a platform for emerging and established artists to exhibit, promote, and share their works with an enthusiastic, art-centric community.</p>
 
 <p><img src="/images/case-study/deviantart.com/homepage.jpg" /></p>
 
 <p>It is among the top 100 of all trafficked websites on the Internet. They have over 32 million registered members and attract over 65 million unique visitors per month. Their members upload over 160,000 original art works every day, everything from painting and sculpture to digital art, pixel art, films, and anime.</p>
 
-<p><a href="http://www.alexa.com/siteinfo/deviantart.com" target="_blank" title="DeviantArt Alexa Rank"><img src="/images/case-study/deviantart.com/alexa-ranking.png" /></a></p>
+<p><a href="http://www.alexa.com/siteinfo/deviantart.com" target="_blank" rel="nofollow" title="DeviantArt Alexa Rank"><img src="/images/case-study/deviantart.com/alexa-ranking.png" /></a></p>
 
 <h2 id="live-auditing">Live auditing</h2>
 
@@ -434,7 +437,7 @@ article h1, article h2, article h3 {
 
 <h2 id="network-profiling">Network profiling</h2>
 
-<p><a href="https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;tab=mobile" target="_blank" title="DeviantArt desktop improvements"><img src="/images/case-study/deviantart.com/pagespeed-score-desktop.png" /></a></p>
+<p><a href="https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;tab=mobile" target="_blank" rel="nofollow" title="DeviantArt desktop improvements"><img src="/images/case-study/deviantart.com/pagespeed-score-desktop.png" /></a></p>
 
 <p>Desktop pagespeed score for DeviantArt is just 24, which specifies a tremendous scope for improvement. DeviantArt displays paintings, sculpture to digital art, pixel art, films, and anime i.e. it is a image heavy website.</p>
 
@@ -448,7 +451,7 @@ article h1, article h2, article h3 {
 
 <p>Resizing and Compression of images are among the redundant tasks that must be performed either in batch, or as soon as an image is uploaded by the user on DeviantArt.</p>
 
-<p>Follow this <a href="http://addyosmani.com/blog/image-optimization-tools/" target="_blank">blog post</a> by Addy Osmani, describing the available Image Optimization Tools.</p>
+<p>Follow this <a href="http://addyosmani.com/blog/image-optimization-tools/" target="_blank" rel="nofollow">blog post</a> by Addy Osmani, describing the available Image Optimization Tools.</p>
 
 <h3 id="reduce-server-response-time">Reduce server response time</h3>
 
@@ -467,13 +470,13 @@ article h1, article h2, article h3 {
 
 <p>First pixel render time as recorded by us is around 6.29 seconds, which is huge. Eliminating render-blocking JavaScript and CSS in the above fold content which currently includes 9 CSS files, will surely help to reduce the first pixel render time drastically. Furthermore, the critical CSS can then be calculated and added in the HEAD section, which is not present currently.</p>
 
-<p><a href="http://www.webpagetest.org/video/compare.php?tests=150315_36_FKK-r:1-c:0" target="_blank" title="Filmstrip view DeviantArt page performance"><img src="/images/case-study/deviantart.com/filmstrip-view.png" /></a></p>
+<p><a href="http://www.webpagetest.org/video/compare.php?tests=150315_36_FKK-r:1-c:0" target="_blank" title="Filmstrip view DeviantArt page performance" rel="nofollow"><img src="/images/case-study/deviantart.com/filmstrip-view.png" /></a></p>
 
 <p>The first critical issue describes the reason for the increased first pixel render time, rendering is quite slow and it takes about 5.5 second to get the first glimpse of readable content, though the first pixel render time is about 3 seconds.</p>
 
 <h3 id="mobile-specific-issues">Mobile Specific Issues</h3>
 
-<p><a href="https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;tab=mobile" target="_blank" title="DeviantArt mobile improvements"><img src="/images/case-study/deviantart.com/pagespeed-score-mobile.png" /></a></p>
+<p><a href="https://developers.google.com/speed/pagespeed/insights/?url=www.deviantart.com&amp;tab=mobile" target="_blank" title="DeviantArt mobile improvements" rel="nofollow"><img src="/images/case-study/deviantart.com/pagespeed-score-mobile.png" /></a></p>
 
 <p>Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.</p>
 
@@ -488,7 +491,7 @@ article h1, article h2, article h3 {
 
 <h3 id="sticky-header">Sticky header</h3>
 
-<p>The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our <a href="http://perfaudit.com/case-study/caniuse.com/">previous</a> <a href="http://perfaudit.com/case-study/hindustantimes.com/">case studies</a>. Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. Come on…this got to be the most popular rendering issue on the web!</p>
+<p>The first thing we saw while browsing this website was huge jank while scrolling - much more than we have seen in our <a href="/case-study/caniuse.com/">previous</a> <a href="/case-study/hindustantimes.com/">case studies</a>. Profiling the page scroll in Chrome devtool timeline, we noticed the sticky header on the website. Come on…this got to be the most popular rendering issue on the web!</p>
 
 <p><img src="/images/case-study/deviantart.com/bad-paints.png" alt="Bad paints" /></p>
 
@@ -500,7 +503,7 @@ article h1, article h2, article h3 {
 
 <p><img src="/images/case-study/deviantart.com/animated-gifs.png" alt="Animated gifs" /></p>
 
-<p>The green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? Looking closely revealed small animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame, sure. But why such a big paint rectangle? This is again a result of <a href="http://benfrain.com/improving-css-performance-fixed-position-elements/"><em>union of damaged regions</em></a>. If you notice, they are 4 GIFs in the 4 corners of the green rectangle. Yes, the paint rectangles of the four images got unioned and hence, a big paint rectangle.</p>
+<p>The green paint rectangle seen above basically shows up every second! Yes, even when you are not interacting with the page. But why? Looking closely revealed small animated GIFs in that green area. GIFs are animated, they need to be repainted for every frame, sure. But why such a big paint rectangle? This is again a result of <a href="http://benfrain.com/improving-css-performance-fixed-position-elements/" rel="nofollow" target="_blank"><em>union of damaged regions</em></a>. If you notice, they are 4 GIFs in the 4 corners of the green rectangle. Yes, the paint rectangles of the four images got unioned and hence, a big paint rectangle.</p>
 
 <p>Now we could promote every GIF to its own layer to avoid union of paint rectangles and that actually helps in lowering down the paint area as seen below:</p>
 

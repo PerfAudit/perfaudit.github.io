@@ -373,6 +373,9 @@
 		z-index: 10;
 		top: 30%;
 	}
+	.directory-structure ul {
+		list-style: none;
+	}
 	</style>
 </head>
   <body class="post">
@@ -416,7 +419,7 @@ article h1, article h2, article h3 {
 			<div class="section-title">Case Study</div>
 
 			<h2 class="post-title">PerfAudit: HindustanTimes.com</h2>
-			<p>Hey folks! Today we have come up with the case study for <a href="http://www.hindustantimes.com/" target="_blank">HindustanTimes.com</a> which represents the web version of <a href="http://en.wikipedia.org/wiki/Hindustan_Times">HT Media</a>, one of India’s biggest media companies across states and media platforms.</p>
+			<p>Hey folks! Today we have come up with the case study for <a href="http://www.hindustantimes.com/" target="_blank" rel="nofollow">HindustanTimes.com</a> which represents the web version of <a href="http://en.wikipedia.org/wiki/Hindustan_Times" rel="nofollow" target="_blank">HT Media</a>, one of India’s biggest media companies across states and media platforms.</p>
 
 <p><a href="http://www.alexa.com/siteinfo/hindustantimes.com" target="_blank" title="Hindustan Times Alexa Rank"><img src="/images/case-study/hindustantimes.com/alexa-ranking.png" /></a></p>
 
@@ -449,7 +452,7 @@ article h1, article h2, article h3 {
 <ul>
   <li>Make fewer HTTP requests, use concatentation of static resources</li>
   <li>Use mulitple domain names for parallel resource requests.</li>
-  <li>Compress static resources. Must read <a href="https://engineering.linkedin.com/shared-dictionary-compression-http-linkedin">post</a> by Linkedin Engineering.</li>
+  <li>Compress static resources. Must read <a href="https://engineering.linkedin.com/shared-dictionary-compression-http-linkedin" rel="nofollow" target="_blank">post</a> by Linkedin Engineering.</li>
 </ul>
 
 <h2 id="profiling-rendering-performance">Profiling Rendering Performance</h2>
@@ -468,7 +471,7 @@ article h1, article h2, article h3 {
 
 <p>Notice the sections highlighted in the above image. Those are the elements which are fixed positioned in the website. So we get our paint issue:
 1. Fixed positioned elements are repainted continously as they are constantly visible.
-2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, <a href="http://benfrain.com/improving-css-performance-fixed-position-elements/">causing a full page repaint</a>.</p>
+2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, <a href="http://benfrain.com/improving-css-performance-fixed-position-elements/" rel="nofollow" target="_blank">causing a full page repaint</a>.</p>
 
 <p>Solution (hack) here is to just give those fixed positioned elements their own composite layer which actually prevents fixed positioned elements from repainting. One way to do that is by following CSS:</p>
 
