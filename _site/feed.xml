@@ -5,8 +5,8 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Aug 2015 00:43:28 +0530</pubDate>
-    <lastBuildDate>Mon, 31 Aug 2015 00:43:28 +0530</lastBuildDate>
+    <pubDate>Mon, 31 Aug 2015 01:05:23 +0530</pubDate>
+    <lastBuildDate>Mon, 31 Aug 2015 01:05:23 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -448,7 +448,11 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
     
       <item>
         <title>Webgl rendering | Approaches | Rendering Performance</title>
-        <description>
+        <description>&lt;p&gt;&lt;strong&gt;Related links:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WebGL best practices &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
         <link>http://perfaudit.com/rendering-performance/approaches/webgl-rendering</link>
@@ -462,35 +466,25 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Web Performance Optimization | Articles | Networking Performance</title>
-        <description>&lt;p&gt;Related Links:&lt;/p&gt;
+        <title>Web Performance Optimization | Courses | Networking Performance</title>
+        <description>&lt;p&gt;From Ilya Grigorik, Author, &lt;a href=&quot;http://chimera.labs.oreilly.com/books/1230000000545/index.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;High Performance Browser Networking&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;p&gt;A great course to head start with Web Performance. Understand how mobile and desktop browsers render pages and how HTML, CSS and JavaSript affect page load. It provides a nice overview of Google PageSpeed Insights and Chrome Developer tools.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Optimizing Performance: &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://developers.google.com/web/fundamentals/performance/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;center&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v5us0j3QmW4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Personal Blogs:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Steve Souder’s blog on Web Performance &lt;a href=&quot;http://stevesouders.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;http://stevesouders.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Patrick Meenan’s blog on Performance Matters &lt;a href=&quot;http://blog.patrickmeenan.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;http://blog.patrickmeenan.com/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Addy Osmani’s blog &lt;a href=&quot;http://addyosmani.com/blog/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;http://addyosmani.com/blog/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Paul Lewis’s blog &lt;a href=&quot;https://aerotwist.com/blog/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://aerotwist.com/blog/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Jake Archibald’s blog &lt;a href=&quot;https://jakearchibald.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://jakearchibald.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Signup for Web Performance Optimization course at Udacity: &lt;a href=&quot;https://www.udacity.com/course/website-performance-optimization--ud884&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://www.udacity.com/course/website-performance-optimization–ud884&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/networking-performance/resources/articles/web-performance-optimization</link>
-        <guid isPermaLink="true">http://perfaudit.com/networking-performance/resources/articles/web-performance-optimization</guid>
+        <link>http://perfaudit.com/networking-performance/courses/web-performance-optimization</link>
+        <guid isPermaLink="true">http://perfaudit.com/networking-performance/courses/web-performance-optimization</guid>
         
         
         <category>networking-performance</category>
         
-        <category>resources</category>
-        
-        <category>articles</category>
+        <category>courses</category>
         
       </item>
     
