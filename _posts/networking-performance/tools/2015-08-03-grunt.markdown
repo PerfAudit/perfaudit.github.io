@@ -1,0 +1,17 @@
+---
+layout: resource
+title:  "Grunt | Tools | Networking Performance"
+date:   2015-03-04
+categories: Networking-Performance Tools
+body-class: no-sidebar
+---
+
+<div class="center">
+  <img src="/images/networking-performance/grunt-logo.png" alt="Grunt">
+</div>
+
+[Grunt](http://gruntjs.com/){:rel="nofollow"}{:target="_blank"}, The JavaScript Task Runner. It is the other name for automation. The more you automate the lesser are the chances to skip any repetitive optimization(such as minification, compression etc.) to be applied on the content you serve.
+
+**Related links:**
+
+- Grunt and Gulp tasks for Performance Optimization [http://yeoman.io/blog/performance-optimization.html](http://yeoman.io/blog/performance-optimization.html){:rel="nofollow"}{:target="_blank"}

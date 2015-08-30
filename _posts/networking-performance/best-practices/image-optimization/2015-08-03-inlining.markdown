@@ -1,0 +1,15 @@
+---
+layout: resource
+title:  "Image inling | Image Optimization | Networking Performance"
+date:   2015-03-04
+categories: Networking-Performance Best-Practices Image-Optimizations
+body-class: no-sidebar
+---
+
+Reduce round trip time by serving small images in the HTML. This can reduce the time it takes to display content to the user, especially in older browsers.
+
+The inline gif that we use in replacement of the lazy loaded original images: `data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==`
+
+**Issues:**
+
+- Inlined images cannot be cached, and thus add themselves to the total size of a webpage with every use.

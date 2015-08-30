@@ -1,0 +1,27 @@
+---
+layout: resource
+title:  "Single Point of Failure(SPOF) | Issues | Networking Performance"
+date:   2015-03-04
+categories: Networking-Performance Issues
+body-class: no-sidebar
+---
+
+**Definition**:
+
+A single point of failure (SPOF) is a critical system component with the ability to cease system operations during failover. SPOFs are undesirable to systems requiring reliability and availability, such as software applications, networks or supply chains.
+
+**How does it apply on Webpages?**
+
+Third party resources loaded on a webpage, have the ability to serve as SPOF if loaded synchronously on a webpage. When placed inside HEAD, they do not allow the browser parser to escape past them, and thus lead to the increase in page start render time and total load time. Depending upon the default timeout set by the browser while fetching a resource, the start render time and total load time are affected.
+
+<div class="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/prToLDpjmPw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Solution:
+
+* Load all Third Party resources(JS/CSS/Fonts) asynchronously, so that they never affect the start render time / page load time of your webpage.
+
+Related Links:
+
+* Frontend SPOF [http://www.stevesouders.com/blog/2010/06/01/frontend-spof/](http://www.stevesouders.com/blog/2010/06/01/frontend-spof/){:rel="nofollow"}{:target="_blank"}

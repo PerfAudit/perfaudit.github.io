@@ -1,0 +1,9 @@
+---
+layout: resource
+title:  "Glossary | Rendering Performance"
+date:   2015-03-04
+categories: Rendering-Performance
+body-class: no-sidebar
+---
+
+**fps**: Frames per second

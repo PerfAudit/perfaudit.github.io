@@ -1,0 +1,16 @@
+---
+layout: resource
+title:  "Faster DNS lookup | Best Practices | Networking Performance"
+date:   2015-03-04
+categories: Networking-Performance Best-Practices
+body-class: no-sidebar
+---
+
+Steps followed for DNS Lookup:
+
+* Browser checks if the domain is in its cache.
+* If not found, the browser calls gethostbyname library function (varies by OS) to do the lookup.
+gethostbyname checks if the hostname can be resolved by reference in the local hosts file (whose location varies by OS) before trying to resolve the hostname through DNS.
+* If gethostbyname does not have it cached nor can find it in the hosts file then it makes a request to the DNS server configured in the network stack.
+
+Comic version of "[DNS Lookup](https://howdns.works/){:rel="nofollow"}{:target="_blank"}"

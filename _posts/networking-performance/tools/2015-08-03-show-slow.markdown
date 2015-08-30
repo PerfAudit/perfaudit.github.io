@@ -1,0 +1,14 @@
+---
+layout: resource
+title:  "ShowSlow | Tools | Networking Performance"
+date:   2015-03-04
+categories: Networking-Performance Tools
+body-class: no-sidebar
+---
+
+Show Slow is an [open source tool](https://github.com/sergeychernyshev/showslow/){:rel="nofollow"}{:target="_blank"} that helps monitor various website performance metrics over time. It captures the results of [YSlow](http://www.yslow.org/){:rel="nofollow"}{:target="_blank"}, [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/){:rel="nofollow"}{:target="_blank"}, [WebPageTest](http://www.webpagetest.org/){:rel="nofollow"}{:target="_blank"} and [dynaTrace AJAX Edition](https://community.dynatrace.com/community/display/AJAX/Dynatrace+AJAX+Edition+Community+Home){:rel="nofollow"}{:target="_blank"} rankings and graphs them, to help you understand how various changes to your site affect its performance.
+
+[ShowSlow.com](http://www.showslow.com/){:rel="nofollow"}{:target="_blank"} is a demonstration site that continuously measures the performance of a few reference web pages. It also allows for public metrics reporting, and keeps data for 90 days.
+
+<br><br>
+![ShowSlow PerfAudit Report](/images/networking-performance/showslow-demo.jpg)
