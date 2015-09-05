@@ -5,3 +5,9 @@ date:   2015-03-04
 categories: Networking-Performance Best-Practices Pre-fetch-resources
 body-class: no-sidebar
 ---
+
+Resource prefetch utilizes browser idle time to prefetch resources that the user might use in the near future. A web page provides a set of prefetching hints to the browser(via HTML tags), and after the browser is finished loading the page, it begins silently prefetching specified resources and stores them in its cache. When the user visits one of the prefetched resources, it can be served up quickly out of the browser's cache.
+
+Related links:
+
+- [Prefetch: MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ){:rel="nofollow"}{:target="_blank"}

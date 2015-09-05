@@ -30,7 +30,7 @@
 
 importScripts('node_modules/serviceworker-cache-polyfill/index.js');
 
-var CACHE_VERSION = 6;
+var CACHE_VERSION = 7;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-cache-v' + CACHE_VERSION
 };

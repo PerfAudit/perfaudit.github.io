@@ -9,3 +9,7 @@ body-class: no-sidebar
 **SPOF**: Single Point of Failure
 
 **HSTS**: HTTP Strict Transport Security
+
+**Start Render Time**: is the time required to render first pixel on to the browser screen. It is represented with DOMContentLoaded in browser developer tools.
+
+**Load Time**: Complete load time of a webpage, includes the time to fetch all resources(asynchronous/synchronous image, scripts, stylesheets etc).
