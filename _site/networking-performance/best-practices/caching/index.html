@@ -9,19 +9,19 @@
 	<title>Caching | Best Practices | Networking Performance</title>
 	<meta name="keywords" content="performance, audit, rendering, profiling, website, consultant" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
+	<meta name="description" content="Caching is the process that allows you to avoid any sort of processing while serving the response via previously calculated response considering it still valid.">
 
 	<link rel="publisher" href="https://google.com/+Perfaudits"/>
 	<meta property="og:title" content="PerfAudit | Caching | Best Practices | Networking Performance">
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="">
+	<meta property="og:description" content="Caching is the process that allows you to avoid any sort of processing while serving the response via previously calculated response considering it still valid.">
 	<meta property="og:site_name" content="PerfAudit">
 	<meta property="og:url" content="http://perfaudit.com/networking-performance/best-practices/caching">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Caching | Best Practices | Networking Performance">
-	<meta name="twitter:description" content="">
+	<meta name="twitter:description" content="Caching is the process that allows you to avoid any sort of processing while serving the response via previously calculated response considering it still valid.">
 	<!-- Enable "installability" -->
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -422,7 +422,31 @@ article h1, article h2, article h3 {
       <div class="section-title"></div>
 
       <h2 class="post-title">Caching | Best Practices | Networking Performance</h2>
-      
+      <p>Caching is the process that allows you to avoid any sort of processing while serving the response via previously calculated response considering it still valid.</p>
+
+<div class="center">
+  <img src="/images/networking-performance/cache.png" alt="Server and Client side caches" />
+</div>
+
+<p>Caching can be implemented in various scenarios, though the kind of caches usually implemented on the server side are listed as follows:</p>
+
+<p>Following are the different types of Caches:</p>
+
+<ul>
+  <li><strong>Proxy Cache</strong>, it sits before your application server to avoid any request processing (e.g. Varnish)</li>
+</ul>
+
+<div class="center">
+  <img src="/images/networking-performance/varnish-cache.png" alt="Varnish Cache" />
+</div>
+
+<ul>
+  <li><strong>Databases Caching</strong> (via <a href="http://memcached.org/" rel="nofollow" target="_blank">Memcached</a>, <a href="http://redis.io/" rel="nofollow" target="_blank">Redis</a> or any other In-memory databases)</li>
+</ul>
+
+<div class="center">
+  <img src="/images/networking-performance/memcached-layer.jpg" alt="Memcached layer" />
+</div>
 
     </article>
     <br>

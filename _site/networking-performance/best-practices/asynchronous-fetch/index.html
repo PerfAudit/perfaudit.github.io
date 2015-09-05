@@ -6,22 +6,22 @@
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Asynchronous loading | Best Practices | Networking Performance</title>
+	<title>Asynchronous resource loading | Best Practices | Networking Performance</title>
 	<meta name="keywords" content="performance, audit, rendering, profiling, website, consultant" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
+	<meta name="description" content="Fetching of resources in a fashion which is non-render blocking is termed as asynchronous resource fetching.">
 
 	<link rel="publisher" href="https://google.com/+Perfaudits"/>
-	<meta property="og:title" content="PerfAudit | Asynchronous loading | Best Practices | Networking Performance">
+	<meta property="og:title" content="PerfAudit | Asynchronous resource loading | Best Practices | Networking Performance">
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="">
+	<meta property="og:description" content="Fetching of resources in a fashion which is non-render blocking is termed as asynchronous resource fetching.">
 	<meta property="og:site_name" content="PerfAudit">
 	<meta property="og:url" content="http://perfaudit.com/networking-performance/best-practices/asynchronous-fetch">
 
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Asynchronous loading | Best Practices | Networking Performance">
-	<meta name="twitter:description" content="">
+	<meta name="twitter:title" content="Asynchronous resource loading | Best Practices | Networking Performance">
+	<meta name="twitter:description" content="Fetching of resources in a fashion which is non-render blocking is termed as asynchronous resource fetching.">
 	<!-- Enable "installability" -->
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -421,8 +421,39 @@ article h1, article h2, article h3 {
     <article>
       <div class="section-title"></div>
 
-      <h2 class="post-title">Asynchronous loading | Best Practices | Networking Performance</h2>
-      
+      <h2 class="post-title">Asynchronous resource loading | Best Practices | Networking Performance</h2>
+      <p>Fetching of resources in a fashion which is non-render blocking is termed as asynchronous resource fetching.</p>
+
+<p>There are several ways to load resources asynchronously:</p>
+
+<pre>
+function stylesheet(url) {
+    var s = document.createElement('link');
+    s.type = 'text/css';
+    s.src = url;
+    var x = document.getElementsByTagName('head')[0];
+    x.appendChild(s);
+}
+</pre>
+
+<pre>
+function script(url) {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var x = document.getElementsByTagName('head')[0];
+    x.appendChild(s);
+}
+</pre>
+
+<p>Using <a href="http://www.w3.org/TR/html5/scripting-1.html#attr-script-async" rel="nofollow" target="_blank">async</a> attribute</p>
+
+<p><code>&lt;script async src="script.js"&gt;&lt;/script&gt;</code></p>
+
+<p>or by using <a href="http://www.w3.org/TR/html5/scripting-1.html#attr-script-async" rel="nofollow" target="_blank">defer</a> attribute  against script tags</p>
+
+<p><code>&lt;script defer src="script.js"&gt;&lt;/script&gt;</code></p>
 
     </article>
     <br>
@@ -465,7 +496,7 @@ article h1, article h2, article h3 {
       </a>
     </li>
     <li class="rrssb-linkedin">
-      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://perfaudit.com/networking-performance/best-practices/asynchronous-fetch&amp;title=Asynchronous loading | Best Practices | Networking Performance&amp;summary=" class="popup">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://perfaudit.com/networking-performance/best-practices/asynchronous-fetch&amp;title=Asynchronous resource loading | Best Practices | Networking Performance&amp;summary=" class="popup">
         <span class="rrssb-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
             <path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"

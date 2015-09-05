@@ -5,3 +5,7 @@ date:   2015-03-04
 categories: Networking-Performance Best-Practices
 body-class: no-sidebar
 ---
+
+![CDN map](/images/networking-performance/CDN-landing-map.png)
+
+Content Delivery Networks allow you to serve your static resources distributedly in different geographies thereby avoiding high latency while serving the content to your users in the least possible time.

@@ -5,3 +5,25 @@ date:   2015-03-04
 categories: Networking-Performance Best-Practices
 body-class: no-sidebar
 ---
+
+Caching is the process that allows you to avoid any sort of processing while serving the response via previously calculated response considering it still valid.
+
+<div class="center">
+  <img src="/images/networking-performance/cache.png" alt="Server and Client side caches">
+</div>
+
+Caching can be implemented in various scenarios, though the kind of caches usually implemented on the server side are listed as follows:
+
+Following are the different types of Caches:
+
+- **Proxy Cache**, it sits before your application server to avoid any request processing (e.g. Varnish)
+
+<div class="center">
+  <img src="/images/networking-performance/varnish-cache.png" alt="Varnish Cache">
+</div>
+
+- **Databases Caching** (via [Memcached](http://memcached.org/){:rel="nofollow"}{:target="_blank"}, [Redis](http://redis.io/){:rel="nofollow"}{:target="_blank"} or any other In-memory databases)
+
+<div class="center">
+  <img src="/images/networking-performance/memcached-layer.jpg" alt="Memcached layer">
+</div>
