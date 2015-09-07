@@ -16,6 +16,8 @@ Caching can be implemented in various scenarios, though the kind of caches usual
 
 Following are the different types of Caches:
 
+### Server Side Caching
+
 - **Proxy Cache**, it sits before your application server to avoid any request processing (e.g. Varnish)
 
 <div class="center">
@@ -27,3 +29,15 @@ Following are the different types of Caches:
 <div class="center">
   <img src="/images/networking-performance/memcached-layer.jpg" alt="Memcached layer">
 </div>
+
+### Client Side Caching
+
+<div class="center">
+  <img src="/images/networking-performance/browser-cache-avoid-repetitive.jpg" alt="Browser Cache">
+</div>
+
+- **Browser Cache**: Leveraging browser's cache for storing static assets is very important to keep the page refresh time to its minimum.
+
+Related Links:
+
+- [**basket.js**](http://addyosmani.github.io/basket.js/) A script loader that caches scripts with localStorage.

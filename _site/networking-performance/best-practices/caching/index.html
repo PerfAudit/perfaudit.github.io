@@ -432,6 +432,8 @@ article h1, article h2, article h3 {
 
 <p>Following are the different types of Caches:</p>
 
+<h3 id="server-side-caching">Server Side Caching</h3>
+
 <ul>
   <li><strong>Proxy Cache</strong>, it sits before your application server to avoid any request processing (e.g. Varnish)</li>
 </ul>
@@ -447,6 +449,22 @@ article h1, article h2, article h3 {
 <div class="center">
   <img src="/images/networking-performance/memcached-layer.jpg" alt="Memcached layer" />
 </div>
+
+<h3 id="client-side-caching">Client Side Caching</h3>
+
+<div class="center">
+  <img src="/images/networking-performance/browser-cache-avoid-repetitive.jpg" alt="Browser Cache" />
+</div>
+
+<ul>
+  <li><strong>Browser Cache</strong>: Leveraging browser’s cache for storing static assets is very important to keep the page refresh time to its minimum.</li>
+</ul>
+
+<p>Related Links:</p>
+
+<ul>
+  <li><a href="http://addyosmani.github.io/basket.js/"><strong>basket.js</strong></a> A script loader that caches scripts with localStorage.</li>
+</ul>
 
     </article>
     <br>

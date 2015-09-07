@@ -9,19 +9,19 @@
 	<title>Landing page redirects | Issues | Networking Performance</title>
 	<meta name="keywords" content="performance, audit, rendering, profiling, website, consultant" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
+	<meta name="description" content="A landing page redirect adds unnecessary resolution time in the response time, as redirects can be avoided and must be avoided by all means, if possible.">
 
 	<link rel="publisher" href="https://google.com/+Perfaudits"/>
 	<meta property="og:title" content="PerfAudit | Landing page redirects | Issues | Networking Performance">
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="">
+	<meta property="og:description" content="A landing page redirect adds unnecessary resolution time in the response time, as redirects can be avoided and must be avoided by all means, if possible.">
 	<meta property="og:site_name" content="PerfAudit">
 	<meta property="og:url" content="http://perfaudit.com/networking-performance/issues/landing-page-redirect">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Landing page redirects | Issues | Networking Performance">
-	<meta name="twitter:description" content="">
+	<meta name="twitter:description" content="A landing page redirect adds unnecessary resolution time in the response time, as redirects can be avoided and must be avoided by all means, if possible.">
 	<!-- Enable "installability" -->
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -422,7 +422,29 @@ article h1, article h2, article h3 {
       <div class="section-title"></div>
 
       <h2 class="post-title">Landing page redirects | Issues | Networking Performance</h2>
-      
+      <p>A landing page redirect adds unnecessary resolution time in the response time, as redirects can be avoided and must be avoided by all means, if possible.</p>
+
+<p>For e.g.: many websites redirect the mobile users from their desktop website like perfaudit.com to m.perfaudit.com. In such case, a redirect can be avoided in the following cases:</p>
+
+<ul>
+  <li>
+    <p>If a server responds with the mobile specific content for the same request, without redirecting the user to the mobile version of their website, which is available on either a subdomain or a different url on the same domain. A redirect to the sub domain even triggers another DNS resolution for the website, which adds up to the response time.</p>
+  </li>
+  <li>
+    <p>If possible, websites can use responsive design for their mobile version, instead of initiating another request to redirect the user to the mobile version of the website.</p>
+  </li>
+</ul>
+
+<p>Performance Tricks regarding redirects:</p>
+
+<ul>
+  <li>
+    <p>301 response status refers to the permanent redirect whereas 302 refers to a temporary redirect. A 301 redirect gets cached by the browser(unless expire time has been specified in the network request), after the first request and for the subsequent requests for the same url, browser directly pings the redirected url, and not the original url, whereas in a 302 or temporary redirect, browser pings the server for the status of the original url and does not get cached at all.</p>
+  </li>
+  <li>
+    <p>A 302 redirect must be avoided at all times, as it never gets cached and unnecessarily adds to the response time of a request. Instead, a 301 redirect can be used with an expire time if possible.</p>
+  </li>
+</ul>
 
     </article>
     <br>

@@ -6,3 +6,4 @@ categories: Networking-Performance
 body-class: no-sidebar
 ---
 
+The different issues that hinder the networking performance and also the ones that you must be aware of while treading the path to performance.
