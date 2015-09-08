@@ -6,3 +6,4 @@ categories: Networking-Performance Resources
 body-class: no-sidebar
 ---
 
+This section features the best books available to gain indepth understanding about the networking performance of a web application.

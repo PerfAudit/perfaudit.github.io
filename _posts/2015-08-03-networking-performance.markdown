@@ -136,7 +136,7 @@ Table of Contents:
               <a href="/networking-performance/tools/grunt/compression">Compression</a>
             </li>
             <li>
-              <a href="/networking-performance/tools/grunt/concatination">Concatination</a>
+              <a href="/networking-performance/tools/grunt/concatination-resources">Concatination</a>
             </li>
             <li>
               <a href="/networking-performance/tools/grunt/remove-unused-css">Remove unused CSS</a>
