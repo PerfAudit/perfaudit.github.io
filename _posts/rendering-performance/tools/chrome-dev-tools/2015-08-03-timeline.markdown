@@ -5,3 +5,17 @@ date:   2015-03-04
 categories: Rendering-Performance Tools Chrome-Dev-Tools
 body-class: no-sidebar
 ---
+
+Timeline in Chrome developer tools displays the following operations:
+
+- Painting
+- Scripting
+- Rendering
+
+The following is a screenshot of the timeline tab in chrome dev tools, displaying the operations executed on a web page in a timeframe.
+
+![Chrome dev tools timeline](/images/networking-performance/timeline.jpg)
+
+Related links:
+
+- [How to use Timeline tool](https://developers.google.com/web/tools/profile-performance/evaluate-performance/timeline-tool)
