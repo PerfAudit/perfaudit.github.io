@@ -8,7 +8,7 @@ body-class: no-sidebar
 
 Paint identification is an option provided in the chrome developer tools section, that allows you to identify all elements in a webpage which get repainted on a webpage.
 
-The following displays the option in Chrome dev tools that enables the identification of repainted elements via green background and highlighted border around them.
+The following screenshot displays the option in Chrome dev tools that enables the identification of repainted elements via green background and highlighted border around them.
 
 <div class="center">
   <img src="/images/networking-performance/show-paint-rectangles.jpg" alt="Show Paint Rectangles option Chrome dev tools">
