@@ -114,9 +114,25 @@ Table of Contents:
       <ul>
         <li>
           <a href="/networking-performance/resources/articles">Articles</a>
+          <ul>
+            <li>
+              <a href="/networking-performance/resources/articles/chrome-dev-tools-documentation">Chrome Dev Tools documentation</a>
+            </li>
+            <li>
+              <a href="/networking-performance/resources/articles/web-performance-optimization">Web Performance Optimization</a>
+            </li>
+          </ul>
         </li>
         <li>
           <a href="/networking-performance/resources/books">Books</a>
+          <ul>
+            <li>
+              <a href="/networking-performance/resources/books/designing-for-performance">Designing for Performance</a>
+            </li>
+            <li>
+              <a href="/networking-performance/resources/books/high-performance-browser-networking">High Performance browser Networking</a>
+            </li>
+          </ul>
         </li>
         <li>
           <a href="/networking-performance/resources/slides">Slides</a>
@@ -152,6 +168,9 @@ Table of Contents:
             </li>
             <li>
               <a href="/networking-performance/tools/grunt/minification">Minification</a>
+            </li>
+            <li>
+              <a href="/networking-performance/tools/grunt/perfbudget">Perfbudget (Performance Budget)</a>
             </li>
           </ul>
         </li>

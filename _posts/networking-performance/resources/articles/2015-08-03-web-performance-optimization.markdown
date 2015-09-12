@@ -19,3 +19,7 @@ Personal Blogs:
 * Addy Osmani's blog [http://addyosmani.com/blog/](http://addyosmani.com/blog/){:rel="nofollow"}{:target="_blank"}
 * Paul Lewis's blog [https://aerotwist.com/blog/](https://aerotwist.com/blog/){:rel="nofollow"}{:target="_blank"}
 * Jake Archibald's blog [https://jakearchibald.com/](https://jakearchibald.com/){:rel="nofollow"}{:target="_blank"}
+
+Curated list:
+
+* [Awesome curated list of resources for web performance optimization](https://github.com/davidsonfellipe/awesome-wpo){:rel="nofollow"}{:target="_blank"}

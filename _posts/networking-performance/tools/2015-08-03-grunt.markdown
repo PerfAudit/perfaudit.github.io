@@ -14,4 +14,6 @@ body-class: no-sidebar
 
 **Related links:**
 
-- Grunt and Gulp tasks for Performance Optimization [http://yeoman.io/blog/performance-optimization.html](http://yeoman.io/blog/performance-optimization.html){:rel="nofollow"}{:target="_blank"}
+- [Grunt and Gulp tasks for Performance Optimization](http://yeoman.io/blog/performance-optimization.html){:rel="nofollow"}{:target="_blank"}
+
+- [Grunt vs Gulp](http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/#1){:rel="nofollow"}{:target="_blank"}
