@@ -14,3 +14,7 @@ Learn the art to load a website under 1 second.
 [Rendering Performance](/rendering-performance/)
 
 Master the skills to render your application at 60fps jank free.
+
+[Conferences](/conferences/)
+
+Conferences related to Performance

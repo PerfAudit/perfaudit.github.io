@@ -41,11 +41,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/courses/web-performance-optimization</loc>
+    <loc>http://perfaudit.com/rendering-performance/courses/web-performance-optimization</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/courses/web-performance-optimization</loc>
+    <loc>http://perfaudit.com/networking-performance/courses/web-performance-optimization</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -65,11 +65,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources/videos</loc>
+    <loc>http://perfaudit.com/rendering-performance/resources/videos</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/videos</loc>
+    <loc>http://perfaudit.com/networking-performance/resources/videos</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -101,11 +101,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/slides</loc>
+    <loc>http://perfaudit.com/networking-performance/resources/slides</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources/slides</loc>
+    <loc>http://perfaudit.com/rendering-performance/resources/slides</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -121,11 +121,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/resources</loc>
+    <loc>http://perfaudit.com/networking-performance/resources</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources</loc>
+    <loc>http://perfaudit.com/rendering-performance/resources</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -373,11 +373,19 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
+    <loc>http://perfaudit.com/networking-performance/courses</loc>
+    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://perfaudit.com/rendering-performance/courses</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/courses</loc>
+    <loc>http://perfaudit.com/conferences</loc>
+    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>http://perfaudit.com/networking-performance/best-practices/concatination-resources</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -385,7 +393,7 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/concatination-resources</loc>
+    <loc>http://perfaudit.com/networking-performance/tools/grunt/compression</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -394,10 +402,6 @@
   </url>
   <url>
     <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/compression</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/compression</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>

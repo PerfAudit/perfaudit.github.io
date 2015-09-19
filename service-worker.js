@@ -34,7 +34,7 @@ layout: null
 
 importScripts('node_modules/serviceworker-cache-polyfill/index.js');
 
-var CACHE_VERSION = 12;
+var CACHE_VERSION = 13;
 var CURRENT_CACHES = {
   prefetch: 'prefetch-cache-v' + CACHE_VERSION
 };
