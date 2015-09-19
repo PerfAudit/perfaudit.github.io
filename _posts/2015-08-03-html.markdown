@@ -1,0 +1,12 @@
+---
+layout: resource
+title:  "HTML"
+date:   2015-03-04
+body-class: no-sidebar
+---
+
+Everything you want to know about HTML and its Performance aspect.
+
+Related Links:
+
+- [Curated list of best HTML resources](https://github.com/diegocard/awesome-html5){:rel="nofollow"}{:target="_blank"}

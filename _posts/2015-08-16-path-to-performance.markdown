@@ -15,6 +15,18 @@ Learn the art to load a website under 1 second.
 
 Master the skills to render your application at 60fps jank free.
 
+[HTML](/html/)
+
+How to write performant HTML code.
+
+[CSS](/css/)
+
+How to become a CSS Ninja.
+
+[JavaScript](/javascript/)
+
+Path to become a JavaScript Ninja.
+
 [Conferences](/conferences/)
 
 Conferences related to Performance
