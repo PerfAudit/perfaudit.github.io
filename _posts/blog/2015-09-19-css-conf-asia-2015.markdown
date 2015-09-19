@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "CSS Conf Asia 2015 Singapore"
+date:   2015-07-17
+categories: Blog
+body-class: no-sidebar
+---
+
+<div class="center">
+  <img src="/images/blog/cssconfasia.svg" alt="CSSConf.Asia 2015 Singapore" width="400" />
+</div>
+
+We are super excited to be a part of [CSS Conf Asia 2015](http://2015.cssconf.asia){:rel="nofollow"}{:target="_blank"}, and share the stage with other great speakers. We look forward to meet you there.
+
+In the meantime, you may want to go through our resource '[Path to Performance](/path-to-performance/)' to learn everything about Performance.
+
+Stay tuned for our updates about CSS Conference Asia 2015 here.
