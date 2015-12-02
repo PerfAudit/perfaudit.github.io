@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://perfaudit.com/blog/css-conf-asia-2015</loc>
+    <lastmod>2015-09-19T00:00:00+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://perfaudit.com/blog/service-worker-offline</loc>
     <lastmod>2015-08-02T00:00:00+05:30</lastmod>
   </url>
@@ -14,10 +18,6 @@
   </url>
   <url>
     <loc>http://perfaudit.com/blog/js-channel-2015-conference</loc>
-    <lastmod>2015-07-17T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/css-conf-asia-2015</loc>
     <lastmod>2015-07-17T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -449,11 +449,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/books</loc>
+    <loc>http://perfaudit.com/networking-performance/resources/books</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources/books</loc>
+    <loc>http://perfaudit.com/rendering-performance/resources/books</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -465,11 +465,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/avoid-memory-leaks</loc>
+    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/avoid-memory-leaks</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/avoid-memory-leaks</loc>
+    <loc>http://perfaudit.com/rendering-performance/best-practices/avoid-memory-leaks</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -477,11 +477,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/articles</loc>
+    <loc>http://perfaudit.com/networking-performance/resources/articles</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources/articles</loc>
+    <loc>http://perfaudit.com/rendering-performance/resources/articles</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -491,6 +491,10 @@
   <url>
     <loc>http://perfaudit.com/rendering-performance/best-practices/animations</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>http://perfaudit.com/case-study/panda-app</loc>
+    <lastmod>2015-02-26T07:25:40+05:30</lastmod>
   </url>
   <url>
     <loc>http://perfaudit.com/case-study/materialup.com</loc>

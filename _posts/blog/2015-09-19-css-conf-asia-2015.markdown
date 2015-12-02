@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSS Conf Asia 2015 Singapore"
-date:   2015-07-17
+date:   2015-09-19
 categories: Blog
 body-class: no-sidebar
 ---
@@ -15,3 +15,17 @@ We are super excited to be a part of [CSS Conf Asia 2015](http://2015.cssconf.as
 In the meantime, you may want to go through our resource '[Path to Performance](/path-to-performance/)' to learn everything about Performance.
 
 Stay tuned for our updates about CSS Conference Asia 2015 here.
+
+#### Post Conference update:
+
+CSS Conf Asia was phenomenal, it was a great pleasure to share the same stage with some of the tech celebrities including Chris Lilley, Father of SVG. Other speakers & audience were equally awesome, and we were glad to have a chat with them regarding Performance.
+
+Singapore was an awesome host, and we truly enjoyed our stay while being part of DevFest Asia.
+
+Our slides for the talk **"Performance beyond Page load"** presented at CSS Conf Asia 2015:
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/dYzIpBPZl8nZUy" height="555" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;" allowfullscreen> </iframe>
+
+We also presented at the **Talk.js edition of DevFest Asia**, here are the slides:
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/4Z6tuxWLHPi8nd" height="555" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;" allowfullscreen> </iframe>

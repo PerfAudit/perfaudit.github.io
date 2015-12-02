@@ -6,22 +6,22 @@
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>CSS Conf Asia 2015 Singapore</title>
+	<title>Case Study | Panda App | PerfAudit</title>
 	<meta name="keywords" content="performance, audit, rendering, profiling, website, consultant" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="  ">
+	<meta name="description" content="Hey folks! Today we have come up with the case study for the very famous Panda app (also available as browser extension), the newsfeed dashboard for 130,000+...">
 
 	<link rel="publisher" href="https://google.com/+Perfaudits"/>
-	<meta property="og:title" content="PerfAudit | CSS Conf Asia 2015 Singapore">
+	<meta property="og:title" content="PerfAudit | Case Study | Panda App | PerfAudit">
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="  ">
+	<meta property="og:description" content="Hey folks! Today we have come up with the case study for the very famous Panda app (also available as browser extension), the newsfeed dashboard for 130,000+...">
 	<meta property="og:site_name" content="PerfAudit">
-	<meta property="og:url" content="http://perfaudit.com/blog/css-conf-asia-2015">
+	<meta property="og:url" content="http://perfaudit.com/case-study/panda-app">
 
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="CSS Conf Asia 2015 Singapore">
-	<meta name="twitter:description" content="  ">
+	<meta name="twitter:title" content="Case Study | Panda App | PerfAudit">
+	<meta name="twitter:description" content="Hey folks! Today we have come up with the case study for the very famous Panda app (also available as browser extension), the newsfeed dashboard for 130,000+...">
 	<!-- Enable "installability" -->
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -48,7 +48,7 @@
 	<meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#e97770">
 
-	<link rel="canonical" href="http://perfaudit.com/blog/css-conf-asia-2015">
+	<link rel="canonical" href="http://perfaudit.com/case-study/panda-app">
 	<link rel="alternate" type="application/rss+xml" title="PerfAudit | Performance Audit of Websites by Professionals" href="http://perfaudit.com/feed.xml" />
 	<style>
 	*, *:before, *:after {
@@ -394,60 +394,140 @@
     <div class="content">
       <style>
 .post-title {
-  font-size: 2em;
-  letter-spacing: 0.075em;
-  line-height: 1.5em;
+	font-size: 2em;
+	letter-spacing: 0.075em;
+	line-height: 1.5em;
 }
 .post-container {
-  max-width: 800px;
+	max-width: 800px;
 }
 article {
-  color: #666;
+	color: #666;
 }
 article code,
 article a {
-  color: #e97770;
+	color: #e97770;
 }
 article img {
-  max-width: 100%;
+	max-width: 100%;
 }
 article h1, article h2, article h3 {
-  margin-top: 2em;
-  margin-bottom: 0.5em;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
 }
+.comment-box { margin-top: 64px; }
 </style>
 <section class="">
-  <div class="container post-container">
-    <article>
-      <div class="section-title"></div>
+	<div class="container post-container">
+		<article>
+			<div class="section-title">Case Study</div>
 
-      <h2 class="post-title">CSS Conf Asia 2015 Singapore</h2>
-      <div class="center">
-  <img src="/images/blog/cssconfasia.svg" alt="CSSConf.Asia 2015 Singapore" width="400" />
-</div>
+			<h2 class="post-title">PerfAudit: Panda App</h2>
+			<p>Hey folks! Today we have come up with the case study for the very famous <a href="http://www.usepanda.com/" target="_blank">Panda</a> app (also available as browser extension), the newsfeed dashboard for 130,000+ designers​,​​ developers​ and entrepreneurs​.</p>
 
-<p>We are super excited to be a part of <a href="http://2015.cssconf.asia" rel="nofollow" target="_blank">CSS Conf Asia 2015</a>, and share the stage with other great speakers. We look forward to meet you there.</p>
+<p><br /><img class="center" src="/images/case-study/panda-app/homepage.jpg" /><br /></p>
 
-<p>In the meantime, you may want to go through our resource ‘<a href="/path-to-performance/">Path to Performance</a>’ to learn everything about Performance.</p>
+<p>It aggregates content from sources like Hacker News, Product Hunt, Dribbble and various other channels, making it easier for you to stay informed and inspired.</p>
 
-<p>Stay tuned for our updates about CSS Conference Asia 2015 here.</p>
+<h2 id="how-fast-does-panda-app-load-on-average">How fast does Panda app load on average?</h2>
 
-<h4 id="post-conference-update">Post Conference update:</h4>
+<h4 id="when-tested-via-webpagetest-it-had-a-start-render-time-of-687ms-though-usable-information-was-displayed-at-around-7th-second-while-all-the-resources-were-completely-downloaded-after-17221-seconds-which-displays-a-great-margin-of-improvement">When tested via WebPageTest, it had a start render time of 687ms, though usable information was displayed at around 7th second, while all the resources were completely downloaded after 17.221 seconds, which displays a great margin of improvement.</h4>
 
-<p>CSS Conf Asia was phenomenal, it was a great pleasure to share the same stage with some of the tech celebrities including Chris Lilley, Father of SVG. Other speakers &amp; audience were equally awesome, and we were glad to have a chat with them regarding Performance.</p>
+<h2 id="network-profiling">Network profiling</h2>
 
-<p>Singapore was an awesome host, and we truly enjoyed our stay while being part of DevFest Asia.</p>
+<p>Initially the entire screen gets painted with a light color.</p>
 
-<p>Our slides for the talk <strong>“Performance beyond Page load”</strong> presented at CSS Conf Asia 2015:</p>
+<p><img src="/images/case-study/panda-app/initial-paint.png" alt="Initial paint" /></p>
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/dYzIpBPZl8nZUy" height="555" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;" allowfullscreen=""> </iframe>
+<p>After around 6.49s, we are able to see an empty skeleton of the newsfeed, yet to be populated by the data fetched from the newsfeed source and the designfeed source.</p>
 
-<p>We also presented at the <strong>Talk.js edition of DevFest Asia</strong>, here are the slides:</p>
+<p><img src="/images/case-study/panda-app/start-render-screen.png" alt="Start render screen" /></p>
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/4Z6tuxWLHPi8nd" height="555" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;" allowfullscreen=""> </iframe>
+<p><strong>Network waterfall chart</strong>:</p>
 
-    </article>
-    <h3>Share</h3>
+<p><img src="/images/case-study/panda-app/network-waterfall.png" alt="Network waterfall" /></p>
+
+<p>As JavaScript and CSS were not loaded via CDN, it was taking an average of 3-4 seconds to load. Using CDN should reduce this time drastically.</p>
+
+<p><a href="http://www.webpagetest.org/result/151129_E5_NFC/" target="_blank" rel="nofollow">WebPageTest for Panda app</a></p>
+
+<p><a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fusepanda.com%2Fapp%2F%23%2F&amp;tab=desktop" target="_blank" rel="nofollow" title="Panda app desktop improvements"><img src="/images/case-study/panda-app/pagespeed-score-desktop.png" /></a></p>
+
+<p>Desktop pagespeed score for Panda app is just 9 out of 100, which specifies a tremendous scope for improvement. Panda app is an image heavy app, and displays loads of animated gifs and pngs fetched directly from the CDNs of popular design platforms.</p>
+
+<p>Maximum compression, suitable resizing and caching of image resources should be their primary action, which is verified by PageSpeed’s recommendation which says:</p>
+
+<h3 id="optimize-the-following-images-to-reduce-their-size-by-48mb-73-reduction">Optimize the following images to reduce their size by 4.8MB (73% reduction).</h3>
+
+<p>4.8MB of size reduction just through compression and resizing of static images must be tackled on priority.</p>
+
+<p>While it is easy for the Panda app to directly use the images available from the CDNs of design platforms, they have an option to use a proxy CDN that gets them a resized version of the original image which may be much lighter in comparison.</p>
+
+<h3 id="mobile-specific-issues">Mobile Specific Issues</h3>
+
+<p><a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fusepanda.com%2Fapp%2F%23%2F&amp;tab=mobile" target="_blank" rel="nofollow" title="Panda app mobile improvements"><img src="/images/case-study/panda-app/pagespeed-score-mobile.png" /></a></p>
+
+<p>Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.</p>
+
+<p>Other necessary optimizations possible for Panda app include:</p>
+
+<ul>
+  <li>Eliminate render-blocking JavaScript and CSS in above-the-fold content</li>
+  <li>Leverage browser caching of static resources with appropriate response headers.</li>
+</ul>
+
+<h3 id="offline-experience">Offline Experience</h3>
+
+<p>Another important aspect is the offline experience, which is currently missing in the Panda app, not just in the web app but from the browser extension as well.</p>
+
+<p><br />
+<img src="/images/case-study/panda-app/browser-extension-offline.png" alt="Offline experience panda chrome extension" /></p>
+
+<p>A browser extension already works when offline, the only missing piece to fix in this case is Caching of the content for the News feed using LocalStorage or IndexedDB on the client side. Static resources such as images can be cached either by applying suitable headers via Proxy CDN or by using the combination of Service workers and App Cache for the same.</p>
+
+<p><br />
+<img src="/images/case-study/panda-app/app-offline.png" alt="Offline experience panda web app" /></p>
+
+<p>For the web app, service workers can be deployed to provide offline experience i.e. cache all static resources and data to build the newsfeed.</p>
+
+<h2 id="profiling-rendering-performance">Profiling Rendering Performance</h2>
+
+<p>Let’s enable paint flashing and see as to what elements are getting repainted with different interactions on the webpage.</p>
+
+<p>Following is the screenshot displaying the elements that get repainted, when the left most column is scrolled.</p>
+
+<p><img src="/images/case-study/panda-app/news-feed-repaint.png" alt="Newsfeed repaint" /></p>
+
+<p>You can see the entire left most column getting repainted, which may cause a jank while interacting with the elements of the left most column, as a major portion of the page is getting repainted while a user scrolls.</p>
+
+<p><img src="/images/case-study/panda-app/design-feed-repaint.png" alt="Design feed repaint" /></p>
+
+<p>Similar repaints are observed while scrolling the right most column, and it may also be a potential cause of jank.</p>
+
+<p>Below we have displayed the timeline recording while we interacted with one of the columns continously getting repainted.</p>
+
+<p><img src="/images/case-study/panda-app/frame-exceed-timeline.png" alt="Frames exceeding 16ms window in Timeline" /></p>
+
+<p>You may see several frames exceeding 16ms time window.</p>
+
+<p><img src="/images/case-study/panda-app/layer-upgrade-hack.png" alt="Layer upgrade hack" /></p>
+
+<p>As in previous case studies, this can be simply fixed using the <code>transform: translateZ(0)</code> or <code>will-change: transform</code> hack, which will promote the element to its own layer making it hardware accelerated while removing the probability of its contribution in causing jank.</p>
+
+<h3 id="animated-gifs">Animated GIFs</h3>
+
+<p>Animated GIFs get repainted, every time the frame changes. In the following screenshot, the green bordered elements are the continously repainted elements.</p>
+
+<p><img src="/images/case-study/panda-app/animated-gifs.png" alt="Animated GIFs repainted" /></p>
+
+<p>As mentioned before in previous case studies, a solution to this issue, already in use by many other popular websites which render GIFs such as 9gag.com, in this case animated gifs are disabled by replacing their source with another non-animating image when they are not visible i.e. not present in the view port of the screen.</p>
+
+<p>This practice reduces the repaint operations happening when the animated image is out of the viewport.</p>
+
+<p>That is it for Panda app from our side. Till next perf study!</p>
+
+		</article>
+		<h3>Share</h3>
 <div class="share-container">
   <ul class="rrssb-buttons">
     <li class="rrssb-twitter">
@@ -464,7 +544,7 @@ article h1, article h2, article h3 {
       </a>
     </li>
     <li class="rrssb-facebook">
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http://perfaudit.com/blog/css-conf-asia-2015" class="popup">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://perfaudit.com/case-study/panda-app" class="popup">
         <span class="rrssb-icon">
           <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="29" height="29" viewBox="0 0 29 29">
             <path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z"
@@ -475,7 +555,7 @@ article h1, article h2, article h3 {
       </a>
     </li>
     <li class="rrssb-googleplus">
-      <a href="https://plus.google.com/share?url=http://perfaudit.com/blog/css-conf-asia-2015" class="popup">
+      <a href="https://plus.google.com/share?url=http://perfaudit.com/case-study/panda-app" class="popup">
         <span class="rrssb-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
             <path d="M14.703 15.854l-1.22-.948c-.37-.308-.88-.715-.88-1.46 0-.747.51-1.222.95-1.662 1.42-1.12 2.84-2.31 2.84-4.817 0-2.58-1.62-3.937-2.4-4.58h2.098l2.203-1.384h-6.67c-1.83 0-4.467.433-6.398 2.027C3.768 4.287 3.06 6.018 3.06 7.576c0 2.634 2.02 5.328 5.603 5.328.34 0 .71-.033 1.083-.068-.167.408-.336.748-.336 1.324 0 1.04.55 1.685 1.01 2.297-1.523.104-4.37.273-6.466 1.562-1.998 1.187-2.605 2.915-2.605 4.136 0 2.512 2.357 4.84 7.288 4.84 5.822 0 8.904-3.223 8.904-6.41.008-2.327-1.36-3.49-2.83-4.73h-.01zM10.27 11.95c-2.913 0-4.232-3.764-4.232-6.036 0-.884.168-1.797.744-2.51.543-.68 1.49-1.12 2.372-1.12 2.807 0 4.256 3.797 4.256 6.24 0 .613-.067 1.695-.845 2.48-.537.55-1.438.947-2.295.95v-.003zm.032 13.66c-3.62 0-5.957-1.733-5.957-4.143 0-2.408 2.165-3.223 2.91-3.492 1.422-.48 3.25-.545 3.556-.545.34 0 .52 0 .767.034 2.574 1.838 3.706 2.757 3.706 4.48-.002 2.072-1.736 3.664-4.982 3.648l.002.017zM23.254 11.89V8.52H21.57v3.37H18.2v1.714h3.367v3.4h1.684v-3.4h3.4V11.89"
@@ -486,7 +566,7 @@ article h1, article h2, article h3 {
       </a>
     </li>
     <li class="rrssb-linkedin">
-      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://perfaudit.com/blog/css-conf-asia-2015&amp;title=CSS Conf Asia 2015 Singapore&amp;summary=" class="popup">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://perfaudit.com/case-study/panda-app&amp;title=Case Study | Panda App | PerfAudit&amp;summary=" class="popup">
         <span class="rrssb-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
             <path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"
@@ -500,11 +580,10 @@ article h1, article h2, article h3 {
 </div>
 <link rel="stylesheet" type="text/css" href="/css/share-buttons.min.css">
 <script type="text/javascript" src="/js/share-buttons.js" async></script>
-    <br>
-    <div class="comment-box">
-        <h3>Comments</h3>
-        <hr/>
-       <div id="disqus_thread"></div>
+		<div class="comment-box">
+	    	<h3>Comments</h3>
+	    	<hr/>
+	    	 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'perfaudit';
 
@@ -516,8 +595,8 @@ article h1, article h2, article h3 {
     })();
 </script>
 
-    </div>
-  </div>
+	    </div>
+	</div>
 </section>
     </div>
     

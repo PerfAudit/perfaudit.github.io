@@ -1,0 +1,108 @@
+---
+layout: case-study
+title:  "Case Study | Panda App | PerfAudit"
+organization: "Panda App"
+date:   2015-02-26 01:55:40
+categories: case-study
+---
+
+Hey folks! Today we have come up with the case study for the very famous <a href="http://www.usepanda.com/" target="_blank">Panda</a> app (also available as browser extension), the newsfeed dashboard for 130,000+ designers​,​​ developers​ and entrepreneurs​.
+
+<br><img class="center" src="/images/case-study/panda-app/homepage.jpg"><br>
+
+It aggregates content from sources like Hacker News, Product Hunt, Dribbble and various other channels, making it easier for you to stay informed and inspired.
+
+##How fast does Panda app load on average?
+
+#### When tested via WebPageTest, it had a start render time of 687ms, though usable information was displayed at around 7th second, while all the resources were completely downloaded after 17.221 seconds, which displays a great margin of improvement.
+
+## Network profiling
+
+Initially the entire screen gets painted with a light color.
+
+![Initial paint](/images/case-study/panda-app/initial-paint.png)
+
+After around 6.49s, we are able to see an empty skeleton of the newsfeed, yet to be populated by the data fetched from the newsfeed source and the designfeed source.
+
+![Start render screen](/images/case-study/panda-app/start-render-screen.png)
+
+**Network waterfall chart**:
+
+![Network waterfall](/images/case-study/panda-app/network-waterfall.png)
+
+As JavaScript and CSS were not loaded via CDN, it was taking an average of 3-4 seconds to load. Using CDN should reduce this time drastically.
+
+<a href="http://www.webpagetest.org/result/151129_E5_NFC/" target="_blank" rel="nofollow">WebPageTest for Panda app</a>
+
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fusepanda.com%2Fapp%2F%23%2F&tab=desktop" target="_blank"  rel="nofollow" title="Panda app desktop improvements"><img src="/images/case-study/panda-app/pagespeed-score-desktop.png"></a>
+
+Desktop pagespeed score for Panda app is just 9 out of 100, which specifies a tremendous scope for improvement. Panda app is an image heavy app, and displays loads of animated gifs and pngs fetched directly from the CDNs of popular design platforms.
+
+Maximum compression, suitable resizing and caching of image resources should be their primary action, which is verified by PageSpeed's recommendation which says:
+
+### Optimize the following images to reduce their size by 4.8MB (73% reduction).
+
+4.8MB of size reduction just through compression and resizing of static images must be tackled on priority.
+
+While it is easy for the Panda app to directly use the images available from the CDNs of design platforms, they have an option to use a proxy CDN that gets them a resized version of the original image which may be much lighter in comparison.
+
+### Mobile Specific Issues
+
+<a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fusepanda.com%2Fapp%2F%23%2F&tab=mobile" target="_blank" rel="nofollow" title="Panda app mobile improvements"><img src="/images/case-study/panda-app/pagespeed-score-mobile.png"></a>
+
+Compression and Resizing of images is again highlighted in the page speed issues, which has already been discussed in the issues listed above.
+
+Other necessary optimizations possible for Panda app include:
+
+* Eliminate render-blocking JavaScript and CSS in above-the-fold content
+* Leverage browser caching of static resources with appropriate response headers.
+
+### Offline Experience
+
+Another important aspect is the offline experience, which is currently missing in the Panda app, not just in the web app but from the browser extension as well.
+
+<br>
+![Offline experience panda chrome extension](/images/case-study/panda-app/browser-extension-offline.png)
+
+A browser extension already works when offline, the only missing piece to fix in this case is Caching of the content for the News feed using LocalStorage or IndexedDB on the client side. Static resources such as images can be cached either by applying suitable headers via Proxy CDN or by using the combination of Service workers and App Cache for the same.
+
+<br>
+![Offline experience panda web app](/images/case-study/panda-app/app-offline.png)
+
+For the web app, service workers can be deployed to provide offline experience i.e. cache all static resources and data to build the newsfeed.
+
+## Profiling Rendering Performance
+
+Let's enable paint flashing and see as to what elements are getting repainted with different interactions on the webpage.
+
+Following is the screenshot displaying the elements that get repainted, when the left most column is scrolled.
+
+![Newsfeed repaint](/images/case-study/panda-app/news-feed-repaint.png)
+
+You can see the entire left most column getting repainted, which may cause a jank while interacting with the elements of the left most column, as a major portion of the page is getting repainted while a user scrolls.
+
+![Design feed repaint](/images/case-study/panda-app/design-feed-repaint.png)
+
+Similar repaints are observed while scrolling the right most column, and it may also be a potential cause of jank.
+
+Below we have displayed the timeline recording while we interacted with one of the columns continously getting repainted.
+
+![Frames exceeding 16ms window in Timeline](/images/case-study/panda-app/frame-exceed-timeline.png)
+
+You may see several frames exceeding 16ms time window.
+
+![Layer upgrade hack](/images/case-study/panda-app/layer-upgrade-hack.png)
+
+As in previous case studies, this can be simply fixed using the `transform: translateZ(0)` or `will-change: transform` hack, which will promote the element to its own layer making it hardware accelerated while removing the probability of its contribution in causing jank.
+
+### Animated GIFs
+
+Animated GIFs get repainted, every time the frame changes. In the following screenshot, the green bordered elements are the continously repainted elements.
+
+![Animated GIFs repainted](/images/case-study/panda-app/animated-gifs.png)
+
+As mentioned before in previous case studies, a solution to this issue, already in use by many other popular websites which render GIFs such as 9gag.com, in this case animated gifs are disabled by replacing their source with another non-animating image when they are not visible i.e. not present in the view port of the screen.
+
+This practice reduces the repaint operations happening when the animated image is out of the viewport.
+
+That is it for Panda app from our side. Till next perf study!
