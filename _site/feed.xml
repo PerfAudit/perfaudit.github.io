@@ -5,9 +5,79 @@
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
     <link>http://perfaudit.com/</link>
     <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Dec 2015 00:06:52 +0530</pubDate>
-    <lastBuildDate>Thu, 03 Dec 2015 00:06:52 +0530</lastBuildDate>
+    <pubDate>Sun, 10 Jan 2016 02:29:10 +0530</pubDate>
+    <lastBuildDate>Sun, 10 Jan 2016 02:29:10 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Virginia Board of Elections&#39; website</title>
+        <description>&lt;p&gt;This performance analysis is a cross post of the &lt;a href=&quot;http://statescoop.com/virginia-overhauls-election-results-website-combat-crashes/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;conversation&lt;/a&gt; between a media group and Matthew Davis, the Virginia’s IT department’s chief information officer.&lt;/p&gt;
+
+&lt;h3 id=&quot;cause&quot;&gt;Cause:&lt;/h3&gt;
+
+&lt;p&gt;Earlier in 2014, Virginia Board of Elections’ website crashed when the server became overloaded due to huge traffic, as mentioned in this news &lt;a href=&quot;http://www.dailypress.com/news/politics/dp-elections-database-crash-worries-registrars-20141108-story.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;issue-faced&quot;&gt;Issue faced:&lt;/h3&gt;
+
+&lt;p&gt;“We’ve had firewall crashes, concurrent connection issues in cloud-hosting environments,” Davis said. “We’ve had databases just give up because of the load, and we’ve had servers fail.”&lt;/p&gt;
+
+&lt;h3 id=&quot;initial-thought&quot;&gt;Initial thought:&lt;/h3&gt;
+
+&lt;p&gt;Initially, Davis said his team considered a move to a “third-party-hosted environment with standard-test servers that would scale up and scale down in the month before an election and the month after an election.” But the more they looked at that option, the more they found it was expensive and labor intensive.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-thoughts&quot;&gt;Our thoughts:&lt;/h3&gt;
+
+&lt;p&gt;Dynamic server provisioning is a great way to tackle load to handle traffic spikes, though to build the technology for provisioning the servers dynamically and automatically will surely incur significant engineering efforts, especially when done for the first time. Thus, estimation of initial thought is wise.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-resolve&quot;&gt;How to resolve?&lt;/h3&gt;
+
+&lt;p&gt;“We learned in our failure in November 2014 that we needed to eliminate database connectivity on our election night reporting site,” Davis said. “We needed to get the static content, because the amount of traffic and spike in traffic is wildly unpredictable.”&lt;/p&gt;
+
+&lt;h3 id=&quot;our-thoughts-1&quot;&gt;Our thoughts:&lt;/h3&gt;
+
+&lt;p&gt;Database caching must be present even if all tables of database are indexed, as it reduces the algorithmic operation to O(1) complexity. The next resolution discussed is to get the static content, with no server side processing involved for every request. Usage of key/value data store such as Redis/Memcache can be very appropriate in such scenarios to avoid any server side language processing, as the response i.e. HTML is cached for a specific duration of time.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution&quot;&gt;Solution:&lt;/h3&gt;
+
+&lt;p&gt;Instead, they settled on working with cloud provider Akamai to build a platform that can respond to those unpredictable spikes in traffic more seamlessly.&lt;/p&gt;
+
+&lt;p&gt;“We decided to go with a static website that we build on the back end, we have an automated process that builds the static views of every page every 10 minutes, and we simply upload that to the Akamai cloud,” Davis said.&lt;/p&gt;
+
+&lt;p&gt;One of the election result &lt;a href=&quot;http://results.elections.virginia.gov/vaelections/2015%20November%20General/Site/GeneralAssembly.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;page&lt;/a&gt;.When we pinged this webpage, the IP address resolved to HongKong servers of Akamai Technologies Inc.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-thoughts-2&quot;&gt;Our thoughts:&lt;/h3&gt;
+
+&lt;p&gt;Using CDN services to deliver static content is the best way possible to avoid facing situations where the infra fails to serve even the static content to unprecedented amount of traffic. Also, CDN services are already handling such traffic loads on a daily basis especially the big players like Akamai.&lt;/p&gt;
+
+&lt;h3 id=&quot;cost&quot;&gt;Cost:&lt;/h3&gt;
+
+&lt;p&gt;The department paid the company $49,000 (with the help of some federal funds) to stand up the new system, with “no technical lift by my team to make this happen,” according to Davis.&lt;/p&gt;
+
+&lt;p&gt;“Our statewide reporting site handled over 25 million hits in a four-hour window, and nothing broke,” Davis said.&lt;/p&gt;
+
+&lt;h3 id=&quot;final-thoughts&quot;&gt;Final thoughts:&lt;/h3&gt;
+
+&lt;p&gt;If you take a sneak peek under the hood, you’ll still be able to find loads of performance improvements missing, as reflected in the network waterfall chart below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/performance-analysis/virginia-election-website-network-waterfall-performance.png&quot; alt=&quot;Google pagespeed issues&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;must-have-networking-performance-improvement&quot;&gt;Must have networking performance improvement:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use HTTP/2&lt;/li&gt;
+  &lt;li&gt;Remove all render blocking resource, instead add crticial CSS, thus reducing start render time&lt;/li&gt;
+  &lt;li&gt;Load all static resources asynchronously&lt;/li&gt;
+  &lt;li&gt;Compress/Minify all resources&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 10 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://perfaudit.com/performance-analysis/virginia-department-of-elections</link>
+        <guid isPermaLink="true">http://perfaudit.com/performance-analysis/virginia-department-of-elections</guid>
+        
+        
+        <category>performance-analysis</category>
+        
+      </item>
     
       <item>
         <title>CSS Conf Asia 2015 Singapore</title>
@@ -478,25 +548,6 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
         
         
         <category>case-study</category>
-        
-      </item>
-    
-      <item>
-        <title>Webgl rendering | Approaches | Rendering Performance</title>
-        <description>&lt;p&gt;&lt;strong&gt;Related links:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;WebGL best practices &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 04 Mar 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/rendering-performance/approaches/webgl-rendering</link>
-        <guid isPermaLink="true">http://perfaudit.com/rendering-performance/approaches/webgl-rendering</guid>
-        
-        
-        <category>rendering-performance</category>
-        
-        <category>approaches</category>
         
       </item>
     

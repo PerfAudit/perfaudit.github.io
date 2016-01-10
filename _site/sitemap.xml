@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://perfaudit.com/performance-analysis/virginia-department-of-elections</loc>
+    <lastmod>2016-01-10T00:00:00+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://perfaudit.com/blog/css-conf-asia-2015</loc>
     <lastmod>2015-09-19T00:00:00+05:30</lastmod>
   </url>
@@ -41,11 +45,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources/articles/web-performance-optimization</loc>
+    <loc>http://perfaudit.com/networking-performance/courses/web-performance-optimization</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/courses/web-performance-optimization</loc>
+    <loc>http://perfaudit.com/networking-performance/resources/articles/web-performance-optimization</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -121,11 +125,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/resources</loc>
+    <loc>http://perfaudit.com/networking-performance/resources</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources</loc>
+    <loc>http://perfaudit.com/rendering-performance/resources</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -377,11 +381,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/critical-css</loc>
+    <loc>http://perfaudit.com/networking-performance/best-practices/critical-css</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/critical-css</loc>
+    <loc>http://perfaudit.com/networking-performance/tools/grunt/critical-css</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -405,11 +409,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/compression</loc>
+    <loc>http://perfaudit.com/networking-performance/tools/grunt/compression</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/compression</loc>
+    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/compression</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -449,11 +453,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/networking-performance/resources/books</loc>
+    <loc>http://perfaudit.com/rendering-performance/resources/books</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/books</loc>
+    <loc>http://perfaudit.com/networking-performance/resources/books</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -465,11 +469,11 @@
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/avoid-memory-leaks</loc>
+    <loc>http://perfaudit.com/rendering-performance/best-practices/avoid-memory-leaks</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/avoid-memory-leaks</loc>
+    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/avoid-memory-leaks</loc>
     <lastmod>2015-03-04T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -512,6 +516,9 @@
   </url>
   <url>
     <loc>http://perfaudit.com/</loc>
+  </url>
+  <url>
+    <loc>http://perfaudit.com/performance-analysis/</loc>
   </url>
   <url>
     <loc>http://perfaudit.com/workshops/</loc>
