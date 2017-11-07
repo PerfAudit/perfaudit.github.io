@@ -2,7 +2,7 @@
 layout: post
 title:  "JSChannel 2015 Conference"
 date:   2015-07-17
-categories: Blog
+categories: blog
 body-class: no-sidebar
 ---
 

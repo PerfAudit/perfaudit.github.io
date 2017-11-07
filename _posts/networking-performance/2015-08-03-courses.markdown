@@ -4,6 +4,7 @@ title:  "Courses | Networking Performance"
 date:   2015-03-04
 categories: Networking-Performance
 body-class: no-sidebar
+permalink: /networking-performance/courses/
 ---
 
 The best online available courses for gaining an indepth understanding of the networking performance in browsers.

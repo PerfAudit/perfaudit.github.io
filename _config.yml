@@ -5,11 +5,12 @@ description: "Performance Audit of Websites by Professionals. Run Jank Free and 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://perfaudit.com" # the base hostname & protocol for your site
 permalink: ":categories/:title"
+post_dirs: false
 
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-sitemap
 
 exclude:

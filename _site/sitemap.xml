@@ -1,526 +1,526 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://perfaudit.com/performance-analysis/virginia-department-of-elections</loc>
-    <lastmod>2016-01-10T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/css-conf-asia-2015</loc>
-    <lastmod>2015-09-19T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/service-worker-offline</loc>
-    <lastmod>2015-08-02T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/jquery-india-2015-conference</loc>
-    <lastmod>2015-07-24T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/workshops/bangalore-2015</loc>
-    <lastmod>2015-07-19T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/js-channel-2015-conference</loc>
-    <lastmod>2015-07-17T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/workshops/91springboard</loc>
-    <lastmod>2015-05-24T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/metarefresh-2015-conference</loc>
-    <lastmod>2015-04-17T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/case-study/deviantart.com</loc>
-    <lastmod>2015-03-23T07:25:40+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/case-study/hindustantimes.com</loc>
-    <lastmod>2015-03-12T07:25:40+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/approaches/webgl-rendering</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/courses/web-performance-optimization</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/articles/web-performance-optimization</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/courses/web-performance-optimization</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/web-page-test</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/animations/web-animation-api</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/we-are-on</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/videos</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/videos</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/union-of-damaged-regions</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/transcoding</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/tracing-tools</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/tools</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/timeline</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/issues/spof</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/slides</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/slides</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/simplify-paint-complexities</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/show-slow</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/responsive-images</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/resources</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/repaint-position-fixed-elements</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/issues/render-blocking-resource</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/remove-unused-css</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/reduce-paint-areas</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/reduce-document-reflows</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/libraries/rasterizeHTML-library</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/animations/rail-animation</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/promote-seperate-layer</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/prioritize-visible-content</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/pre-fetch-resources/prerender</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/prefetch-resources</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/pre-fetch-resources/prefetch</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/pre-fetch-resources/preconnect</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/pixel-pipeline</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/perfbudget</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/path-to-performance</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/paint-storms</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/paint-areas-identification</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/pixel-pipeline/paint</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/minification</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/memory-leaks</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/courses/master-chrome-dev-tools</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/libraries</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/lazy-loading</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/layout-thrashing</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/pixel-pipeline/layout</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/large-invalidation-styles</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/large-and-complex-layout</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/issues/landing-page-redirect</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/javascript</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/jank</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/issues</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/pixel-pipeline/introduction</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/input-listeners-bottlenecks</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/inlining</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/image-optimization</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/image-embed</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/identification-input-listeners-bottlenecks</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/http2</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/html</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/hsts</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/books/high-performance-browser-networking</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/hardware-acceleration-canvas</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/gpu-acceleration-css-rules</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/google-pagespeed-insights</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/glossary</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/glossary</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/gifs-video-rendering</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/issues/forced-synchronous-layout</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/libraries/famous-library</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/approaches/dom-sprites</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/dns</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/books/designing-for-performance</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/debounce-input-handlers</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/animations/css-animations</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/css</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/issues/critical-path-rendering</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/critical-css</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/critical-css</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/courses</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/courses</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/conferences</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/concatination-resources</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/concatination-resources</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/tools/grunt/compression</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/image-optimizations/compression</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/compression</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/pixel-pipeline/composite</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/articles/chrome-dev-tools-documentation</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/cdn</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/approaches/canvas-rendering</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/caching</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/browser-rendering-process</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/courses/browser-rendering-process</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/books</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/books</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/avoid-memory-leaks</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/tools/chrome-dev-tools/avoid-memory-leaks</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/best-practices/asynchronous-fetch</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/networking-performance/resources/articles</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/resources/articles</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/approaches</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/rendering-performance/best-practices/animations</loc>
-    <lastmod>2015-03-04T00:00:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/case-study/panda-app</loc>
-    <lastmod>2015-02-26T07:25:40+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/case-study/materialup.com</loc>
-    <lastmod>2015-02-26T07:25:40+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/case-study/caniuse.com</loc>
-    <lastmod>2015-02-26T07:25:40+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/about/</loc>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/blog/</loc>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/</loc>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/performance-analysis/</loc>
-  </url>
-  <url>
-    <loc>http://perfaudit.com/workshops/</loc>
-  </url>
+<url>
+<loc>http://localhost:4000/case-study/caniuse.com</loc>
+<lastmod>2015-02-26T07:25:40+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/case-study/materialup.com</loc>
+<lastmod>2015-02-26T07:25:40+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/case-study/panda-app</loc>
+<lastmod>2015-02-26T07:25:40+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/conferences</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/css/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/html</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/javascript</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/path-to-performance</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/we-are-on</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/browser-rendering-process</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/courses/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/glossary</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/issues/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/asynchronous-fetch</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/caching</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/cdn</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/compression</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/concatination-resources</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/critical-css</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/dns</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/hsts</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/http2</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/image-optimizations</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/prefetch-resources</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/prioritize-visible-content</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/image-optimizations/compression</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/image-optimizations/inlining</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/image-optimizations/lazy-loading</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/image-optimizations/responsive-images</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/image-optimizations/transcoding</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/pre-fetch-resources/preconnect</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/pre-fetch-resources/prefetch</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/best-practices/pre-fetch-resources/prerender</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/courses/web-performance-optimization</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/issues/critical-path-rendering</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/issues/landing-page-redirect</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/issues/render-blocking-resource</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/issues/spof</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/articles</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/books</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/slides</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/videos</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/articles/chrome-dev-tools-documentation</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/articles/web-performance-optimization</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/books/designing-for-performance</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/resources/books/high-performance-browser-networking</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/google-pagespeed-insights</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/show-slow</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/web-page-test</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/compression</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/concatination-resources</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/critical-css</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/image-embed</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/image-optimization</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/minification</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/perfbudget</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/networking-performance/tools/grunt/remove-unused-css</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/approaches</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/courses</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/glossary</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/libraries</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/pixel-pipeline</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/resources</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/tools</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/approaches/canvas-rendering</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/approaches/dom-sprites</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/approaches/webgl-rendering</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/animations</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/avoid-memory-leaks</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/debounce-input-handlers</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/gpu-acceleration-css-rules</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/hardware-acceleration-canvas</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/promote-seperate-layer</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/reduce-document-reflows</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/reduce-paint-areas</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/simplify-paint-complexities</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/animations/css-animations</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/animations/rail-animation</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/best-practices/animations/web-animation-api</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/courses/browser-rendering-process</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/courses/master-chrome-dev-tools</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/courses/web-performance-optimization</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/forced-synchronous-layout</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/gifs-video-rendering</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/input-listeners-bottlenecks</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/large-and-complex-layout</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/large-invalidation-styles</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/layout-thrashing</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/memory-leaks</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/paint-storms</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/repaint-position-fixed-elements</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/issues/union-of-damaged-regions</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/libraries/famous-library</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/libraries/rasterizeHTML-library</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/resources/articles</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/resources/books</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/resources/slides</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/resources/videos</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/jank</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/pixel-pipeline/composite</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/pixel-pipeline/introduction</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/pixel-pipeline/layout</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/pixel-pipeline/paint</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/tools/chrome-dev-tools</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/tools/chrome-dev-tools/avoid-memory-leaks</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/tools/chrome-dev-tools/identification-input-listeners-bottlenecks</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/tools/chrome-dev-tools/paint-areas-identification</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/tools/chrome-dev-tools/timeline</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rendering-performance/tools/chrome-dev-tools/tracing-tools</loc>
+<lastmod>2015-03-04T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/case-study/hindustantimes.com</loc>
+<lastmod>2015-03-12T07:25:40+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/case-study/deviantart.com</loc>
+<lastmod>2015-03-23T07:25:40+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/metarefresh-2015-conference</loc>
+<lastmod>2015-04-17T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/workshops/91springboard</loc>
+<lastmod>2015-05-24T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/js-channel-2015-conference</loc>
+<lastmod>2015-07-17T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/workshops/bangalore-2015</loc>
+<lastmod>2015-07-19T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/jquery-india-2015-conference</loc>
+<lastmod>2015-07-24T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/service-worker-offline</loc>
+<lastmod>2015-08-02T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/css-conf-asia-2015</loc>
+<lastmod>2015-09-19T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/performance-analysis/virginia-department-of-elections</loc>
+<lastmod>2016-01-10T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/performance-analysis/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/workshops/</loc>
+</url>
 </urlset>

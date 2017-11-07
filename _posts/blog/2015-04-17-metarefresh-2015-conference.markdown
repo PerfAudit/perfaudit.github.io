@@ -2,7 +2,7 @@
 layout: post
 title:  "MetaRefresh 2015 Conference"
 date:   2015-04-17
-categories: Blog
+categories: blog
 body-class: no-sidebar
 ---
 

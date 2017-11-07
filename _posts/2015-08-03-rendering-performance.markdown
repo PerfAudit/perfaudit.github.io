@@ -3,6 +3,7 @@ layout: resource
 title:  "Rendering Performance"
 date:   2015-03-04
 body-class: no-sidebar
+permalink: /rendering-performance/
 ---
 
 Table of Contents:

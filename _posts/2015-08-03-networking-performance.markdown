@@ -3,6 +3,7 @@ layout: resource
 title:  "Networking Performance"
 date:   2015-03-04
 body-class: no-sidebar
+permalink: /networking-performance/
 ---
 
 Table of Contents:

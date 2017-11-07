@@ -1,0 +1,17 @@
+*, ::before, ::after { box-sizing: border-box; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; }
+body { line-height: 1; background-color: rgb(34, 40, 52); min-width: 1200px; }
+body, input, textarea, select { font-family: 'Source Sans Pro', sans-serif; font-weight: 400; color: rgb(145, 148, 153); }
+body, input, select, textarea { font-size: 13pt; line-height: 1.75em; letter-spacing: 0.025em; }
+.wrapper { position: relative; padding: 6em 0px 9em; }
+#header-wrapper { background: url(http://localhost:4000/images/banner.jpg) 50% 50% / cover; padding: 0px; }
+#header { position: relative; padding: 12em 0px; }
+.homepage #header { padding: 18em 0px; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+#nav { position: absolute; display: block; top: 2.5em; left: 0px; width: 100%; text-align: center; }
+ol, ul { list-style: none; }
+p, ul, ol, dl, table, blockquote, form { margin-bottom: 2em; }
+#nav > ul { display: inline-block; border-radius: 0.35em; box-shadow: rgba(255, 255, 255, 0.247059) 0px 0px 1px 1px inset; padding: 0px 1.5em; }
+#nav > ul > li { display: inline-block; text-align: center; padding: 0px 1.5em; }
+a { text-decoration: underline; color: rgb(113, 116, 121); transition: color 0.25s ease-in-out; -webkit-transition: color 0.25s ease-in-out; }
+#nav > ul > li > a, #nav > ul > li > span { display: block; color: rgba(255, 255, 255, 0.74902); text-transform: uppercase; text-decoration: none; font-size: 0.7em; letter-spacing: 0.25em; height: 5em; line-height: 5em; transition: all 0.25s ease-in-out; -webkit-transition: all 0.25s ease-in-out; outline: 0px; }

@@ -2,7 +2,7 @@
 layout: post
 title:  "Performance Audits now available Offline"
 date:   2015-08-02
-categories: Blog
+categories: blog
 body-class: no-sidebar
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS Conf Asia 2015 Singapore"
 date:   2015-09-19
-categories: Blog
+categories: blog
 body-class: no-sidebar
 ---
 

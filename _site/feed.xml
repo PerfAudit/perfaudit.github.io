@@ -3,14 +3,14 @@
   <channel>
     <title>PerfAudit | Performance Audit of Websites by Professionals</title>
     <description>Performance Audit of Websites by Professionals. Run Jank Free and Performant Web Applications care free.</description>
-    <link>http://perfaudit.com/</link>
-    <atom:link href="http://perfaudit.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Jan 2016 02:29:10 +0530</pubDate>
-    <lastBuildDate>Sun, 10 Jan 2016 02:29:10 +0530</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Nov 2017 02:10:10 +0530</pubDate>
+    <lastBuildDate>Wed, 08 Nov 2017 02:10:10 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Virginia Board of Elections&#39; website</title>
+        <title>Virginia Board of Elections' website</title>
         <description>&lt;p&gt;This performance analysis is a cross post of the &lt;a href=&quot;http://statescoop.com/virginia-overhauls-election-results-website-combat-crashes/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;conversation&lt;/a&gt; between a media group and Matthew Davis, the Virginia’s IT department’s chief information officer.&lt;/p&gt;
 
 &lt;h3 id=&quot;cause&quot;&gt;Cause:&lt;/h3&gt;
@@ -71,8 +71,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 10 Jan 2016 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/performance-analysis/virginia-department-of-elections</link>
-        <guid isPermaLink="true">http://perfaudit.com/performance-analysis/virginia-department-of-elections</guid>
+        <link>http://localhost:4000/performance-analysis/virginia-department-of-elections</link>
+        <guid isPermaLink="true">http://localhost:4000/performance-analysis/virginia-department-of-elections</guid>
         
         
         <category>performance-analysis</category>
@@ -106,8 +106,8 @@
 &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/4Z6tuxWLHPi8nd&quot; height=&quot;555&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 </description>
         <pubDate>Sat, 19 Sep 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/blog/css-conf-asia-2015</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/css-conf-asia-2015</guid>
+        <link>http://localhost:4000/blog/css-conf-asia-2015</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/css-conf-asia-2015</guid>
         
         
         <category>blog</category>
@@ -127,8 +127,8 @@
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Service workers run only on pages served via HTTPS, thus HTTPS is a requirement for implementing an offline experience via Service Workers.&lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Aug 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/blog/service-worker-offline</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/service-worker-offline</guid>
+        <link>http://localhost:4000/blog/service-worker-offline</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/service-worker-offline</guid>
         
         
         <category>blog</category>
@@ -152,8 +152,8 @@
 &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/N2qn6wWKVO1WG&quot; height=&quot;555&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 </description>
         <pubDate>Fri, 24 Jul 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/blog/jquery-india-2015-conference</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/jquery-india-2015-conference</guid>
+        <link>http://localhost:4000/blog/jquery-india-2015-conference</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/jquery-india-2015-conference</guid>
         
         
         <category>blog</category>
@@ -257,8 +257,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 19 Jul 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/workshops/bangalore-2015</link>
-        <guid isPermaLink="true">http://perfaudit.com/workshops/bangalore-2015</guid>
+        <link>http://localhost:4000/workshops/bangalore-2015</link>
+        <guid isPermaLink="true">http://localhost:4000/workshops/bangalore-2015</guid>
         
         
         <category>workshops</category>
@@ -282,8 +282,8 @@
 &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/kNrhnAshYOn4O8&quot; height=&quot;555&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 </description>
         <pubDate>Fri, 17 Jul 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/blog/js-channel-2015-conference</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/js-channel-2015-conference</guid>
+        <link>http://localhost:4000/blog/js-channel-2015-conference</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/js-channel-2015-conference</guid>
         
         
         <category>blog</category>
@@ -326,8 +326,8 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 24 May 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/workshops/91springboard</link>
-        <guid isPermaLink="true">http://perfaudit.com/workshops/91springboard</guid>
+        <link>http://localhost:4000/workshops/91springboard</link>
+        <guid isPermaLink="true">http://localhost:4000/workshops/91springboard</guid>
         
         
         <category>workshops</category>
@@ -345,8 +345,8 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 &lt;p&gt;Images captured at Meta Refresh: &lt;a href=&quot;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;https://www.flickr.com/photos/hasgeek/sets/72157651760892260/with/17077567448/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 17 Apr 2015 00:00:00 +0530</pubDate>
-        <link>http://perfaudit.com/blog/metarefresh-2015-conference</link>
-        <guid isPermaLink="true">http://perfaudit.com/blog/metarefresh-2015-conference</guid>
+        <link>http://localhost:4000/blog/metarefresh-2015-conference</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/metarefresh-2015-conference</guid>
         
         
         <category>blog</category>
@@ -367,7 +367,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/ukNmA2LhIi4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&quot;how-fast-does-deviantartcom-load-on-average&quot;&gt;How fast does deviantart.com load on average?&lt;/h2&gt;
+&lt;p&gt;##How fast does deviantart.com load on average?&lt;/p&gt;
 
 &lt;h4 id=&quot;very-very-slow-around-46382-seconds-when-we-loaded18-seconds-on-average-66-of-sites-are-faster-as-per-data-from-alexa&quot;&gt;Very Very Slow around 46.382 seconds when we loaded(1.8 seconds on average), 66% of sites are faster (as per data from Alexa).&lt;/h4&gt;
 
@@ -431,7 +431,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 
 &lt;p&gt;&lt;img src=&quot;/images/case-study/deviantart.com/bad-paints.png&quot; alt=&quot;Bad paints&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As in previous case studies, this can be simply fixed using the &lt;code&gt;transform: translateZ(0)&lt;/code&gt; hack.&lt;/p&gt;
+&lt;p&gt;As in previous case studies, this can be simply fixed using the &lt;code class=&quot;highlighter-rouge&quot;&gt;transform: translateZ(0)&lt;/code&gt; hack.&lt;/p&gt;
 
 &lt;h3 id=&quot;animated-gifs&quot;&gt;Animated GIFs&lt;/h3&gt;
 
@@ -450,8 +450,8 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 &lt;p&gt;That is it for deviant.com from our side. Till next perf study!&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Mar 2015 07:25:40 +0530</pubDate>
-        <link>http://perfaudit.com/case-study/deviantart.com</link>
-        <guid isPermaLink="true">http://perfaudit.com/case-study/deviantart.com</guid>
+        <link>http://localhost:4000/case-study/deviantart.com</link>
+        <guid isPermaLink="true">http://localhost:4000/case-study/deviantart.com</guid>
         
         
         <category>case-study</category>
@@ -468,7 +468,7 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/eyg5ePH8opM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&quot;how-fast-does-hindustantimescom-load-on-average&quot;&gt;How fast does hindustantimes.com load on average?&lt;/h2&gt;
+&lt;p&gt;##How fast does hindustantimes.com load on average?&lt;/p&gt;
 
 &lt;h4 id=&quot;very-slow-around-137-seconds-when-we-loaded4578-seconds-on-average-95-of-sites-are-faster-as-per-data-from-alexa&quot;&gt;Very Slow around 13.7 seconds when we loaded(4.578 Seconds on average), 95% of sites are faster (as per data from Alexa).&lt;/h4&gt;
 
@@ -510,9 +510,11 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 
 &lt;p&gt;&lt;img src=&quot;/images/case-study/hindustantimes.com/fixed-position-repaints.png&quot; alt=&quot;complete page paint&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Notice the sections highlighted in the above image. Those are the elements which are fixed positioned in the website. So we get our paint issue:
-1. Fixed positioned elements are repainted continously as they are constantly visible.
-2. Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, &lt;a href=&quot;http://benfrain.com/improving-css-performance-fixed-position-elements/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;causing a full page repaint&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Notice the sections highlighted in the above image. Those are the elements which are fixed positioned in the website. So we get our paint issue:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Fixed positioned elements are repainted continously as they are constantly visible.&lt;/li&gt;
+  &lt;li&gt;Moreover, as all fixed elements are on same layer, the paint rectangle would be union of those individual element rectangles. And that becomes almost the complete page in our case, &lt;a href=&quot;http://benfrain.com/improving-css-performance-fixed-position-elements/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;causing a full page repaint&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;Solution (hack) here is to just give those fixed positioned elements their own composite layer which actually prevents fixed positioned elements from repainting. One way to do that is by following CSS:&lt;/p&gt;
 
@@ -528,11 +530,11 @@ Host: &lt;a href=&quot;http://91springboard.com&quot; rel=&quot;nofollow&quot; t
 &lt;p&gt;&lt;img src=&quot;/images/case-study/hindustantimes.com/repaints-removed.png&quot; alt=&quot;repaints-removed&quot; /&gt;
 And voila! No more repaint spikes in the timeline.&lt;/p&gt;
 
-&lt;p&gt;Now over to the second reason of overshooting our frame limit: scripts. Inspecting of an seemingly heavy script execution event shows that it is happening on &lt;code&gt;scroll&lt;/code&gt; event - as expected. Digging deep, we find that its actually jQuery that is causing the issue.&lt;/p&gt;
+&lt;p&gt;Now over to the second reason of overshooting our frame limit: scripts. Inspecting of an seemingly heavy script execution event shows that it is happening on &lt;code class=&quot;highlighter-rouge&quot;&gt;scroll&lt;/code&gt; event - as expected. Digging deep, we find that its actually jQuery that is causing the issue.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/case-study/hindustantimes.com/script-inspection.png&quot; alt=&quot;long-script&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Devtools timeline tells us the exact line in the script which caused the execution time. Putting a breakpoint on that line reveals that their is actually a jQuery plugin being used to pin elements on the website and it performs some checks during the &lt;code&gt;scroll&lt;/code&gt; event to do so.&lt;/p&gt;
+&lt;p&gt;Devtools timeline tells us the exact line in the script which caused the execution time. Putting a breakpoint on that line reveals that their is actually a jQuery plugin being used to pin elements on the website and it performs some checks during the &lt;code class=&quot;highlighter-rouge&quot;&gt;scroll&lt;/code&gt; event to do so.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/case-study/hindustantimes.com/script-issue-plugin.png&quot; alt=&quot;long-script&quot; /&gt;&lt;/p&gt;
 
@@ -543,8 +545,8 @@ And voila! No more repaint spikes in the timeline.&lt;/p&gt;
 &lt;p&gt;Do not forget to follow us for more such perfy performace audits.&lt;/p&gt;
 </description>
         <pubDate>Thu, 12 Mar 2015 07:25:40 +0530</pubDate>
-        <link>http://perfaudit.com/case-study/hindustantimes.com</link>
-        <guid isPermaLink="true">http://perfaudit.com/case-study/hindustantimes.com</guid>
+        <link>http://localhost:4000/case-study/hindustantimes.com</link>
+        <guid isPermaLink="true">http://localhost:4000/case-study/hindustantimes.com</guid>
         
         
         <category>case-study</category>

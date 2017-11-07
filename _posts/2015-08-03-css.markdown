@@ -3,6 +3,7 @@ layout: resource
 title:  "CSS"
 date:   2015-03-04
 body-class: no-sidebar
+permalink: /css/
 ---
 
 Everything you want to know about CSS and its Performance aspect.

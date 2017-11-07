@@ -2,7 +2,7 @@
 layout: post
 title:  "jQuery India 2015 Conference"
 date:   2015-07-24
-categories: Blog
+categories: blog
 body-class: no-sidebar
 ---
 
